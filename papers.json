@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-08-27T19:06:44.548014+00:00",
-  "count": 871,
+  "generated_at": "2026-08-30T11:54:46.787746+00:00",
+  "count": 876,
   "papers": [
+    {
+      "id": 15243,
+      "title": "Canonical Quantum Mpemba Effect in a Dissipative Qubit",
+      "abstract": "Abstract The Mpemba effect, where a hotter system cools faster than a colder one under otherwise identical conditions, has been extensively studied in classical systems. In this work, we present the quantum analogue of the Mpemba effect using a dissipative qubit, which is referred to as the canonical quantum Mpemba effect . We demonstrate that, under identical conditions, the relaxation dynamics of a qubit initialized in a thermal state with a higher temperature can be exponentially faster than that of a colder thermal state. Strikingly, for a fixed Liouvillian, this acceleration can be selected solely by varying the initial temperature, rather than by applying a specially designed unitary transformation to the initial state. The existence and value of the critical temperature never-theless depend on the system and dissipation parameters. The relaxation is characterized as an overall cooling process: the system evolves from a higher-temperature, higher-energy thermal state toward a steady state with a lower effective temperature and energy, mirroring its classical counterpart. Last, we propose a practical classical-quantum hybrid algorithmic quantum circuit to simulate the dissipative evolution of thermal states and validate its experimental feasibility using superconducting qubits.",
+      "authors": [
+        "Xingli Li",
+        "Yan Li",
+        "Yangqian Yan"
+      ],
+      "published_date": "2026-08-28",
+      "journal": "Chinese Physics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/0256-307x/43/9/090603",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15320,
+      "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer",
+      "abstract": "Maximally mixed state spectral sampling is an unbiased quantum algorithm that allows for extraction of a finite-resolution spectral distribution from a Hamiltonian over potentially the entire allowed range of energies. We show how it may be focused on any desired area of the spectrum in order to learn about the full \\textit{fingerprint} of the model of interest: from its ground state phenomena such as quantum criticality, obtained from the lowest lying energies, to its thermalization behavior, obtained from the mid-spectrum. We demonstrate this technique specifically on a $(1+1)d$ non-Abelian $SO(3)$ gauge theory, providing a comprehensive analysis of the steps necessary for performing this algorithm, as well as what is possible in the near-term with superconducting quantum hardware, performing simulations with circuits that are $78$ two-qubit gates deep. We show how this algorithm is able to take advantage of emerging dynamical circuit capabilities in near-term hardware to roughly halve the number required qubits, as well as how quantum readout error mitigation is trivial for this method. Along the way, we propose a novel strategy for compiling the controlled-time evolutions needed for spectral sampling by means of Pauli-frame optimizations. We illustrate two physical applications of quantum spectral sampling -- disordered many-body transitions, and mid-spectrum densities of states -- and what postprocessing steps they require beyond the Fourier outputs of the algorithm.",
+      "authors": [
+        "Graham Van Goffrier",
+        "Debasish Banerjee",
+        "Bipasha Chakraborty",
+        "Emilie Huffman"
+      ],
+      "published_date": "2026-08-27",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.27457",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15401,
+      "title": "A thermometric quantum Brownian model for low-temperature electronics",
+      "abstract": "Quantum mechanical models of resistors in quantum electronics are often based on the quantum optical master equation (QOME). The QOME overlooks several fundamental properties, limiting its ability to model certain superconducting phenomena. Here we present a thermometric model of resistors, adapted from the quantum Brownian motion equation (QBME), that facilitates practical use of the QBME in modelling dissipative electronics at low temperatures. We compare the thermometric QBME presented here with predictions of the QOME, in the simple example of a transmon shunted by a resistor. We show that both the QBME and QOME yield comparable but physically distinct predictions, and discuss potential experimental tests with which to discriminate their use in modelling practical experiments.",
+      "authors": [
+        "Harry T. H. Fung",
+        "Thomas M. Stace"
+      ],
+      "published_date": "2026-08-27",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.26646",
+      "tags": [
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 15146,
       "title": "Immittance formulas for exact blackbox quantization and divergence-free effective models in circuit QED",
@@ -892,8 +957,8 @@
         "Yuxin Wang",
         "Tom Manovitz",
         "Paul Erker",
+        "Norbert M Linke",
         "Simone Gasparinetti",
-        "Norbert M. Linke",
         "Nicole Yunger Halpern"
       ],
       "published_date": "2026-08-19",
@@ -4297,27 +4362,6 @@
       "is_top_journal": false
     },
     {
-      "id": 7820,
-      "title": "Perspective on 2025 Nobel Prize in Physics: Macroscopic Quantum Coherence Becomes an Engineered Resource",
-      "abstract": "The 2025 Nobel Prize in Physics recognizes a conceptual shift that has been more than a century in the making: the transition from observing quantum phenomena in materials to deliberately engineering quantum behaviour in macroscopic electrical circuits. Awarded to John Clarke, Michel Devoret, and John Martinis, the prize honours the experimental demonstration and control of macroscopic quantum tunnelling and energy quantization in superconducting circuits. Their work resolved a long-standing question at the heart of quantum mechanics: can an object large enough to wire, probe, and manipulate behave as a single quantum system? The answer, now unequivocally, is yes.",
-      "authors": [
-        "Z. Yamani",
-        "Marco Merkli"
-      ],
-      "published_date": "2026-07-23",
-      "journal": "Canadian Journal of Physics",
-      "publication_status": "published",
-      "url": "https://doi.org/10.1139/cjp-2026-0172",
-      "tags": [
-        "superconducting-circuits",
-        "superconducting-context",
-        "quantum-superconducting-context",
-        "quantum-circuit-context"
-      ],
-      "primary_category": "",
-      "is_top_journal": false
-    },
-    {
       "id": 7741,
       "title": "Scalable suppression of XY crosstalk by pulse-level control in superconducting quantum processors",
       "abstract": "",
@@ -6687,6 +6731,33 @@
       "is_top_journal": false
     },
     {
+      "id": 15231,
+      "title": "Calibration-conditioned featurewise linear modulation decoders for low-latency decoding of quantum error correction evaluated on IBM repetition-code experiments",
+      "abstract": "Real-time decoding of quantum error correction is essential for enabling fault-tolerant quantum computation. A practical decoder must operate with high accuracy at low latency, while remaining robust to spatial and temporal variations in hardware noise. We introduce a hardware-conditioned neural decoder framework designed to exploit the natural separation of timescales in superconducting processors, where calibration drifts occur over hours while error correction requires microsecond-scale responses. By processing calibration data through a graph-based encoder and conditioning a lightweight convolutional backbone via featurewise linear modulation (FiLM), we decouple the heavy processing of device statistics from the low-latency syndrome decoding. We evaluate this approach using the repetition code as a test bed on IBM , , and processors, collecting over 2.7 million experimental shots spanning distances up to d = 11 . Training one decoder per code distance, basis, and round count ( d , r ) , we demonstrate that each trained model generalizes to unseen qubit chains and new calibration data acquired days later without retraining. The FiLM-conditioned decoder achieves up to a 11.1 × reduction in logical error rate relative to modified minimum-weight perfect matching. Cross-conditioning ablations further show that the calibration input actively improves decoding, with performance degrading when the decoder is conditioned on incorrect backend data or the conditioning is disabled. We observe that by employing a network architecture that exploits the highly asynchronous nature of system calibration and decoding, hardware-conditioned neural decoding demonstrated promising, adaptive performance with negligible latency overhead relative to unconditioned baselines.",
+      "authors": [
+        "Anonymous",
+        "Shuwen Kan",
+        "Chenxu Liu",
+        "Adrian Harkness",
+        "Sean Garner",
+        "Zefan Du",
+        "Yufei Ding",
+        "Ying Mao",
+        "Ang Li"
+      ],
+      "published_date": "2026-07-09",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/ftdh-t3yg",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 7740,
       "title": "Flux-bias-free flux qubit driven by low-power single-flux-quantum driver on monolithically integrated circuit",
       "abstract": "Single-flux-quantum (SFQ) cryogenic control circuits are a promising approach for realizing scalable superconducting quantum processors. However, previous studies have primarily relied on conventional SFQ technologies with Josephson junction critical current densities ( \\(J_{\\mathrm{C}}\\) ) of about 1 kA/cm 2 and critical currents ( \\(I_{\\mathrm{C}}\\) ) of several hundred microamperes. Such large critical currents can increase power dissipation and induce nonequilibrium quasiparticles that degrade qubit performance. In this study, we demonstrate coherent control of a flux-bias-free (FBF) flux qubit using a low-power SFQ driver monolithically integrated on the same chip. The SFQ driver was fabricated using epitaxial NbN/AlN/NbN Josephson junctions with critical currents of only a few microamperes, approximately two orders of magnitude smaller than those used in conventional SFQ circuits. Using this low- \\(I_{\\mathrm{C}}\\) SFQ driver, we found that the energy relaxation time, \\(T_{1}\\) , of the FBF qubit remains comparable to that obtained under conventional microwave control, indicating that the low- \\(I_{\\mathrm{C}}\\) SFQ driver does not introduce a measurable degradation of qubit performance in the present device.",
@@ -7411,10 +7482,21 @@
     },
     {
       "id": 3601,
-      "title": "Scalable fluxonium-transmon architecture for error corrected quantum processors",
-      "abstract": "",
+      "title": "Scalable fluxonium-transmon architecture for error-corrected quantum processors",
+      "abstract": "We propose a hybrid quantum computing architecture composed of alternating fluxonium and transmon qubits, which are coupled via transmon tunable couplers. We show that this system offers excellent scaling properties, characterized by engineered zero Z Z crosstalk in the idle regime, a substantial reduction of level-crowding challenges through the alternating arrangement of different qubit types within the lattice, and parameter regimes that circumvent the capacitive loading problem commonly associated with fluxoniums. In numerical simulations, we show a parametrically driven CZ gate that achieves a closed-system infidelity that is orders of magnitude below the coherence limit for gate durations ≳ 30 ns using a two-tone flux pulse on the tunable coupler. Furthermore, we show that this gate scheme retains its fidelity in the presence of multiple spectator qubits, making it a scalable solution for large lattices. Moreover, for the implementation of error correcting codes, our approach can leverage the long coherence times and large nonlinearities of fluxoniums as data qubits, while fixed-frequency transmons with established readout techniques can serve as measurement ancillae.",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Longxiang Huang",
+        "Timo Eckstein",
+        "Stephan Tasler",
+        "Johannes Schirk",
+        "F. Wallner",
+        "Verena Feulner",
+        "Bijita Sarma",
+        "Klaus Liegener",
+        "C. M. F. Schneider",
+        "Stefan Filipp",
+        "Michael J. Hartmann"
       ],
       "published_date": "2026-07-07",
       "journal": "Physical Review Research",
@@ -7422,7 +7504,8 @@
       "url": "https://doi.org/10.1103/ts1j-nfg1",
       "tags": [
         "transmon",
-        "fluxonium"
+        "fluxonium",
+        "tunable-coupler"
       ],
       "primary_category": "",
       "is_top_journal": false
@@ -12700,6 +12783,29 @@
       ],
       "primary_category": "",
       "is_top_journal": true
+    },
+    {
+      "id": 15237,
+      "title": "Determination of the kinetic inductance fraction in granular-aluminum microwave resonators",
+      "abstract": "",
+      "authors": [
+        "Kelvin Ramos",
+        "Ivana Curci",
+        "Erick Potosí",
+        "I. Lobato",
+        "Leonardo Salazar Alarcón",
+        "H. Pastoriza",
+        "L. Tosi"
+      ],
+      "published_date": "2026-05-01",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/zq12-kkr6",
+      "tags": [
+        "microwave-hardware"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
     },
     {
       "id": 11292,
@@ -22715,6 +22821,27 @@
       ],
       "primary_category": "",
       "is_top_journal": true
+    },
+    {
+      "id": 7820,
+      "title": "Perspective on the 2025 Nobel Prize in Physics: macroscopic quantum coherence becomes an engineered resource",
+      "abstract": "The 2025 Nobel Prize in Physics recognizes a conceptual shift that has been more than a century in the making: the transition from observing quantum phenomena in materials to deliberately engineering quantum behaviour in macroscopic electrical circuits. Awarded to John Clarke, Michel Devoret, and John Martinis, the prize honours the experimental demonstration and control of macroscopic quantum tunnelling and energy quantization in superconducting circuits. Their work resolved a long-standing question at the heart of quantum mechanics: can an object large enough to wire, probe, and manipulate behave as a single quantum system? The answer, now unequivocally, is yes.",
+      "authors": [
+        "Z. Yamani",
+        "Marco Merkli"
+      ],
+      "published_date": "2026-01-01",
+      "journal": "Canadian Journal of Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1139/cjp-2026-0172",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
     },
     {
       "id": 7307,
