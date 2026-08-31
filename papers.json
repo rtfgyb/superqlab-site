@@ -1,7 +1,111 @@
 {
-  "generated_at": "2026-08-30T19:04:31.006128+00:00",
-  "count": 876,
+  "generated_at": "2026-08-31T19:08:17.199035+00:00",
+  "count": 881,
   "papers": [
+    {
+      "id": 15448,
+      "title": "Reflection‐Zero Waveforms for Selective Loading in Shared‐Line Superconducting Qubit Circuits",
+      "abstract": "ABSTRACT Shared microwave lines reduce cryogenic wiring in superconducting processors, but a pulse sent through one line drives the dressed circuit instead of an isolated qubit. This network response can reflect energy and load spectator modes. In this work, we design microwave waveforms from reflection zeros of the dressed one‐port response. A zero sets both the microwave carrier and the finite envelope rise rate , so the incident field cancels the field re‐emitted into the input port during loading. A three‐qubit input‐output model and transient Advanced Design System simulations of weakly nonlinear Josephson circuits test this loading rule in the weak‐drive regime. Compared with equal‐energy Gaussian pulses at the same carriers, reflection‐zero waveforms raise target selectivity from 0.386–0.484 to 0.842–0.934 and crosstalk‐suppression ratios from 1.185–1.353 to 6.668–18.340. A ten‐qubit calculation further tests the construction in a larger crowded shared‐line network. In a lossy circuit, the true reflection‐zero drive preserves target loading while raising the crosstalk‐suppression ratio from 3.84 to 8.45 relative to a conjugate‐pole drive. The construction supplies the network‐matching stage of frequency‐multiplexed superconducting control and provides an initial envelope for subsequent gate calibration.",
+      "authors": [
+        "Deepanshu Trivedi",
+        "Aditya Bhowmik",
+        "Laraib Niaz",
+        "Alex Krasnok"
+      ],
+      "published_date": "2026-08-30",
+      "journal": "Advanced Quantum Technologies",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1002/qute.70441",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15473,
+      "title": "Hardware-Efficient Error Mitigation and Shot-Efficient Sampling on IBM Quantum Hardware",
+      "abstract": "We experimentally study error mitigation and finite-shot sampling on superconducting quantum hardware under a constrained execution budget. The study combines calibration-aware qubit selection, circuit-depth scaling, zero-noise extrapolation, dynamical decoupling, readout-error mitigation, and repeated-shot estimation on an IBM Quantum processor. Experiments are organized across ideal simulation, noise-model simulation, and physical-device execution to separate sampling uncertainty from device-induced error. We investigate how mitigation performance changes with circuit depth, effective noise scale, qubit connectivity, and measurement budget, and quantify accuracy using expectation-value error, mean-squared error, statistical uncertainty, and mitigation gain. A fixed hardware-execution budget is used to evaluate shot allocation strategies and repeated measurements without relying on unlimited sampling. The resulting analysis provides a hardware-aware characterization of when mitigation improves expectation-value estimation and when finite-shot fluctuations offset the benefit of additional mitigation overhead. The implementation uses contemporary Qiskit and IBM Quantum Runtime workflows and is designed to provide reproducible experimental evidence for error-mitigation studies on current quantum processors.",
+      "authors": [
+        "Sumit Chongder"
+      ],
+      "published_date": "2026-08-28",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.28535",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15485,
+      "title": "Fabrication-free assessment of microwave losses in germanium-based dielectrics and superconductors",
+      "abstract": "We present a flip-chip-based sensing scheme to measure effective microwave losses associated with target materials for quantum technologies, without requiring any device fabrication on the material under test. Using this approach, we quantify the microwave losses of a strain-engineered Ge/SiGe quantum well heterostructure and investigate losses arising from its Ge substrate and intermediate layers. The quality factors of the fabricated microwave resonators agree with the losses of dielectric materials independently extracted from flip-chip sensing measurements. We further study the superconductor platinum silicon germanide (PtSiGe) prepared by thermal reaction with a deposited Pt film, finding high microwave losses that limit the suitability of the films studied here as the sole superconductor for high-quality resonator applications. By coating Pt with Nb prior to the reaction, we observe a substantial reduction in microwave loss and a nearly three-fold enhancement of the transport critical temperature. The temperature dependence of the microwave loss is consistent with gap inhomogeneity in both superconducting films. These results identify constraints on material choices, provide design guidance for microwave circuits on planar Ge heterostructures, and demonstrate a fast-turnaround testing method for new materials for superconducting quantum circuits.",
+      "authors": [
+        "Haoran Lu",
+        "Kushagra Aggarwal",
+        "Xiangqin Wang",
+        "Pauline Drexler",
+        "Daniel Tong",
+        "Maciej W. Olszewski",
+        "Anand Ithepalli",
+        "Lingda Kong",
+        "Debdeep Jena",
+        "Peter L. McMahon",
+        "David A. Muller",
+        "Dominique Bougeard",
+        "Valla Fatemi"
+      ],
+      "published_date": "2026-08-28",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.28463",
+      "tags": [
+        "superconducting-circuits",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15489,
+      "title": "Kerr nonlinearity and three-wave mixing in superconducting resonators hosting Al-InAs weak links",
+      "abstract": "Nonlinear microwave resonators are a versatile tool in quantum information processing, enabling parametric amplification, continuous variable quantum computing, and engineered mode interactions. Many of these applications especially benefit from cubic nonlinearities enabling three-wave mixing; at the same time, they are limited by quartic nonlinearities giving rise to undesired Kerr effects. A recurrent challenge is therefore to engineer resonators with a finite cubic nonlinearity while suppressing quartic terms. Here, we investigate a superconducting resonator hosting two weak links fabricated from an aluminum-capped indium arsenide nanowire. We characterize the Kerr nonlinearity as a function of magnetic flux and gate bias, showing that it can be tuned to zero with either control parameter. Furthermore, we experimentally demonstrate three-wave mixing in a semiconductor-superconductor hybrid device, establishing nonzero cubic nonlinearity. An effective model based on Andreev bound states qualitatively captures the observed trends. Our results validate semiconductor-superconductor hybrid devices as a promising platform for tunable nonlinear superconducting circuits, with applications in parametric amplification, quantum control of bosonic modes, and engineering interactions between microwave modes.",
+      "authors": [
+        "Vittorio Buccheri",
+        "Ivo P. C. Cools",
+        "Nermin Trnjanin",
+        "Ankit Khola",
+        "Oleg Shvetsov",
+        "Thomas Kanne",
+        "Jesper Nygård",
+        "Attila Geresdi",
+        "Simone Gasparinetti"
+      ],
+      "published_date": "2026-08-28",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.28428",
+      "tags": [
+        "superconducting-circuits",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 15243,
       "title": "Canonical Quantum Mpemba Effect in a Dissipative Qubit",
@@ -22,6 +126,46 @@
         "quantum-circuit-context"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15534,
+      "title": "Scaling Alternating-Bias-Assisted Annealing for Precision Transmon Frequency Targeting on Superconducting Quantum Processors",
+      "abstract": "Recent advances in the alternating-bias-assisted annealing (ABAA) technique have successfully mitigated intrinsic Josephson-junction (JJ) fabrication variations. This new technique enables precision qubit frequency tuning alongside simplicity. However, it is critical to enhance tuning throughput and yield while investigating the factors that drive targeting performance as the technology scales. Here, we characterize ABAA tuning performance within a 150-mm wafer process flow and extend this technique to simultaneous, multi-channel tuning, demonstrating that a wafer-scale JJ resistance tuning precision of $σ=0.50\\pm0.05\\%$ alongside a component-level yield of $\\ge 98.8\\%$ can be achieved. Furthermore, we demonstrate a strong correlation between yield, tuning speed, and junction breakdown voltage, establishing the latter as a vital process control parameter for meeting production goals. Finally, we demonstrate a successful implementation of ABAA tuning on a quad-module quantum processor (Rigetti Cepheus-1-36Q), where we achieve an empirical frequency targeting precision of $σ\\sim 30\\text{ MHz}$ in both qubit and qubit-qubit detuning frequencies, contributing to high median two-qubit gate fidelities. These results confirm the efficacy and scalability of ABAA for high-precision Hamiltonian targeting, a critical enabler for modular superconducting quantum processor technology.",
+      "authors": [
+        "Xiqiao Wang",
+        "Mark Field",
+        "Teng Zhang",
+        "Xian Wu",
+        "Ferhat Aydinoglu",
+        "Joel Howard",
+        "Angela Q. Chen",
+        "Sara Elzeiny",
+        "Robert Smith",
+        "Timothy McSorley",
+        "Nicholas Sharac",
+        "Eyob Sete",
+        "Alysson Gold",
+        "Hilal Cansizoglu",
+        "Greg Stiehl",
+        "Josh Mutus",
+        "Kameshwar Yadavalli",
+        "Andrew Bestwick",
+        "Stefano Poletto",
+        "Raja Katta",
+        "David P. Pappas"
+      ],
+      "published_date": "2026-08-27",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.27789",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
