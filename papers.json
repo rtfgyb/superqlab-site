@@ -1,7 +1,146 @@
 {
-  "generated_at": "2026-08-31T19:08:17.199035+00:00",
-  "count": 881,
+  "generated_at": "2026-09-01T19:10:00.275000+00:00",
+  "count": 894,
   "papers": [
+    {
+      "id": 15590,
+      "title": "Engineering multi-photon dissipation with a dc-voltage-biased Josephson junction",
+      "abstract": "Multi-photon dissipation -- a key resource for bosonic qubits -- is usually realized by parametrically pumping a Josephson coupler at the cost of spurious nonlinear terms. Here we instead engineer it using a dc-voltage-biased SQUID, such that these parasitic terms average out. We activate the conversion of one, two, or four photons of a high-Q mode into a single photon of a lossy mode. We characterize the two-photon dissipation by Wigner tomography, establishing dc-biased junctions as a resource for reservoir engineering and a viable route to cat-qubit stabilization.",
+      "authors": [
+        "Marco Paradina",
+        "Ambroise Peugeot",
+        "Roberto Negrin",
+        "Oscar Novat",
+        "Tristan Villain",
+        "Anil Murani",
+        "Jean-Loup Ville",
+        "Sébastien Jezouin",
+        "Raphaël Lescanne",
+        "Audrey Bienfait",
+        "Benjamin Huard"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.31154",
+      "tags": [
+        "josephson-circuits"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15629,
+      "title": "Trade-off between Cooling-Step Count and Geometric Implementation Cost in Non-Markovian Algorithmic Cooling",
+      "abstract": "Quantum cooling is important for reliable quantum computation but involves a trade-off between cooling performance and implementation resources. Although reservoir memory can improve particular aspects of cooling performance, the associated resource cost, particularly for circuit implementation, remains insufficiently understood. Here, we investigate how reservoir memory affects the trade-off between cooling performance quantified by the cooling-step count and geometric implementation cost in single-qubit heat-bath algorithmic cooling. Using a pseudomode mapping, we represent the non-Markovian damped Jaynes--Cummings dynamics by a repeated collision circuit and evaluate its geometric implementation cost. Using matrix-based simulations and an implementation on the ibm_kawasaki Heron r2 processor, we identify a trade-off: suppressing reservoir memory reduces the cooling-step count but generally increases the geometric protocol cost. Our work provides a resource-based perspective on reservoir engineering for algorithmic cooling.",
+      "authors": [
+        "Yohei Azumai",
+        "Yoshihiko Hasegawa"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.30660",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15664,
+      "title": "Data and code for collision-model Dicke-state preparation: depth-fidelity frontiers, circuit costs, and superconducting-processor measurements",
+      "abstract": "Dicke states are multipartite entangled states in which a fixed number of quantum excitations is coherently shared among many qubits. Originally introduced in the context of cooperative emission and superradiance, they are now important resources for quantum sensing, networking, and collective quantum phenomena. Preparing prescribed Dicke states with high fidelity, however, remains challenging, particularly as the system size and excitation number increase. Here we present an open dataset and accompanying code for preparing Dicke states using a collision-based quantum protocol. The dataset covers systems from five to fourteen qubits over a broad range of excitation numbers and records how the best-found noiseless preparation fidelity changes with circuit depth. It also provides circuit-resource estimates and experimental measurements for selected states on the 54-qubit IQM Emerald superconducting processor. The accompanying code reproduces the processed data and validation checks, providing a reusable benchmark for studying the trade-off between state-preparation fidelity, circuit cost, and hardware noise.",
+      "authors": [
+        "Duc-Kha Vu",
+        "Minh Tam Nguyen",
+        "Şahin K. Özdemir",
+        "Özgür E. Müstecaplıoğlu",
+        "Fatih Ozaydin"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.30176",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15579,
+      "title": "Alternating-bias assisted annealing of micrometer-scale Josephson junctions",
+      "abstract": "Alternating-bias assisted annealing (ABAA) has been effectively utilized to tune the normal-state resistance of sub-micrometer Josephson junctions (JJs). However, how the annealing efficiency is affected by pre-annealing thermal history, oxidation exposure, and junction geometry remains unexplored for micrometer-scale devices. Here, we systematically investigate the ABAA behavior in micrometer-scale JJs to address the growing demands of modern superconducting devices. The dependence of resistance tuning on the pre-annealing heating time, annealing temperature, bias voltage, oxidation exposure, junction linewidth, and aspect ratio is thoroughly characterized. Our results will contribute a predictive framework for the precise resistance control of micrometer-scale JJs, thereby guiding the deterministic fabrication of high-performance superconducting quantum hardware.",
+      "authors": [
+        "Qingyu Wang",
+        "Jie Zhao",
+        "Wenchang Yan",
+        "Wei Xin",
+        "Yang Yu"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "Applied Physics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0347836",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15574,
+      "title": "Exponential measurement error mitigation in quantum sampling",
+      "abstract": "Abstract Measurement errors limit the fidelity of sampling-based quantum tasks, yet extending error mitigation to sampling remains challenging. Here, we introduce a simple and scalable repetition-based scheme that mitigates measurement errors directly at the sampling level. By encoding each data qubit into multiple physical qubits prior to readout and applying majority-vote decoding, physical errors are converted into a higher-order process, enabling exponential suppression that persists despite realistic gate imperfections during encoding. Using experimental noise profiles from leading superconducting platforms, we demonstrate that a modest linear qubit overhead suppresses measurement errors by several orders of magnitude, significantly boosting fidelities for typical sampling tasks, such as measurement-based quantum computation and random circuit sampling. These results establish a practical, hardware-compatible, and scalable approach for improving the reliability of near-term quantum sampling experiments.",
+      "authors": [
+        "He-Liang Huang"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "npj Unconventional Computing",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s44335-026-00094-0",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15691,
+      "title": "Dark state as a measurable state by a dispersive readout without a Purcell limit",
+      "abstract": "It is believed that the enhancement in qubit-resonator coupling allows a better dispersive readout but introduces greater Purcell loss. In this work, we propose that a dark mode in a coupled quantum system may violate this rule by introducing the ZZ interaction between the dark and a bright mode. The dark mode may exhibit an effective zero coupling strength, and zero Purcell loss with the resonator photons. Nevertheless, the dispersive shift is almost the same as the bright state, due to the higher order perturbation introduced by the higher excited states. Such a state demonstrates the measurability without a Purcell limit in circuit quantum electrodynamics.",
+      "authors": [
+        "Wei-Chen Chien",
+        "Jyh-Yang Wang",
+        "Yen-Yu Chiang",
+        "Cheng-Chengh Huang",
+        "Lih-Chieh Hsaio",
+        "Yen-Chun Chen",
+        "Cen-Shawn Wu",
+        "Chiidong Chen",
+        "Watson Kuo"
+      ],
+      "published_date": "2026-08-30",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.29811",
+      "tags": [
+        "circuit-qed",
+        "microwave-hardware",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 15448,
       "title": "Reflection‐Zero Waveforms for Selective Loading in Shared‐Line Superconducting Qubit Circuits",
@@ -22,6 +161,127 @@
         "superconducting-context"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15714,
+      "title": "Parametric amplification in a Kerr Oscillator based on Ne FIB Nanobridges",
+      "abstract": "Superconducting circuits play a crucial role in the advancement of quantum computing and quantum sensing. Typically such circuits require the presence of a non-linear element, where the engineered anharmonicity (Kerr factor) and resonant linewidth determine the potential applications of the circuit. In this work we have fabricated Nb-based CPW resonators embedded with a DC SQUID incorporating Nb nanobridges as the weak links. We use two-tone spectroscopy to study the non-linear behaviour of the device at 15 mK up to a field of 2.48 mT. Under the application of a blue-detuned pump, the device shows a decrease in the resonant frequency which is used to estimate the Kerr factor. We further apply a red-detuned pump to go beyond the bifurcation threshold and observe the appearance of an additional idler mode with net gain. The gain of the device was maximized by further decreasing the pump frequency, showing a maximum amplification of 15 dB. Finally, we show agreement between the Kerr non-linear oscillator model and the measured transmission spectrum, and highlight further design modifications to improve the gain and bandwidth of such devices.",
+      "authors": [
+        "Parth Bhandari",
+        "Laith Meti",
+        "Gemma Chapman",
+        "Edward Romans",
+        "John Gallop",
+        "Ling Hao"
+      ],
+      "published_date": "2026-08-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.29435",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15719,
+      "title": "FIREQ: FPGA Instrumentation for Readout and Qubit control",
+      "abstract": "We present FIREQ (FPGA Instrumentation for Readout and Qubit control), an open-source RFSoC-based framework for the control and readout of superconducting qubits. FIREQ combines a modular AXI-compliant firmware architecture with a PYNQ-based software stack designed to support extensible hardware integration, deterministic experiment timing, and low-overhead execution of repeated calibration and characterization workflows. The firmware implements direct RF synthesis and acquisition, trigger-based sequencing, programmable pulse generation, frequency-multiplexed readout, and memory-efficient acquisition and waveform buffering. The software adopts a client-server architecture with streamed data transfer and dependency-aware configuration updates to reduce host-device and reconfiguration overhead during parameter sweeps. On an AMD Zynq UltraScale+ RFSoC ZCU216, FIREQ generates RF pulses up to 9.3 GHz with a pulse-duration resolution of 107 ps and an event-timing resolution of 1.7 ns. FPGA resource utilization is compared with representative open-source RFSoC control frameworks, showing a low BRAM footprint while retaining full-rate I/Q generation and acquisition. The RF output is characterized in terms of phase noise, noise spectral density, and inter-channel timing skew. End-to-end operation is validated on a superconducting qubit through resonator spectroscopy, Rabi, Ramsey, and relaxation measurements, yielding T1 = 6.94 us and T2* = 13.50 us. FIREQ can therefore be used both as a qubit-control platform and as an experimental environment for evaluating alternative control and readout IP architectures.",
+      "authors": [
+        "Giuseppe La Capra",
+        "Fabio Calabrese",
+        "Giorgio D'Amico",
+        "Christian Conti",
+        "Andrea De Simone",
+        "Deborah Volpe",
+        "Roldolfo Carobene",
+        "Claudio Gatti",
+        "Andrea Giachero",
+        "Fabrizio Riente"
+      ],
+      "published_date": "2026-08-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.29399",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15730,
+      "title": "Anomalous Frequency Shift in Low-Loss Superconducting Granular Aluminum Resonators",
+      "abstract": "Superconducting high-kinetic inductance materials like granular aluminum (grAl) are a versatile part of the circuit quantum electrodynamics (cQED) toolbox, provided their losses at microwave frequencies are low enough. To further advance the use of grAl in quantum devices, it is indispensable to identify the dominant loss mechanisms. The standard approach pairs electromagnetic simulations of resonator geometry with measured temperature and power dependence of resonance frequency and loss rate. Most materials follow the phenomenological theory of two-level systems (TLSs) at low temperatures, resulting in an initial decrease of the resonance frequency with increasing temperature. In our work, we observe an opposite behavior at the lowest temperatures: The resonance frequency initially increases with both temperature and readout power, contradicting the standard TLS model predictions. We are able to explain a part of the data by an alternative mechanism associated with the effect of superconducting quasiparticles in a granular system with spatially-nonuniform gap. Yet, the observed change in the resonance frequency with temperature is not matched by a proportional change in the loss rate. We also observe anomalous positive frequency responses following high-energy events, characterized by several time scales. While anomalous behavior has been reported previously in grAl, the disagreement with standard models is particularly visible in our devices thanks to their exceptionally low loss rates.",
+      "authors": [
+        "Patrick Winkel",
+        "Daniil S. Antonenko",
+        "Vishakha Gupta",
+        "Neel Thakur",
+        "Pavel Kurilovich",
+        "Luigi Frunzio",
+        "Leonid I. Glazman",
+        "Robert J. Schoelkopf"
+      ],
+      "published_date": "2026-08-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.29282",
+      "tags": [
+        "circuit-qed",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15734,
+      "title": "Probabilistic generation of two-mode binomial cat states using cross-Kerr interactions",
+      "abstract": "Superpositions of macroscopically distinct coherent states, or cat states, are a key resource for quantum technologies. In particular, two-mode binomial cat states can give rise to exact quantum error correction in continuous-variable quantum computing. However, their preparation typically requires non-Gaussian initial states, such as Fock or NOON states, which are challenging to realize experimentally. Here, we propose a protocol to generate two-mode binomial cat states where the only requirements are Gaussian initial states in combination with heralded heterodyne measurements. Our approach utilizes cross-Kerr interactions between bosonic modes commonly realizable in superconducting circuit architectures. We show that by adjusting the input state parameters, our protocol remains robust to dissipation under realistic experimental conditions. Our work provides a practical route to realizing multinomial cat states in current experimental platforms without requiring non-Gaussian initial resources, overcoming a key limitation of existing preparation schemes.",
+      "authors": [
+        "S. Zhao",
+        "A. Metelmann",
+        "S. Qvarfort"
+      ],
+      "published_date": "2026-08-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.29173",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15771,
+      "title": "Quantum Simulations of Two-Dimensional Non-Abelian Adjoint String Breaking",
+      "abstract": "Quantum computers offer the potential to directly probe the dynamics of strongly coupled quantum field theories. As a step towards reaching this potential, local Krylov-based truncations of a pure SU(2) lattice gauge theory on a triangular lattice are constructed. Adjoint strings connected to dynamical gluons are constructed in this truncated theory, and the resonances dominating the long-term dynamics at a large value of the gauge coupling are determined. Local operators are constructed to identify string oscillations and breakings. This is used to perform a quantum simulation of adjoint string breaking on an $8\\times8$ and $16\\times8$-site lattice with ibm_boston using all 156 qubits. Quantitative agreement with tensor network simulations is obtained for circuits with 7,634 CZ gates with a two-qubit gate depth of 218. In this simulation, the rates of oscillations and glueball production are identified with a distinctly non-Abelian signature of the underlying gauge group.",
+      "authors": [
+        "Anthony N. Ciavarella",
+        "Roland de Putter",
+        "Ed Younis",
+        "Ermal Rrapaj"
+      ],
+      "published_date": "2026-08-28",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2608.28752",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "hep-lat",
       "is_top_journal": false
     },
     {
@@ -3336,7 +3596,7 @@
     },
     {
       "id": 3594,
-      "title": "Temperature-dependent reaction pathways of fluorination and nitridation in native Nb oxide under NF3/H-radical exposure",
+      "title": "Temperature-dependent reaction pathways of fluorination and nitridation in native Nb oxide under NF<sub>3</sub>/H-radical exposure",
       "abstract": "Native niobium forms Nb2O5 and NbOx upon air exposure, and these suboxide components are known to introduce two-level systems that limit the performance of superconducting quantum circuits. Reliable low-temperature modification of the native oxide is, therefore, of considerable interest. In this study, we systematically investigated the temperature-dependent reactions of native Nb oxides exposed to NF3 and H radicals from 25 to 250 °C. X-ray photoelectron spectroscopy revealed three distinct regimes: fluorination at 25 °C forming NbF5- and NH4F-like species; stabilization of NbO2F and fluorine-mediated nitridation at 100–150 °C; and a mechanistic transition at 200 °C, leading to the direct nitridation of Nb–O bonds and the formation of NbON. At 250 °C, deep nitridation penetrated into the underlying Nb metal, resulting in a thick NbON layer and a loss of selectivity. These results indicate that temperatures below 200 °C allow selective fluorination and nitridation of the native oxide while suppressing excessive modification of the underlying metallic Nb. The mechanistic insights obtained here provide a basis for understanding fluorination and nitridation reactions in Nb oxide under low-temperature radical-processing environments.",
       "authors": [
         "Daisuke Ohori",
@@ -4048,17 +4308,21 @@
     {
       "id": 3599,
       "title": "Crosstalk in multiqubit fluxonium architectures with transmon couplers",
-      "abstract": "",
+      "abstract": "In recent years, several architectures have been proposed for implementing two-qubit operations on fluxonium superconducting qubits. A particularly promising approach, which was demonstrated experimentally by Refs. [L. Ding , S. Singh ], employs a transmon superconducting qubit as a tunable coupler between the fluxonium qubits. These experiments have shown that the transmon coupler enables fast, high-fidelity two-qubit operations while suppressing unwanted Z Z crosstalk between the fluxonium qubits. In this work, we numerically study the scalability of this architecture. We find that, when trivially scaling this architecture, crosstalk from spectator qubits limits the gate fidelity to below 90%. We show that these spectator errors can be reduced to below 10 − 4 by reducing the coupling strength and by dynamically tuning transmons that are not used for a two-qubit operation to an off position. We further investigate the resilience of the operation to direct capacitive coupling between the transmon couplers and to microwave crosstalk.",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Christian Kraglund Andersen"
       ],
       "published_date": "2026-07-27",
       "journal": "Physical Review Applied",
       "publication_status": "published",
       "url": "https://doi.org/10.1103/rf7g-md41",
       "tags": [
+        "superconducting-circuits",
         "transmon",
-        "fluxonium"
+        "fluxonium",
+        "tunable-coupler",
+        "superconducting-context"
       ],
       "primary_category": "",
       "is_top_journal": false
@@ -4372,6 +4636,35 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15570,
+      "title": "Implementation of a Z Z -free iswap gate via dual-microwave suppression of Z Z coupling",
+      "abstract": "",
+      "authors": [
+        "Anonymous",
+        "Yuanhao Fu",
+        "Dayu Li",
+        "Chen Zha",
+        "Sirui Cao",
+        "Jianbin Cai",
+        "Yisen Hu",
+        "Daojin Fan",
+        "Zhiyuan Chen",
+        "Zihua Chen",
+        "Yangsen Ye",
+        "Jin Lin",
+        "Ming Gong",
+        "Shaowei Li",
+        "Yong-Heng Huo"
+      ],
+      "published_date": "2026-07-24",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/snwt-prqy",
+      "tags": [],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -11485,6 +11778,38 @@
       "is_top_journal": false
     },
     {
+      "id": 9830,
+      "title": "A Cryogenic Superconducting Quantum Computing Unit Interface Chipset With Phase-Detection-Based Readout and Phase-Shifter-Based Controller",
+      "abstract": "This article presents a cryogenic quantum interface chipset at 3.5 K for superconducting transmon qubit operations. The chipset comprises a phase-detection readout and a phase-shifter-based polar-modulation controller with flexible scalability. With the proposed phase-detection readout scheme, a 9-bit time-to-digital converter (TDC)-based state detector is used to read out the qubit state by detecting the phase difference between the stimulus signal and the reflected signal. A low-IF N-path filter-based receiver and a multi-tone transmitter are co-designed to enable frequency-division multiplexing (FDM) dispersive readout of multiple qubits. A phase-shifter-based polar-modulation XY-driver is developed with support for fast phase quantum gate operation and derivative-removal-by-adiabatic-gate (DRAG) pulse generation. The Z-driver is realized using a static digital-to-analog converter (DAC) array and a 10-bit dynamic DAC for power efficiency. Fabricated in a 28-nm bulk CMOS process, the chipset occupies a die area of 4.6 mm2. The readout RX achieves a noise temperature of 40 K with a gain of 45–83 dB and a bandwidth of 1.2 GHz. The readout RX consumes 32% less power than state-of-the-art designs. The measured total readout power for simultaneous detection of two qubits is 12.2 mW, which is the lowest among readouts with a similar integration level. In addition, the controller achieves a spurious-free dynamic range (SFDR) of 49 dB for a 1-GS/s Z-driver and an SNR of 42 dB for a 1-GS/s XY-driver. The XY-driver consumes 4.3 mW per qubit under active control. Verified with practical transmon qubits, the readout fidelity exceeds 92.6%, approaching that of commercial instruments. A Rabi experiment at 5.61/6.36 MHz, a Ramsey experiment at 4.1 MHz, and a T1 experiment at$9.98~{\\mu }$s are also successfully observed using the proposed chipset at 3.5 K.",
+      "authors": [
+        "Yanshu Guo",
+        "Yaoyu Li",
+        "Wenqiang Huang",
+        "Tian Tian",
+        "Nan Wu",
+        "Xicheng Zhang",
+        "Qichun Liu",
+        "Tiefu Li",
+        "Zhihua Wang",
+        "Ning Deng",
+        "Yuanjin Zheng",
+        "Hanjun Jiang"
+      ],
+      "published_date": "2026-05-27",
+      "journal": "IEEE Journal of Solid-State Circuits",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/jssc.2026.3695612",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 6392,
       "title": "Demonstration of efficient predictive surrogates for large-scale quantum processors",
       "abstract": "The ongoing development of quantum processors is driving breakthroughs in scientific discovery. Despite this progress, the formidable cost of fabricating large-scale quantum processors means they will remain rare for the foreseeable future, limiting their widespread application. To address this bottleneck, we introduce the concept of predictive surrogates, which are classical learning models designed to emulate the mean-value behavior of a given quantum processor with provably computational efficiency. In particular, we propose two predictive surrogates that can substantially reduce the need for quantum processor access in diverse practical scenarios. To demonstrate their potential in advancing digital quantum simulation, we use these surrogates to emulate a quantum processor with up to 42 programmable superconducting qubits, enabling efficient pre-training of variational quantum eigensolvers for families of transverse-field Ising models and identification of non-equilibrium Floquet symmetry-protected topological phases. Experimental results reveal that the predictive surrogates not only reduce measurement overhead by orders of magnitude, but can also surpass the performance of conventional, quantum-resource-intensive approaches. Collectively, these findings establish predictive surrogates as a practical pathway to broadening the impact of advanced quantum processors.",
@@ -11905,6 +12230,37 @@
       ],
       "primary_category": "",
       "is_top_journal": false
+    },
+    {
+      "id": 15571,
+      "title": "Microwave Spectroscopy of Few-Carrier States in Bilayer Graphene Quantum Dots",
+      "abstract": "Bilayer graphene is a maturing material platform for gate-defined quantum dots that hosts long-lived spin and valley states. Implementing solid-state qubits in bilayer graphene requires a fundamental understanding of such confined electronic systems. In particular, states of two and three carriers, for which the exchange interaction between particles plays a crucial role, are a cornerstone for qubit readout and manipulation. Here we report on the spectroscopy of few-carrier states in bilayer graphene quantum dots, using circuit quantum electrodynamics (cQED) techniques that offer substantially improved energy resolution compared to standard transport techniques. Measurements of a superconducting high-impedance resonator capacitively coupled to the double quantum dot reveal dispersive features of two- and three-electron states, enabling the detection of Pauli spin and valley blockade and the characterization of the spin-orbit gap at zero magnetic field. The results deepen our understanding of few-carrier spin and valley states in bilayer graphene quantum dots and demonstrate that cQED techniques are a powerful state-selective probe for semiconductor nanostructures.",
+      "authors": [
+        "Anonymous",
+        "Christoph Adam",
+        "Rebecca Bolt",
+        "Chuyao Tong",
+        "David Kealhofer",
+        "Artem O. Denisov",
+        "Mohsen Bahrami Panah",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Thomas Ihn",
+        "K. Ensslin"
+      ],
+      "published_date": "2026-05-21",
+      "journal": "PRX Quantum",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/j1ts-9nys",
+      "tags": [
+        "circuit-qed",
+        "readout-control",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
     },
     {
       "id": 10466,
@@ -22627,38 +22983,6 @@
         "superconducting-context",
         "quantum-superconducting-context",
         "quantum-circuit-context"
-      ],
-      "primary_category": "",
-      "is_top_journal": false
-    },
-    {
-      "id": 9830,
-      "title": "A Cryogenic Superconducting Quantum Computing Unit Interface Chipset With Phase-Detection-Based Readout and Phase-Shifter-Based Controller",
-      "abstract": "This article presents a cryogenic quantum interface chipset at 3.5 K for superconducting transmon qubit operations. The chipset comprises a phase-detection readout and a phase-shifter-based polar-modulation controller with flexible scalability. With the proposed phase-detection readout scheme, a 9-bit time-to-digital converter (TDC)-based state detector is used to read out the qubit state by detecting the phase difference between the stimulus signal and the reflected signal. A low-IF N-path filter-based receiver and a multi-tone transmitter are co-designed to enable frequency-division multiplexing (FDM) dispersive readout of multiple qubits. A phase-shifter-based polar-modulation XY-driver is developed with support for fast phase quantum gate operation and derivative-removal-by-adiabatic-gate (DRAG) pulse generation. The Z-driver is realized using a static digital-to-analog converter (DAC) array and a 10-bit dynamic DAC for power efficiency. Fabricated in a 28-nm bulk CMOS process, the chipset occupies a die area of 4.6 mm2. The readout RX achieves a noise temperature of 40 K with a gain of 45–83 dB and a bandwidth of 1.2 GHz. The readout RX consumes 32% less power than state-of-the-art designs. The measured total readout power for simultaneous detection of two qubits is 12.2 mW, which is the lowest among readouts with a similar integration level. In addition, the controller achieves a spurious-free dynamic range (SFDR) of 49 dB for a 1-GS/s Z-driver and an SNR of 42 dB for a 1-GS/s XY-driver. The XY-driver consumes 4.3 mW per qubit under active control. Verified with practical transmon qubits, the readout fidelity exceeds 92.6%, approaching that of commercial instruments. A Rabi experiment at 5.61/6.36 MHz, a Ramsey experiment at 4.1 MHz, and a T1 experiment at$9.98~{\\mu }$s are also successfully observed using the proposed chipset at 3.5 K.",
-      "authors": [
-        "Yanshu Guo",
-        "Yaoyu Li",
-        "Wenqiang Huang",
-        "Tian Tian",
-        "Nan Wu",
-        "Xicheng Zhang",
-        "Qichun Liu",
-        "Tiefu Li",
-        "Zhihua Wang",
-        "Ning Deng",
-        "Yuanjin Zheng",
-        "Hanjun Jiang"
-      ],
-      "published_date": "2026-01-01",
-      "journal": "IEEE Journal of Solid-State Circuits",
-      "publication_status": "published",
-      "url": "https://doi.org/10.1109/jssc.2026.3695612",
-      "tags": [
-        "superconducting-circuits",
-        "transmon",
-        "microwave-hardware",
-        "superconducting-context",
-        "quantum-superconducting-context"
       ],
       "primary_category": "",
       "is_top_journal": false
