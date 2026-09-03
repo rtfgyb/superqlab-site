@@ -1,7 +1,92 @@
 {
-  "generated_at": "2026-09-02T19:07:27.753438+00:00",
-  "count": 898,
+  "generated_at": "2026-09-03T19:06:22.497543+00:00",
+  "count": 906,
   "papers": [
+    {
+      "id": 15924,
+      "title": "Momentum-driven reversible logic accelerates efficient irreversible universal computation",
+      "abstract": "Abstract We present implementations of two physically-embedded computation-universal logical operations using a 2-bit logical unit composed of coupled quantum flux parametrons—Josephson-junction superconducting circuits. To illustrate universality, we investigate NAND gates built from these two distinct elementary operations. On the one hand, Controlled Erasure (CE) is designed using fixed-point analysis and assumes that information must be stored in locally metastable distributions. On the other, Erasure-Flip (EF) leverages momentum as a computational resource and significantly outperforms the metastable approach, simultaneously achieving higher fidelity and faster computational speed without incurring any additional energetic cost. Notably, the momentum degree of freedom allows the EF to achieve universality by using both nontrivial reversible and irreversible logic simultaneously in different logical subspaces. These results not only provide a practical, high-performance protocol ripe for experimental realization but also underscore the broader potential of momentum-based computing paradigms.",
+      "authors": [
+        "Kuen Wai Tang",
+        "Kyle J. Ray",
+        "James P. Crutchfield"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "npj Unconventional Computing",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s44335-026-00095-z",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15903,
+      "title": "Quantum annealing for lattice models with competing long-range interactions",
+      "abstract": "Abstract Predicting ordered states in long-range interacting lattice models constitutes a challenging task relevant to condensed matter physics, statistical mechanics, quantum many-body theory, materials science, and computational physics. Energy landscapes often contain many competing states with similar energies, while finite-size simulations can depend sensitively on geometry. Here, we use superconducting qubit quantum annealing devices to determine ground states of Ising models with algebraically decaying competing long-range interactions in the thermodynamic limit from finite system optimizations. This is enabled by a unit-cell-based optimization scheme. We demonstrate the approach on three paradigmatic problems: the calculation of devil’s staircases of magnetization plateaux of the long-range Ising model in a longitudinal field on the triangular lattice, motivated by atomic quantum simulators; the ground state of the same model on the Kagomé lattice without a field, motivated by artificial spin ice metamaterials; and models with additional few-nearest-neighbor interactions relevant for frustrated Ising compounds. Our work provides a realistic application of existing quantum annealing technology across many research areas.",
+      "authors": [
+        "Jan Alexander Koziol",
+        "Kai Phillip Schmidt"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "Communications Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s42005-026-02796-0",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 15898,
+      "title": "Automated Extraction of Superconducting Qubit–Qubit Couplings from Full-Wave Multiport Impedance with Reduced-Model Analysis",
+      "abstract": "Accurate prediction of qubit–qubit exchange coupling is essential for superconducting processor design. We present and benchmark an automated full-wave electromagnetic (EM) workflow in Keysight Advanced Design System (ADS) and QuantumPro that evaluates pairwise exchange couplings from layout-level multiport responses using the established transfer-impedance relation of Solgun et al. Because many scalable superconducting processors employ repeated or near-repeated coupling motifs, reduced EM models can lower computational cost if their error is quantified. We study nearest-neighbor couplings in a reconstructed geometry based on the IBM Q 16 Rueschlikon processor using a sixteen-qubit (16Q) coupling-network model, four-qubit (4Q) unit-cell models, and pair-specific two-qubit (2Q) sub-blocks. The 4Q models provide a like-for-like external benchmark because they match the model extent used by Solgun et al. for the published full-wave coupling calculations. The 4Q models reproduce the published simulated couplings with a 3.70% mean absolute percentage error and differ from 16Q by 3.62% on average. For the representative single solves reported here, the 16Q solve takes approximately 7.2 times as long as 4Q and requires 5.7 times the peak memory. This supports 4Q as a practical reduced model for quantitative local coupling prediction. Further reduction to 2Q changes the couplings by 6.17% on average but remains effective for inexpensive mesh-convergence screening. The resulting workflow provides automated exchange-coupling extraction together with model-extent and convergence assessment in a commercial microwave EDA environment.",
+      "authors": [
+        "Hyunheung Cho",
+        "Mohamed Ismail Abdelrahman",
+        "Joseph Macauley",
+        "Derek Slater",
+        "Sajid Hussain",
+        "Phil Sohn",
+        "Mohamed H. Awida"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "Electronics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.3390/electronics15173958",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15897,
+      "title": "Readout failures in superconducting qubits due to TLS-defects in tunnel junctions",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/ypm5-lh8d",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 15794,
       "title": "Fast Microwave-free State Preparation and Measurement of Superconducting Qubits",
@@ -287,6 +372,91 @@
         "superconducting-circuits",
         "transmon",
         "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15929,
+      "title": "Mumax3-cQED: an extension of Mumax3 to simulate magnon-photon interactions in cavity QED",
+      "abstract": "We present an extension of the well-known micromagnetic package Mumax3 to simulate magnon-polaritons in realistic magnetic materials and nanostructures. Mumax3-cQED leverages the full GPU-accelerated capabilities of Mumax3 to model standard spin-spin interactions and the coupling of magnetic moments to external space- and time-dependent magnetic fields, with the additional unique feature of including the coupling to a cavity. We validate the code against results obtained from the Dicke model in both the paramagnetic and the superradiant phases. We show that hybrid magnon-light states can be calculated, as well as the non-equilibrium dynamics and their approach to equilibrium. In addition, we demonstrate the potential of Mumax3-cQED to reproduce experimental results and design magnon-cavity experiments, including three-dimensional and coplanar waveguide resonators. The code is fully available and will be useful for designing experiments involving microscopic saturated ferromagnets as well as systems featuring spin textures such as domain walls, vortices, or skyrmions.",
+      "authors": [
+        "Sergio Martínez-Losa del Rincón",
+        "Juan Román-Roche",
+        "David García‐Pons",
+        "Andrés Martín-Megino",
+        "David Zueco",
+        "M.J. Pérez"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Computer Physics Communications",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1016/j.cpc.2026.110376",
+      "tags": [
+        "circuit-qed"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15908,
+      "title": "Tunable SQUID coupler for fluxonium qubits",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/yt32-gmvt",
+      "tags": [
+        "fluxonium"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15906,
+      "title": "Symmetry-protected topological order in a 100-site spin chain on a digital quantum computer",
+      "abstract": "Abstract Symmetry-protected topological (SPT) systems extend the Landau paradigm of quantum matter by admitting distinct phases that lack local order parameters, making them challenging to characterise using conventional experimental probes. While material platforms provide important evidence for SPT order through indicative signatures such as boundary states, experimental access is typically limited to such partial probes rather than fully diagnostic measurements of the underlying quantum state. Programmable quantum processors offer a powerful complementary approach, enabling direct access to non-local properties of many-body wavefunctions. However, preparing such states on digital hardware at scales sufficient to avoid finite-size effects is typically limited by the circuit depth required to capture non-trivial entanglement. Here, we use a tensor-network-based approximate quantum compiling (AQC) protocol to construct shallow quantum circuits (18–39 CNOT depth) that prepare 100-site ground states of the spin-1/2 bond-alternating Heisenberg chain across distinct SPT phases with 97.9–99.0% fidelity. Executing these circuits on IBM quantum hardware, we directly extract multiple non-local diagnostics of SPT order, including string order for lengths up to 20, persisting well beyond the decay of conventional two-point correlations, characteristic features of the entanglement spectrum, and symmetry-protected edge modes. The simultaneous observation of these independent diagnostics provides a scalable and programmable approach to preparing and characterising SPT phases on quantum processors. More broadly, this establishes digital quantum devices as flexible platforms for studying complex quantum matter and provides a practical foundation for exploring non-equilibrium dynamics in regimes that challenge classical computational methods.",
+      "authors": [
+        "George Pennington",
+        "Kevin C. Smith",
+        "James R. Garrison",
+        "Lachlan P. Lindoy",
+        "Jason Crain",
+        "Ben Jaderberg"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "npj Quantum Information",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s41534-026-01334-8",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 15180,
+      "title": "Phase-Sensitive Cascade Quantum Amplifier with Nearly Noiseless Operation",
+      "abstract": "Abstract Phase-sensitive parametric devices facilitate quadrature-selective amplification with the possibility for sub-quantum-limited noise performance. In this work, we investigate the operation of a SQUID-based Josephson parametric amplifier (JPA), comparing its gain and noise performance in the phase-preserving and phase-sensitive regimes. The device, fabricated using VTT SWAPS technology, is driven in a three-wave mixing configuration and characterized in a reflection-based measurement setup at millikelvin temperatures. To directly probe the noise performance at low JPA gains, we employ a cascaded amplification scheme in which a traveling-wave parametric amplifier (TWPA) provides low-noise preamplification of the JPA output. In a phase-preserving operation, the JPA exhibits near-quantum-limited performance with a system noise temperature of $$351\\pm 53$$ 351 ± 53 mK at 6 GHz. In contrast, phase-sensitive operation yields a minimum system noise temperature of $$94\\pm 12$$ 94 ± 12 mK, well below the standard quantum limit of 288 mK. Our results demonstrate that a JPA–TWPA amplifier cascade opens the door to direct, high-fidelity probing of quantum devices without the need for background noise subtraction.",
+      "authors": [
+        "Ilari Lilja",
+        "Ekaterina Mukhanova",
+        "Michael Perelshtein",
+        "Kirill Petrovnin",
+        "Stanislav Khaldeev",
+        "Visa Vesterinen",
+        "Gheorghe Sorin Paraoanu",
+        "Pertti Hakonen"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Journal of Low Temperature Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1007/s10909-026-03458-9",
+      "tags": [
+        "josephson-circuits"
       ],
       "primary_category": "quant-ph",
       "is_top_journal": false
@@ -845,30 +1015,6 @@
       "tags": [
         "transmon",
         "cat-qubit"
-      ],
-      "primary_category": "quant-ph",
-      "is_top_journal": false
-    },
-    {
-      "id": 15180,
-      "title": "Phase-sensitive cascade quantum amplifier with nearly noiseless operation",
-      "abstract": "Phase-sensitive parametric devices enable quadrature-selective amplification with the potential for sub-quantum-limited noise performance. In this work, we investigate the operation of a SQUID-based Josephson Parametric Amplifier (JPA), comparing its performance in the phase-preserving and phase-sensitive regimes. The device, fabricated using VTT SWAPS technology, is driven in a three-wave mixing configuration and characterized in a reflection-based measurement setup at millikelvin temperatures. To directly probe the noise performance at low JPA gains, we employ a cascaded amplification scheme in which a Traveling-Wave Parametric Amplifier (TWPA) provides low-noise pre-amplification of the JPA output. In a phase-preserving operation, the JPA exhibits near-quantum-limited performance with a system noise temperature of $351\\pm53$ mK at 6 GHz. In contrast, phase-sensitive operation yields a minimum system noise temperature of $94\\pm12$ mK, well below the standard quantum limit of 288 mK. Our results demonstrate that a JPA-TWPA amplifier cascade opens the door to direct, high-fidelity probing of quantum devices without the need for background noise subtraction.",
-      "authors": [
-        "Ilari Lilja",
-        "Ekaterina Mukhanova",
-        "Michael Perelshtein",
-        "Kirill Petrovnin",
-        "Stanislav Khaldeev",
-        "Visa Vesterinen",
-        "Gheorghe Sorin Paraoanu",
-        "Pertti Hakonen"
-      ],
-      "published_date": "2026-08-26",
-      "journal": "",
-      "publication_status": "preprint",
-      "url": "https://arxiv.org/abs/2608.25645",
-      "tags": [
-        "josephson-circuits"
       ],
       "primary_category": "quant-ph",
       "is_top_journal": false
@@ -1769,7 +1915,7 @@
         "Haoran Lu",
         "Saswata Roy",
         "Luojia Zhang",
-        "Aleksandra Barbara Biedron",
+        "Aleksandra B. Biedron",
         "David A. Muller",
         "Valla Fatemi"
       ],
@@ -2298,7 +2444,10 @@
       "title": "Arm qubit: A superconducting qubit co-designed for coherence and coupling",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Alec Yen",
+        "Chen Stanley",
+        "Kevin P. O’Brien"
       ],
       "published_date": "2026-08-12",
       "journal": "Physical Review Applied",
@@ -2313,7 +2462,7 @@
     },
     {
       "id": 9011,
-      "title": "Learning Encodings by Maximizing State Distinguishability: Variational Quantum Error Correction",
+      "title": "Learning encodings by maximizing state distinguishability: variational quantum error correction",
       "abstract": "Abstract Quantum error correction is crucial for protecting quantum information against decoherence. Traditional codes like the surface code require substantial overhead, making them impractical for near-term, early fault-tolerant devices. We propose a novel objective function for tailoring error correction codes to specific noise structures by maximizing the distinguishability between quantum states after a noise channel, ensuring efficient recovery operations. We formalize this concept with the distinguishability loss function, serving as a machine learning objective to discover resource-efficient encoding circuits optimized for given noise characteristics. We implement this methodology using variational techniques, termed variational quantum error correction (VarQEC). Our approach yields codes with desirable theoretical and practical properties and surpasses standard codes of comparable size under structured noise. We also provide proof-of-concept demonstrations on IBM and IQM hardware devices, highlighting the practical relevance of our procedure.",
       "authors": [
         "Nico Meyer",
@@ -3236,7 +3385,7 @@
     },
     {
       "id": 2415,
-      "title": "From Circuits to Hardware: Benchmarking Standard and Qubit-Efficient Quantum Optimization on Real Hardware",
+      "title": "From circuits to hardware: benchmarking standard and qubit-efficient quantum optimization on real hardware",
       "abstract": "Abstract Despite rapid progress in quantum optimization, the field lacks broad real-hardware benchmarks comparing multiple algorithmic families across diverse classical hard combinatorial problems under one protocol. We present a hardware-aware benchmark of gate-based quantum optimization across four NP-hard problems: the Multi-Dimensional Knapsack Problem, Maximum Independent Set, Quadratic Assignment Problem, and Market Share Problem, spanning variational methods (VQE, CVaR-VQE), standard, multi-angle, and warm-start QAOA, and qubit-efficient encodings (PCE, QRAO), executed on IBM Heron r1/r2 processors under resilience-level-2 mitigations. To our knowledge this includes the first real-hardware QRAO results and the first multi-problem PCE hardware benchmark. &amp;#xD;&amp;#xD;Across 247 method-instance combinations, we report transpiled circuit size, an&amp;#xD;independent-error gate-count fidelity proxy Fest, and hardware outcomes. An empirical operating point near Fest ≈ 0.1 (∼770 two-qubit gates at the median Heron-r2 CZ error rate) marks the transition to noise-dominated execution in the MDKP and MIS regimes.&amp;#xD;&amp;#xD;Two limitations emerge. QAP couples dense one-hot encodings with an exponentially sparse feasible manifold (feasible fraction 10!/2^100 at n=10); no tested hardware method returns a feasible assignment. The tested QAOA-family circuits become noise-dominated after compilation, and a matched uniform-random control shows most feasible low-fidelity outcomes lie within the random range, with one MIS warm-start result reported as a finite-sample exception. A compilation counterfactual (SWAP-aware, fractional-gate, Nighthawk-topology) reduces two-qubit counts but moves no circuit above Fest = 10^−3;&amp;#xD;conclusions therefore apply to the tested implementations, not QAOA in general.&amp;#xD;Qubit-efficient methods extend runnable instance sizes but gain only within the empirical fidelity budget.",
       "authors": [
         "Monit Sharma",
@@ -4124,11 +4273,11 @@
       "title": "Analog circuit-quantum-electrodynamics simulator of quantum spin dynamics through the extended Bose-Hubbard model",
       "abstract": "We propose and validate a framework for analog simulation of the Heisenberg spin model using a circuit quantum electrodynamics (circuit-QED) platform. To this end, we develop a continuous family of deformed boson representations of the SU(2) algebra, which includes the Holstein-Primakoff and Dyson-Maleev transformations as special cases. For spin-1/2 systems, we introduce a procedure to circumvent the inherent non-Hermiticity of the representation, showing that this entire family yields the extended Bose-Hubbard (EBH) Hamiltonian. For the experimental realization of this EBH model, we design a scalable circuit-QED architecture based on an engineered Josephson junction array. Numerical simulations confirm that the microwave photon dynamics in this simulator accurately reproduces the original spin dynamics. Our work establishes an experimentally accessible method for investigating complex quantum spin dynamics in a highly controllable bosonic setting.",
       "authors": [
-        "Anonymous",
+        "Ivan V. Dudinets",
         "Jaehee Kim",
         "Tomás Ramos",
         "Aleksey K. Fedorov",
-        "Vladimir I. Man’ko",
+        "Vladimir I. Man'ko",
         "Joonsuk Huh"
       ],
       "published_date": "2026-07-29",
@@ -5110,9 +5259,10 @@
     {
       "id": 7741,
       "title": "Scalable suppression of XY crosstalk by pulse-level control in superconducting quantum processors",
-      "abstract": "",
+      "abstract": "As superconducting quantum processors continue to scale, high-performance quantum control becomes increasingly critical. In densely integrated architectures, unwanted interactions between nearby qubits give rise to crosstalk errors that limit operational performance. In particular, direct exchange-type ( XY ) interactions are typically minimized by designing large frequency detunings between neighboring qubits at the hardware level. However, frequency crowding in large-scale systems ultimately restricts the achievable frequency separation. While such XY coupling facilitates entangling gate operations, its residual presence poses a key challenge during single-qubit controls. Here, we propose a scalable pulse-level control framework, incorporating frequency modulation and dynamical decoupling to suppress XY crosstalk errors. This framework operates independently of coupling strengths, reducing calibration overhead and naturally supporting multiqubit connectivity. Numerical simulations show orders-of-magnitude reductions in infidelity for both idle and single-qubit gates in a two-qubit system. We further illustrate scalability in a five-qubit layout, where crosstalk between a central qubit and four neighbors is simultaneously suppressed. Our crosstalk suppression framework provides a practical route toward high-fidelity operation in dense superconducting architectures.",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Chiao-Hsuan Wang"
       ],
       "published_date": "2026-07-23",
       "journal": "Physical Review Applied",
@@ -6416,16 +6566,24 @@
     {
       "id": 3604,
       "title": "High-fidelity all-microwave CZ gate with partial erasure-error detection via a transmon coupler",
-      "abstract": "",
+      "abstract": "Entangling gates between neighboring physical qubits are essential for quantum error correction. Implementing them in an all-microwave manner simplifies signal routing and control apparatus of superconducting quantum processors. We propose and experimentally demonstrate an all-microwave controlled-Z (CZ) gate that achieves high fidelity while suppressing residual ZZ interactions. Our approach utilizes a fixed-frequency transmon coupler and multipath coupling, thereby sufficiently reducing the net transverse interaction between data transmons to suppress residual ZZ interactions. The controlled phase arises from the dispersive frequency shift of the | g f 〉 – | e g 〉 transition between the coupler and one of the data transmons conditioned on the state of the other data transmon. Driving the transitions at the midpoint of two dispersively shifted resonance frequencies induces state-dependent geometric phases to achieve the CZ gate. Crucially, with this scheme, we can maintain a small net transverse interaction between two data transmons while increasing the coupling between the data and coupler transmons to accelerate the CZ-gate speed. Additionally, we measure the coupler state after the gate to detect a subset of decoherence-induced failures that occur during the gate operation. These events constitute erasure errors with known locations, enabling erasure-aware quantum error-correcting codes to improve future logical qubit performance.",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Shinichi Inoue",
+        "Shuhei Tamate",
+        "Rui Li",
+        "Yasunobu Nakamura",
+        "Atsushi Noguchi"
       ],
       "published_date": "2026-07-15",
       "journal": "Physical Review Research",
       "publication_status": "published",
       "url": "https://doi.org/10.1103/zglk-gd95",
       "tags": [
-        "transmon"
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
       ],
       "primary_category": "",
       "is_top_journal": false
@@ -11426,6 +11584,25 @@
       "tags": [
         "circuit-qed",
         "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 15896,
+      "title": "Performance metrics, reliability physics, and error mitigation strategies of cryo-CMOS DACs for superconducting qubit control: A systematic review",
+      "abstract": "",
+      "authors": [
+        "Chih-Cheng Chen",
+        "Pin-Hua Chen"
+      ],
+      "published_date": "2026-06-05",
+      "journal": "Microelectronics Reliability",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1016/j.microrel.2026.116186",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
       ],
       "primary_category": "",
       "is_top_journal": false
