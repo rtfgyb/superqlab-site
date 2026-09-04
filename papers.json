@@ -1,7 +1,193 @@
 {
-  "generated_at": "2026-09-03T19:06:22.497543+00:00",
-  "count": 906,
+  "generated_at": "2026-09-04T19:10:44.137165+00:00",
+  "count": 916,
   "papers": [
+    {
+      "id": 15962,
+      "title": "Waveform-driven prediction of transmon qubit energy spectra using a physics-informed path-transformed transformer trained on Josephson junction dynamics.",
+      "abstract": "Extracting the energy spectrum of a superconducting transmon qubit requires time-consuming microwave spectroscopy that must be repeated following every thermal cycle or parameter drift event. We introduce the Physics-Informed Path-Transformed (PaTH) Transformer, a surrogate model trained exclusively on resistively-shunted Josephson junction (RCSJ) numerical simulations, which predicts the five lowest energy eigenvalues and the anharmonicity from a raw DC voltage waveform. The model is trained on 10,000 simulated circuits spanning the realistic transmon parameter space (EJ /EC ∈ [10.7, 300], f01/h ∈ [2.6, 13.3] GHz) and evaluated on 1,500 independent test circuits, achieving mean absolute energy error 0.886 μeV (R2 ≥ 0.998 per level) and transition-frequency spacing error 2.14%, with GPU inference completing in 8.70 ms per circuit. A curriculum-ramped physics loss incorporating Josephson monotonicity, quantization spacing, anharmonicity sign, and Lindblad-Heisenberg constraints produces physically self-consistent predictions throughout training. Treating anharmonicity as a direct sixth output resolves a gradient-scale conflict (∼25× imbalance) that prevents reliable convergence when it is inferred post-hoc from level differences. The model delivers, from a single forward pass: DRAG gate fidelity ⟨F⟩ = 0.99982 at 3.9 ns; dispersive readout shift −14.3 MHz; macroscopic quantum tunneling crossover at 56.6 mK; SQUID tunable range 5.95 GHz; and inverse-design frequency errors below 0.05 kHz. Zero-noise extrapolation across five dilution-refrigerator temperatures confirms that model accuracy already reaches the Johnson-Nyquist noise floor, with the macroscopic quantum tunneling crossover temperature providing a physics-derived accuracy benchmark independent of model architecture. Validated against eight published experimental spectra from four independent laboratories, the surrogate achieves mean f01 error 1929 MHz versus 1935 MHz for exact Hamiltonian diagonalization, demonstrating that RCSJ waveform encoding conveys device-level physics that the static ideal Hamiltonian cannot represent.",
+      "authors": [
+        "Md. Ifthakhar Khan Sagor",
+        "Md. Sanwar Hossain",
+        "Md. Zillur Rahman",
+        "Partha Mandal",
+        "Anit Barua"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "PLoS ONE",
+      "publication_status": "published",
+      "url": "https://doi.org/10.5281/zenodo.19150933",
+      "tags": [
+        "transmon",
+        "josephson-circuits",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16001,
+      "title": "Characterizing Large Scale Quantum Systems with Error Per Circuit Layer",
+      "abstract": "Quantum benchmarks provide compact measures of performance that are important for evaluating and comparing quantum systems. Circuit-level benchmarks are particularly valuable because they capture the accumulated effects of noise across interacting operations, but existing approaches may require structured gate sets and costly compilation, classical simulation of reference outputs, or subsystem decompositions that do not capture full-register behavior. We introduce Error Per Circuit Layer (EPCL), an overlap-based circuit-level benchmark that estimates an effective layer polarization by applying identical random circuits to two disjoint quantum registers and measuring the overlap between their output states as a function of circuit depth. EPCL avoids classical simulation of ideal output distributions and recovery to a known reference state, and is compatible with arbitrary gate sets, including non-Clifford gates. We derive the expected overlap decay under an ensemble-averaged depolarizing model and identify the assumptions under which the fitted decay parameter represents an effective layer polarization. Numerical simulations show that EPCL recovers the predicted polarization under weak local stochastic noise and remains well described by a single-exponential decay at stronger stochastic noise levels. The simulations further show that coherent errors associated with fixed entangling layers may require Pauli twirling or randomized compiling to produce the expected decay, while inter-register correlations contribute an additional covariance term to the measured overlap. Finally, experiments on IBM quantum hardware demonstrate clear EPCL decay in 8- and 16-qubit implementations. These results support EPCL as a method for measuring aggregate register performance without requiring classical simulation of ideal circuit outputs or restriction to structured gate sets.",
+      "authors": [
+        "Travis Hurant",
+        "Arian Vezvaee",
+        "Swarnadeep Majumder",
+        "Aniket Dalvi",
+        "Jude Alnas",
+        "Kenneth R. Brown"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.04132",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16044,
+      "title": "Analog quantum simulation of bosonic and anyonic models with flux-driven transmons",
+      "abstract": "When quantum particles interact, many-body phenomena that are hard to simulate classically emerge. Quantum analog simulation offers an alternative in which the target system's dynamics is directly realized in controllable quantum hardware. Here, we give a general protocol for simulating the Bose-Hubbard and anyon-Hubbard models using lattices of capacitively coupled flux-tunable transmons. By modulating the transmon frequencies in an alternating pattern, we resonantly drive multiple many-body transitions and can tune the on-site interaction and density-dependent hopping amplitudes for up to three bosons per site, with no additional restriction on the total particle number. By adding phases to the modulation, which renders the transition amplitudes complex-valued, we propose the first simulation protocol for the anyon-Hubbard model with transmons. Numerical simulations of the driven transmon arrays with experimentally realistic parameters reproduce the characteristic dynamics of the target models across a range of interaction strengths and statistical phases, including the interaction-dependent localization and the statistics-dependent asymmetry of the anyonic quantum walk.",
+      "authors": [
+        "Isak Lyngfelt",
+        "Jorge Fernández-Pendás",
+        "Göran Johansson",
+        "Laura Garciá-Álvarez"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.03737",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16057,
+      "title": "Pulse-Controlled Topologically Protected Quantum Batteries",
+      "abstract": "Quantum batteries have emerged as a promising new generation of energy-storage devices for powering quantum technologies. Long-distance charging is particularly attractive because it minimizes interference between the charger and the battery, thereby attracting considerable interest. Here, we propose a topologically protected long-distance charging protocol for quantum batteries based on a pulse-controlled superconducting qubit chain. By dynamically modulating the pulse-mediated couplings, we realize topologically protected energy transfer from the charger to the battery. We show that the charging process is free of energy backflow and remains robust against imperfections in pulse control. Moreover, the energy stored in the battery at the target time is fully extractable, and the protocol remains effective for relatively large system sizes. To further accelerate charging, we optimize the pulse shape and elucidate the underlying physical mechanism. Our pulse-controlled topological quantum battery protocol provides a versatile framework for implementing long-distance topological charging and establishes a theoretical foundation for designing optimal-control strategies to enhance quantum battery performance.",
+      "authors": [
+        "Jin Yang",
+        "Biao Xiong",
+        "Jibing Liu",
+        "Houguo Yu",
+        "Dehua Liu",
+        "Feng Mei",
+        "Chuanjia Shan"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.03543",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15963,
+      "title": "Millimeter wave readout of a superconducting qubit",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "Physical Review Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/c84y-ggqs",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 16088,
+      "title": "Flux noise without flux tunability in superconducting qubits",
+      "abstract": "Flux noise is unanimously recognised as a leading dephasing mechanism for flux-tunable superconducting qubits. However, our microscopic understanding remains incomplete, and basic effects like Faraday's law of induction have only very recently come into focus. Based on a quantum geometric description of the Faraday effect, we provide an in-depth derivation of the coupling of generic magnetic sources to thin film superconducting structures, under appropriate consideration of the device geometry. We apply the resulting framework to time-varying magnetic dipoles, describing surface or substrate spins, as well as current-carrying flux lines. We show that flux noise not only affects dephasing, but also provides a fundamental limit for the qubit quality factor - notably, even when the qubit contains no loops and is thus nominally not flux-tunable. Assuming surface spins as the origin for universal flux noise, we expect that this quality factor limit might be reached in the near term. For flux lines, we formulate a minimal safety distance to conserve the qubit performance, potentially constraining the scale-up of quantum hardware. This distance is boosted in the presence of large capacitor wings typical for transmons, due to a lensing of the electromotive field which is largely independent of Meissner screening.",
+      "authors": [
+        "Daniel Kruti",
+        "Roman-Pascal Riwar"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.03059",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "cond-mat.mes-hall",
+      "is_top_journal": false
+    },
+    {
+      "id": 16143,
+      "title": "Programming anharmonic potentials in a superconducting harmonic oscillator",
+      "abstract": "Continuous-variable quantum systems offer a resource-efficient route to universal quantum information processing and analogue quantum simulation of real-world processes, such as molecular physics and chemical reactions. Realising these applications, however, requires non-Gaussian operations that implement anharmonic potentials, which are challenging to engineer on demand. Here, we demonstrate a systematic framework to implement programmable non-Gaussian phase gates $e^{-iV(\\hat{X})}$, corresponding to the impulsive action of a potential $V(\\hat{X})$, in a superconducting harmonic oscillator coupled to a transmon qubit. Using modular circuits derived from bosonic quantum signal processing, we realise a range of target anharmonic potentials on a single piece of hardware by varying a set of qubit rotations interleaved with a fixed calibrated control unitary. We first demonstrate a cubic phase gate, a key ingredient for universal quantum information processing. The resulting high-fidelity non-Gaussian states and the potential reconstructed using our pointwise force reconstruction method jointly confirm the cubic nature of the target gate. We then engineer a family of double-well potentials, relevant models of tunnelling and biased transfer processes, and experimentally validate the double-well topology and the tunable asymmetry. Finally, we engineer an approximate Morse gate, a step towards realistic potentials of molecular vibrational systems, and provide a concrete path towards high-quality engineering and reconstruction of the exponential form. Together, these results establish a practical and reconfigurable route towards continuous-variable quantum information processing and anharmonic quantum simulation.",
+      "authors": [
+        "Clara Yun Fontaine",
+        "Mansi Somani",
+        "Kehui Yu",
+        "May Chee Loke",
+        "Jonathan Schwinger",
+        "Pak-Tik Fong",
+        "Ni-Ni Huang",
+        "Adrian Copetudo",
+        "Mustafa Bakr",
+        "Hoi-Kwan Lau",
+        "Tanjung Krisnanda",
+        "Yvonne Y. Gao"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.02405",
+      "tags": [
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16146,
+      "title": "Implementation of quantum gates by Floquet analysis of kicked quantum system",
+      "abstract": "Precise control of multi-qubit architectures remains a critical bottleneck in superconducting quantum processors. In this work, we investigate the synthesis of high-fidelity quantum operations and state transfer protocols within an extended superconducting linear chain, scaling from three to seven sites. Using Floquet theory, we model the periodic drive as a train of delta-like pulses, mapping the quantum control problem onto quasi-energy resonance conditions. Combining the Baker-Campbell-Hausdorff expansion with Floquet spectral decomposition, we analytically identify optimal driving parameters, refined via the Covariance Matrix Adaptation Evolution Strategy (CMA-ES). In the three-qubit architecture, this enables high-fidelity synthesis of the iSWAP gate. Extending to a seven-site chain, we implement periodic trains of finite-width Gaussian pulses to activate distinct double-excitation transport channels with ultra-short gate durations t_gate (~170 ns). This achieves a clear scale separation from energy-relaxation times (T1) typical of fixed-frequency transmon devices with tunable couplers, such as IBM Quantum hardware. Finally, we benchmark stability under realistic imperfections, revealing a heightened sensitivity to static parameter disorder at the sub-percent level (eta ~ 10^-3) driven by spectral crowding, and discuss how closed-loop topologies could mitigate this constraint. This framework bridges time-periodic control theory and practical quantum gate engineering.",
+      "authors": [
+        "Andrea De Luca",
+        "Carola Ciaramelletti",
+        "Simone Paganelli"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.02372",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "tunable-coupler",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 15924,
       "title": "Momentum-driven reversible logic accelerates efficient irreversible universal computation",
@@ -72,9 +258,12 @@
     {
       "id": 15897,
       "title": "Readout failures in superconducting qubits due to TLS-defects in tunnel junctions",
-      "abstract": "",
+      "abstract": "Material defects give rise to parasitic two-level systems (TLS) which present a major source of decoherence in superconducting qubits. Here, we study a strongly coupled TLS that resides in the tunnel barrier of transmon qubit. We use multi-photon spectroscopy and TLS strain tuning to explore the rich spectrum of the interacting three-partite system consisting of TLS, qubit, and its readout resonator. This reveals a strong effective resonant coupling between the TLS and the qubit's readout resonator which dresses the resonator states and results in a resonance frequency shift that spoils the readout signal. Our finding presents yet another way how material defects can interfere with qubit operation and hinder the realization of solid-state quantum processors.",
       "authors": [
-        "Anonymous"
+        "J. Lisenfeld",
+        "A. K. Händel",
+        "A. Bilmes",
+        "A. V. Ustinov"
       ],
       "published_date": "2026-09-02",
       "journal": "Physical Review Research",
@@ -82,9 +271,34 @@
       "url": "https://doi.org/10.1103/ypm5-lh8d",
       "tags": [
         "superconducting-circuits",
-        "superconducting-context"
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
       ],
-      "primary_category": "",
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16191,
+      "title": "Bosonic quantum control with a weakly coupled fluxonium qubit",
+      "abstract": "Echoed Conditional Displacement (ECD) gates constitute a fundamental building block for quantum control of harmonic oscillator modes. However, bit-flips of the auxiliary qubit remain a dominant error mechanism for this kind of bosonic control. In this work, we present a numerical case study of a bit-flip protected fluxonium operating as the control qubit and numerically implement ECD gates in a single-mode resonator-fluxonium device, demonstrating that fidelities exceeding 99.9% are possible. We systematically investigate the resonator dynamics using a combination of semiclassical trajectories and master equation simulations, numerically revealing asymptotic saturation of the dispersive shift in the strongly driven regime of the resonator. We develop an efficient technique to numerically simulate the strongly driven regime of the resonator using a semiclassical formulation that maps the full perturbation series in the dispersive expansion as order-by-order frequency shifts. This provides a compact polynomial description of the resonator which is intuitive and remains valid throughout the dispersive regime. Furthermore, we propose an improved ECD sequence that accounts for the effects of photon loss and spurious nonlinear terms on resonator trajectories.",
+      "authors": [
+        "Anaida Ali",
+        "Shantanu R. Jha",
+        "Shoumik D. Chowdhury",
+        "Lev-Arcady Sellem",
+        "Max Hays",
+        "William D. Oliver",
+        "Baptiste Royer"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.01817",
+      "tags": [
+        "fluxonium"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
@@ -3054,6 +3268,31 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 15964,
+      "title": "Fast readout of quantum dot spin qubits via Andreev spins",
+      "abstract": "Spin qubits in semiconducting quantum dots are currently limited by slow readout processes, which are orders of magnitude slower than gate operations. In contrast, Andreev spin qubits benefit from fast measurement schemes enabled by the large resonator couplings of superconducting qubits but suffer from reduced coherence during qubit operations. Here, we propose fast and high-fidelity measurement protocols based on an electrically tunable coupling between quantum dot and Andreev spin qubits. In realistic devices, this coupling can be made sufficiently strong to enable high-fidelity readout well below microseconds, potentially enabling mid-circuit measurements. Crucially, the electrical tunability of our coupler permits to switch it off during idle periods, minimizing crosstalk and measurement back-action. Our approach is fully compatible with germanium-based devices and paves the way for scalable quantum computing architectures by leveraging the advantages of heterogeneous qubit implementations.",
+      "authors": [
+        "Anonymous",
+        "Katharina Laubscher",
+        "Patrick Del Vecchio",
+        "Anasua Chatterjee",
+        "Valla Fatemi",
+        "Stefano Bosco"
+      ],
+      "published_date": "2026-08-05",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/qcch-2hhy",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -10020,13 +10259,13 @@
     {
       "id": 5404,
       "title": "Quasiparticle-induced decoherence of a driven superconducting qubit",
-      "abstract": "",
+      "abstract": "We develop a theory for two quasiparticle-induced decoherence mechanisms of a driven superconducting qubit. In the first mechanism, an existing quasiparticle (QP) tunnels across the qubit's Josephson junction while simultaneously absorbing a qubit excitation and one (or several) photons from the drive. In the second mechanism, a qubit transition occurs during the non-linear absorption process converting multiple drive quanta into a pair of new QPs. Both mechanisms can remain significant in gap engineered qubits whose coherence is insensitive to QPs without the drive. Our theory establishes a fundamental limitation on fidelity of the microwave qubit operations, such as readout and gates, stemming from QPs.",
       "authors": [
-        "Anonymous",
+        "Mykola Kishmar",
         "Pavel D. Kurilovich",
         "Andrey Klots",
-        "T. Connolly",
-        "I. L. Aleǐner",
+        "Thomas Connolly",
+        "Igor L. Aleiner",
         "Vladislav D. Kurilovich"
       ],
       "published_date": "2026-06-29",
@@ -10035,9 +10274,10 @@
       "url": "https://doi.org/10.1103/3q5z-tk7c",
       "tags": [
         "superconducting-circuits",
+        "josephson-circuits",
         "superconducting-context"
       ],
-      "primary_category": "",
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
