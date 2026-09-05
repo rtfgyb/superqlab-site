@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-04T19:10:44.137165+00:00",
-  "count": 916,
+  "generated_at": "2026-09-05T19:05:30.020356+00:00",
+  "count": 919,
   "papers": [
+    {
+      "id": 16217,
+      "title": "Hybrid analog-digital simulation of the Abelian Higgs model with transmon qutrits",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "Physical Review A",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/r632-zl7s",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16214,
+      "title": "Quantum-enhanced hybrid-model compression using knowledge distillation",
+      "abstract": "Abstract Quantum computing has emerged as a promising paradigm for addressing computational tasks intractable for classical systems, leveraging quantum mechanical principles such as superposition and entanglement to efficiently explore high-dimensional solution spaces. In recent years, hybrid quantum-classical approaches have gained increasing attention as a means to exploit the representational power of quantum systems while preserving the practicality of classical machine learning frameworks. This paper presents a study on quantum-enhanced model compression via feature-based knowledge distillation, in which a large classical neural network (the teacher) transfers knowledge to a substantially smaller hybrid student model. The proposed hybrid quantum-classical student architecture incorporates a parameterized quantum circuit (PQC) implemented in Qiskit, employing a linear $$\\varvec{R_y}$$ angle-encoding feature map followed by an EfficientSU2 variational ansatz, with features bounded through a $$\\varvec{\\tanh (\\cdot )\\times \\frac{\\pi }{2}}$$ scaling to ensure stable gradient propagation. Gradient computation is performed via Reverse-Mode (adjoint) differentiation through the StatevectorEstimator primitive, which provides exact, shot-noise-free gradients at the cost of a single forward–backward pass per optimization step. The hybrid student is compared against a parameter-matched purely classical student under strict 1:1 parameter parity across a six-task binary benchmark spanning MNIST and Fashion-MNIST, as well as a four-class multi-class benchmark, totaling eleven classification experiments. A hardware validation experiment is additionally conducted on the IQM Garnet 20-qubit quantum processor using the Parameter-Shift Rule. The results indicate that the hybrid student outperforms its classical counterpart in five of six binary tasks (83%) and in the two hardest multi-class configurations, with advantages most pronounced in high-confusion regimes where compact classical classifiers approach the limits of their expressive capacity. On real quantum hardware, accuracy decreases from 99.04% in noiseless simulation to 80.50%, reflecting the impact of gate noise, readout errors, and transpilation overhead. While the hybrid model demonstrates improved parameter efficiency and expressive capacity, it incurs higher computational overhead and exhibits greater epoch-to-epoch training variability relative to classical baselines. We discuss practical limitations related to noise, scalability, and current hardware constraints, and identify directions for future work including hardware-efficient gradient estimation and advanced error mitigation protocols. Overall, our findings suggest that variational quantum circuits can serve as compact yet expressive components within neural compression schemes, with their representational advantage most effectively realized in binary and high-ambiguity classification scenarios.",
+      "authors": [
+        "Luigi Barbato",
+        "Massimo Esposito",
+        "Francesco Gargiulo"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "Quantum Machine Intelligence",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1007/s42484-026-00431-3",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 15962,
       "title": "Waveform-driven prediction of transmon qubit energy spectra using a physics-informed path-transformed transformer trained on Josephson junction dynamics.",
@@ -588,6 +624,35 @@
         "superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16210,
+      "title": "Automated signal-to-noise ratio-based optimization of traveling-wave parametric amplifiers for multiplexed qubit readout",
+      "abstract": "Scaling superconducting quantum processors to hundreds of qubits requires frequency-multiplexed readout architectures, where the non-uniform gain profile of Traveling-Wave Parametric Amplifiers (TWPAs) creates a critical bottleneck. We present an automated optimization framework that addresses the weakest link problem in multiplexed readout by employing a geometric mean cost function to maintain a uniform signal-to-noise ratio (SNR) profile across all channels. Through systematic characterization of a 5-qubit system, we demonstrate that readout fidelity saturates above SNR ≈ 2.5, indicating that in the high-performance regime SNR is a more effective optimization metric for TWPAs than readout fidelity. Our optimization framework, based on the Nelder–Mead simplex algorithm with continuous parameter tuning, reaches the optimized operating point in ∼100 measurements, reducing the search effort by a factor of 4.5 compared to a 451-point exhaustive grid method. Notably, the continuous optimization surpasses the grid search maximum by 12.8% in geometric mean SNR, confirming its superior efficiency over conventional grid search methods. This automated approach provides a scalable solution for maintaining a uniformly high level of readout fidelity across various amplifier devices in large-scale quantum processors.",
+      "authors": [
+        "JeaKyung Choi",
+        "Hwan‐Seop Yeo",
+        "Seong Hyeon Park",
+        "Youngdu Kim",
+        "Beomgyu Choi",
+        "Bokyung Kim",
+        "Changki Hong",
+        "Yonuk Chong",
+        "Yong‐Ho Lee",
+        "Gahyun Choi"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Review of Scientific Instruments",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0323923",
+      "tags": [
+        "superconducting-circuits",
+        "readout-control",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -2715,10 +2780,23 @@
     },
     {
       "id": 8291,
-      "title": "Spectator leakage suppression via invariant subspace engineering for CZ gates in superconducting quantum circuits",
+      "title": "Spectator Leakage Suppression via Invariant Subspace Engineering for cz Gates in Superconducting Quantum Circuits",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Bin-Han Lu",
+        "Tian-Le Wang",
+        "Sheng Zhang",
+        "Zhao-Yun Chen",
+        "Hai-Feng Zhang",
+        "Ren-Ze Zhao",
+        "Xiaoyan Yang",
+        "Ze-An Zhao",
+        "Zhuo‐Zhi Zhang",
+        "Xiang‐Xiang Song",
+        "Yu-Chun Wu",
+        "Peng Duan",
+        "Guo-Ping Guo"
       ],
       "published_date": "2026-08-11",
       "journal": "Physical Review Letters",
@@ -11525,7 +11603,7 @@
       "title": "Perfect-entangler spectrum as a tool to analyze crosstalk",
       "abstract": "Crosstalk is a key obstacle to scaling up quantum computers. It may arise from persistent qubit-qubit couplings or dynamically during gate operation, with the latter being particularly difficult to detect. Here, we introduce the perfect-entangler spectrum as a means to identify dynamic crosstalk leading to undesired entanglement. It leverages the geometric classification of two-qubit gates in terms of perfect entanglers. We exemplify the application of the spectroscopy for fixed-frequency transmons and parametrically driven gates. When scanning the frequency of a spectator qubit, peaks in the perfect-entangler spectrum signal dynamic crosstalk, and analysis of the peaks reveals the mechanisms causing the crosstalk. We discuss the experimental implementation of the crosstalk spectroscopy, which requires two two-qubit gate tomographies.",
       "authors": [
-        "Anonymous",
+        "Matthias G. Krauss",
         "Christiane P. Koch"
       ],
       "published_date": "2026-06-10",
