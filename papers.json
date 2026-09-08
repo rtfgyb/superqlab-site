@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T19:03:27.011156+00:00",
-  "count": 921,
+  "generated_at": "2026-09-08T19:06:16.183774+00:00",
+  "count": 931,
   "papers": [
     {
       "id": 16254,
@@ -25,6 +25,121 @@
         "quantum-circuit-context"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16300,
+      "title": "TETRIS-Q: Tiling-based Effective Transient-fault Reduction on Interleaved Superconducting Qubits",
+      "abstract": "The struggle of the hour in quantum computing research is achieving effective suppression of the error mechanisms induced by the interaction of external radiation with superconducting quantum devices. Despite the rapid advancements in quantum error correction (QEC) of recent years, radiation-induced faults are yet to be fully addressed. These events are known to be the cause of simultaneous correlated defects in qubits that lie onto a single substrate, ultimately jeopardising QEC code effectiveness. In this paper, we propose to selectively combine substrate-level phonon barriers and QEC interleaving via a planar-mesh tiling algorithm, TETRIS-Q, reaching efficient and effective suppression of radiation events. Our cross-layer solution comes at no extra cost in terms of QEC code execution or decoding time. We model and simulate radiation-induced transient faults over a plethora of barrier and QEC interleaving configurations. Through more than 51 million quantum circuit simulations, we show peak logical error reductions of more than $99.8 \\%$, together with an $80\\%$ reduction of the observable transient duration with permeable barriers. We find that sparser tiling can reach comparable performance to single qubit tiling, prompting cost reductions of upwards of $87 \\%$ in barrier tracing. By leveraging independent QEC code interleaving, we measure up to one order of magnitude average logical error rate reductions without the use of permeable barriers, and up to three orders of magnitude with the joint usage of barriers.",
+      "authors": [
+        "Marzio Vallero",
+        "Gioele Casagranda",
+        "Flavio Vella",
+        "Paolo Rech"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.05226",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16302,
+      "title": "A double-resonator coupler for high-fidelity two-qubit gates between superconducting qubits",
+      "abstract": "Tunable couplers have enabled two-qubit gate fidelities in superconducting quantum processors to approach $99.9\\%$, yet simultaneously suppressing residual interactions and maintaining flexible qubit-frequency allocation remain central challenges for scaling. Here, we propose a double-resonator coupler (DRC) consisting of two resonators interconnected by a single Josephson junction and a capacitor. The hybridized resonator modes provide two mediated exchange paths whose interference controls the qubit-qubit interaction. The DRC enables complete cancellation of residual $ZZ$ interaction for qubit-qubit detunings well outside the straddling regime, even in the absence of direct qubit-qubit coupling, thereby relaxing constraints on frequency allocation and qubit placement. Away from the idle point, the same circuit provides a strong $ZZ$ interaction of approximately $70\\,\\mathrm{MHz}$, enabling a $20\\,\\mathrm{ns}$ controlled-Z gate with simulated coherent infidelity below $10^{-5}$. These results establish the DRC as a flexible single-junction coupler architecture for high-fidelity superconducting quantum processors.",
+      "authors": [
+        "Seunghyeon Jin",
+        "Seungha Woo",
+        "Shinyoung Hwang",
+        "June-Young M. Lee",
+        "Jeongmin Shim",
+        "Sunje Kim",
+        "Dae Seok Han",
+        "Jaeho Shin",
+        "Eunjong Kim"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.05222",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "tunable-coupler",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16305,
+      "title": "Dynamical Reduction of Two Series Josephson Junctions to a Synthetic High-Transparency Josephson Element",
+      "abstract": "Two conventional Josephson junctions connected in series can reproduce, in the static limit in which the currents through the capacitive and resistive channels are negligible, the current-phase relation of a single effective weak link with tunable transparency. Therefore, the two-junction series can be treated as a single synthetic high-transparency element. Here, we investigate to what extent this mapping remains valid under finite-frequency drive and retaining the junctions' resistive and capacitive terms. The full resistively and capacitively shunted junction equations are compared with an effective synthetic element with tunable transparency that retains the synthetic tunable-transparency current-phase relation together with effective capacitive and dissipative terms, thus reducing the two second order degree of freedom system to a single second order degree of freedom. The resulting single-element dynamics is compared with the complete two-junction system under ac excitation. The agreement is quantified through a normalized root-mean-square error between the full and effective voltage waveforms. A broad low-error region is found at low drive frequency, while pronounced deviations emerge as the drive frequency approaches the relevant plasma-frequency scale and at larger drive amplitudes. The results provide a quantitative dynamical criterion for using the reduced single-element description of a synthetic high-transparency Josephson element in superconducting circuits.",
+      "authors": [
+        "Claudio Guarcello",
+        "Sergio Pagano",
+        "Carlo Barone",
+        "Alessandro Bruno",
+        "A. Mert Bozkurt",
+        "Giovanni Filatrella"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.05192",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "cond-mat.supr-con",
+      "is_top_journal": false
+    },
+    {
+      "id": 16346,
+      "title": "Strong-Drive Limits in Josephson Circuits: From Chaos to an Unbound-Resonance Threshold",
+      "abstract": "Strong microwave drives enable fast measurement and parametric control in superconducting circuits but can induce transitions out of the intended low-energy manifold. We develop a unified description of strong-drive limits in flux- and charge-driven Josephson circuits across drive frequency and dc flux bias. Using classical phase-space analysis and Floquet--Markov simulations, we identify distinct low- and high-frequency mechanisms. At low frequency, we characterize bound-state resonances and separatrix chaos and find that the flux-drive chaos threshold depends strongly on dc flux bias. At high frequency, these mechanisms are suppressed, and the dissipative steady state transfers from the central bound-state sector to outer resonances formed by above-barrier running trajectories. The resulting unbound-resonance threshold is nearly independent of drive frequency and circuit parameters over the regime studied and is controlled primarily by dc flux bias. Coherent simulations show that parametric operation persists beyond this threshold, but at a reduced rate, setting an effective upper bound on the achievable operation speed. We derive analytical criteria for both thresholds, validate them numerically, and experimentally confirm the predicted dc-bias dependence of the low-frequency threshold in a flux-driven SQUID. We also determine the timescales for transfer into the unbound-resonance regime and relaxation back to the bound-state manifold after the drive is removed. Finally, we relate the stability limits to a complementary picture based on the junction critical current and extend the framework to multitone drives and inductively shunted circuits. Together, these results identify the mechanisms limiting strong driving and suggest routes to extend the stable operating range of Josephson circuits.",
+      "authors": [
+        "Xinyuan You",
+        "Aniket Maiti",
+        "Yao Lu"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.04704",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16353,
+      "title": "Residual detuning in the laboratory-frame anti-Jaynes--Cummings model with a squeezed vacuum",
+      "abstract": "The laboratory-frame anti-Jaynes--Cummings (AJC) interaction retains a residual detuning $2fλ$ that is absent from the rotating-frame model. We map two proposed remedies---a Kerr shift $χ(\\hat a^\\dagger\\hat a)^2$ and collective Dicke coupling of $N$ two-level emitters---for a squeezed vacuum on that ladder ($r=1$, $\\langle n\\rangle=\\sinh^2 r\\simeq 1.38$). All quoted contrasts are the amplitude of the first turning point of the atomic ground-state population, which coincides with the two-level formula $\\mathcal{C}=1/[1+(2f+χ)^2]$ at $r=0$ to $10^{-9}$. Three results follow. (i)~A single Kerr strength never restores unit contrast at $r=1$; the $r=0$ $n$-dependent shift $χ(2n+1)$ cannot cancel $2fλ$ on every occupied Fock component. (ii)~The exact $r=1$ contrast at $χ=0$ is not reproduced by an incoherent sum $\\sum_n P_n(r)\\,\\mathcal{C}_n$ built from the $r=0$ two-level formula; pointwise deviations are several tenths. (iii)~Collective coupling raises the contrast systematically. At $f=5$ one finds $\\mathcal{C}=0.140$ ($N=1$) and $\\mathcal{C}=0.575$ ($N=8$), above the unsqueezed value $8/[8+(2f)^2]=0.074$. The $N=16$ point at this $f$ remains truncation-limited and is not quoted to three digits. The same $N\\sim(2f)^2$ estimate for $\\mathcal{C}=1/2$ places trapped-ion values $f\\sim 10^{2}$--$10^{3}$ outside the present construction. The relevant platform is ultrastrong circuit QED with $f\\sim 1$--$10$. The calculation is a numerical control landscape, not a new solvable limit.",
+      "authors": [
+        "Onyango Stephen Okeyo"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.04580",
+      "tags": [
+        "circuit-qed"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
@@ -77,7 +192,7 @@
       "published_date": "2026-09-04",
       "journal": "PLoS ONE",
       "publication_status": "published",
-      "url": "https://doi.org/10.5281/zenodo.19150933",
+      "url": "https://doi.org/10.5281/zenodo.19150934",
       "tags": [
         "transmon",
         "josephson-circuits",
@@ -87,6 +202,25 @@
         "quantum-circuit-context"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16354,
+      "title": "A Sim-to-Real Study of Surface-Code Decoder Benchmarking",
+      "abstract": "Quantum error-correction decoders are typically benchmarked against synthetic circuit-level noise, under the assumption that a decoder's ranking under such noise transfers to hardware and improves as the noise model becomes more realistic. The Willow processor, the first to operate below the surface-code threshold, allows us to test this assumption. We rank a panel of six decoders using a four-rung ladder of noise models with increasing fidelity, evaluated against real data across three code distances, two bases, and fifteen round counts. Rank agreement with hardware appears once the noise model gives each operation type its own error rate. Calibrating the model to the device improves absolute error rates but not rank agreement. We additionally provide the first independent evaluation of NVIDIA's Ising pre-decoder on hardware, at code distances below its training receptive field and via a mapping onto the lattice on which it was trained. Under these conditions, it holds no accuracy-latency advantage: another panel decoder matches or improves on it in both per-cycle error rate and decode latency in 278 of the 280 evaluations. We release the full pipeline and the per-shot outcome of every evaluation, so future decoders and devices can be compared.",
+      "authors": [
+        "Shay J. Manor",
+        "Leila S. Erhili",
+        "Yassine Jebbouri"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.04557",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
@@ -375,7 +509,7 @@
         "C. J. Ballard",
         "C. Barker",
         "T. Barnes",
-        "P. Bechman",
+        "P. Bechmann",
         "R. Bhatt",
         "K. Blaine",
         "T. M. Borman",
@@ -402,6 +536,7 @@
         "G. Costa",
         "D. Cowger",
         "B. Dalfort",
+        "R. D. Dawson",
         "D. Davies",
         "S. Deitemeyer",
         "N. DeNigris",
@@ -466,13 +601,13 @@
         "L. M. D. Leonard",
         "J. Leventis",
         "M. P. Lilly",
-        "A. Lisewski",
+        "A. Lisiewski",
         "L. Llano",
         "M. Longo",
         "C. Lostoski",
         "Z. Lou",
         "M. G. Loving",
-        "D. al Ludwig",
+        "D. Ludwig",
         "N. Luhrs",
         "J. L. Lund",
         "K. A. Maddock",
@@ -649,6 +784,57 @@
         "superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16272,
+      "title": "Gate Teleportation vs. Circuit Cutting in Distributed Quantum Computing",
+      "abstract": "ABSTRACT While distributed quantum computation has primarily utilized circuit cutting, it incurs an exponential growth of sub‐circuit sampling and classical post‐processing overhead with an increasing number of cuts. In contrast, entanglement‐based gate teleportation avoids exponential sampling overhead but requires high‐fidelity quantum interconnects. We model noisy remote (teleported) gates between superconducting qubits entangled via noisy microwave‐to‐optical (M2O) transducers over optical links. We incorporate the effect of the transducer noise added () on the Bell pair state preparation circuit and inject noisy Bell pairs into remote CNOT gates. We perform comparative simulation of Greenberger–Horne–Zeilinger (GHZ) states generated between processor modules using remote gates and gate cuts and study the dependence of the Hellinger fidelity on the dominant error parameter for each approach. We identify break‐even points and regimes where noisy remote gates achieve parity with gate‐cuts. In particular, our work suggests that a 10‐fold reduction in the present M2O transducer noise added figures would favor generating multipartite entangled states with remote gates over circuit cutting. Our work informs near‐term quantum interconnect hardware metrics and motivates a network‐aware hybrid quantum‐classical distributed computation approach, where both quantum links and circuit cuts are employed to minimize quantum runtime.",
+      "authors": [
+        "Shobhit Gupta",
+        "Daniel Dilley",
+        "Nikolay Sheshko",
+        "Alvin Gonzales",
+        "Sean E. Sullivan",
+        "Manish K. Singh",
+        "Zain H. Saleem"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Advanced Quantum Technologies",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1002/qute.70424",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16271,
+      "title": "Nonreciprocal Quantum Walks in Superconducting Quantum Circuits",
+      "abstract": "ABSTRACT The phenomenon of quantum walks of quasiparticles under nonreciprocal coupling is not only pivotal for investigating a myriad of novel quantum phenomena in nonreciprocal many‐body quantum systems, but also holds promise for the construction of nonreciprocal quantum devices. To date, manipulating the dynamical behavior of quasiparticles in such systems remains a significant challenge. Leveraging the quantum interference effect between coherent and dissipative coupling channels, we propose an effective scheme for realizing nonreciprocal coupling between superconducting qubits, and based on this scheme, we present a one‐dimensional nonreciprocal quantum simulator. Through numerical simulations, we demonstrate that this quantum simulator is capable of precisely manipulating a variety of exotic quantum phenomena, including the non‐Hermitian skin effect, chiral currents, and chiral spin waves. Furthermore, we simulate the propagation dynamics of entangled states under nonreciprocal coupling; the results indicate that nonreciprocity significantly suppresses the propagation of entanglement. Moreover, we provide a phenomenological interpretation of these exotic physical phenomena emerging in the non‐Hermitian regime. The nonreciprocal coupling mechanism and the quantum simulator presented in this work provide a highly coherent, scalable, and controllable platform for the quantum simulation of nonreciprocal many‐body systems, paving the way for the design of nonreciprocal quantum devices.",
+      "authors": [
+        "Bo Li",
+        "Hao Wu",
+        "Wenhuan Wu",
+        "Yuan Zhou",
+        "Shuai Li",
+        "Yufeng Chen"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Advanced Quantum Technologies",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1002/qute.70449",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -1421,7 +1607,7 @@
     },
     {
       "id": 15073,
-      "title": "Practical fidelity limits of Toffoli gates in superconducting quantum processors",
+      "title": "Practical Fidelity Limits of Toffoli Gates in Superconducting Quantum Processors",
       "abstract": "High-fidelity multi-qubit gates are a critical resource for near-term quantum computing, as they underpin the execution of both quantum algorithms and fault-tolerant protocols. The Toffoli gate (CCNOT), in particular, plays a central role in quantum error correction and quantum arithmetic, yet its efficient implementation on current quantum hardware remains limited by noise and connectivity constraints. In this work, we present a hardware-aware characterization of the Toffoli gate using optimized, connectivity-compliant decompositions executed on IBM's 127-qubit superconducting quantum processors. Our study integrates state preparation, gate synthesis, and quantum state/process tomography (QST/QPT) to evaluate fidelity across three distinct classes of input states: Greenberger-Horne-Zeilinger (GHZ), W, and the uniform superposition of all three-qubit computational basis states -- under noise-free simulation, noise-aware emulation, and real hardware execution. For GHZ states, we report state fidelities of 98.442% (noise-free simulation), 81.470% (noise-aware quantum emulation), and 56.368% (real quantum hardware). For W states, state fidelities are 98.739%, 79.900%, and 63.689%, respectively, and for the uniform superposition state, we observe state fidelities of 99.490%, 85.469%, and 61.161%. Comparative QPT experiments yield process fidelities of 98.976% (noise-free) and 80.160% (noise-aware emulation). Our results empirically characterize state-dependent error patterns in multi-qubit circuits and quantify trade-offs between gate decomposition strategies and native hardware performance, offering practical insights for scalable, hardware-efficient quantum circuit design.",
       "authors": [
         "M. AbuGhanem"
@@ -6901,6 +7087,25 @@
       "is_top_journal": false
     },
     {
+      "id": 16265,
+      "title": "Qudit gate decomposition for lattice gauge theories on superconducting radio-frequency cavities",
+      "abstract": "",
+      "authors": [
+        "Anonymous",
+        "Henry Lamm",
+        "Andrea Maestri"
+      ],
+      "published_date": "2026-07-15",
+      "journal": "Physical Review A",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/bd87-g26f",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 3613,
       "title": "Hybrid light-matter excitations and spontaneous time-reversal symmetry breaking in two-dimensional Josephson junctions",
       "abstract": "In the context of hybrid superconductor-semiconductor systems, Josephson junctions based on two-dimensional materials, such as graphene, offer promising opportunities because of their scalability and gate-tunable electronic properties. In this work, we investigate the inductive coupling between a quantum LC resonator and a superconducting loop embedding a short, ballistic, planar Josephson junction, with the graphene-based case as a representative example. Within a mean-field formalism, we analyze how the properties of the global system depend on the light-matter interaction coupling, the Fermi level of the two-dimensional material, and temperature. Our findings reveal that the current-phase relation can show features indicative of spontaneous time-reversal symmetry breaking. Furthermore, starting from the mean-field theory, we determine the low-energy spectrum of collective hybridized light-matter excitations.",
@@ -7501,6 +7706,27 @@
         "quantum-superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16267,
+      "title": "Spin amplification in realistic systems",
+      "abstract": "Spin amplification is the process that ideally increases the number of excited spins when one of them is excited initially. We show that by applying optimal control techniques to design classical drive pulse shapes, spin amplification can be achieved in a previously unexplored fast regime, with amplification times comparable to the intrinsic interaction timescale. This is an order of magnitude faster than the previous protocols and makes spin amplification possible even with significant decoherence and inhomogeneity in the spin system. The initial spin excitation can be delocalized over the entire ensemble, which is a more typical situation when a photon is collectively absorbed by the spins. We focus on the superconducting persistent-current artificial atoms and the Rydberg atoms as spins.",
+      "authors": [
+        "Anonymous",
+        "V. M. Bastidas",
+        "Yuichiro Matsuzaki",
+        "Shiro Saito",
+        "William J. Munro"
+      ],
+      "published_date": "2026-07-14",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/4nqk-9t5s",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -11403,10 +11629,10 @@
       "title": "Strong coupling of a microwave photon to an electron on helium",
       "abstract": "Electrons bound to the surface of superfluid helium have been proposed for scalable charge and spin-based quantum computing. However single electron quantum measurement in this system has remained elusive. Here we use a hybrid circuit quantum electrodynamic (cQED) device that comprises a quantum dot and a high-impedance superconducting resonator to demonstrate, for the first time, strong coupling between the resonator microwave field and the motional quantum state of the electron. We find a coupling strength between the electron motion and a resonator photon of $g/2π=118$ MHz, exceeding both the electron motional state decoherence and the resonator loss. These experiments open new avenues for investigating light-matter interaction at the single electron level, and are a key step towards measurement and control of electrons on helium-based spin qubits.",
       "authors": [
-        "Gerwin Koolstra",
+        "G. Koolstra",
         "E. O. Glen",
         "N. R. Beysengulov",
-        "Heejun Byeon",
+        "H. Byeon",
         "K. E. Castoria",
         "M. Sammon",
         "S. A. Lyon",
@@ -11470,7 +11696,7 @@
         "Tang Su",
         "Ming Li",
         "Haifeng Yu",
-        "Chang‐Ling Zou",
+        "Chang-Ling Zou",
         "Luyan Sun"
       ],
       "published_date": "2026-06-13",
@@ -11795,7 +12021,7 @@
       "authors": [
         "Wenhui Huang",
         "Xin-Chi Zhou",
-        "L. Zhang",
+        "Libo Zhang",
         "Jiawei Zhang",
         "Yuxuan Zhou",
         "Bing-Chen Yao",
@@ -11805,10 +12031,10 @@
         "Yongqi Liang",
         "Yiting Liu",
         "Jiawei Qiu",
-        "Dali Sun",
+        "Daxiong Sun",
         "Xuandong Sun",
         "Zilin Wang",
-        "Chunsong Xie",
+        "Changrong Xie",
         "Yuzhe Xiong",
         "Xiaohan Yang",
         "Jiajian Zhang",
@@ -14045,7 +14271,7 @@
         "Stefan Filipp",
         "Kirill G. Fedorov",
         "Rudolf Gross",
-        "Nadezhda Kukharchyk"
+        "Nadezhda P. Kukharchyk"
       ],
       "published_date": "2026-05-05",
       "journal": "Cryogenics",
@@ -14591,10 +14817,10 @@
     },
     {
       "id": 6627,
-      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-cat qubit",
+      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-Cat qubit",
       "abstract": "The intriguing physical phenomena associated with exceptional points have established non-Hermitian physics as a frontier of modern research. Recent investigations have extended non-Hermitian physics into the fully quantum domain. However, existing studies predominantly concentrate on discrete-variable quantum systems, while non-Hermitian quantum effects in continuous-variable encoded systems remain largely unexplored. In this work, we investigate the exceptional structure for a driven-dissipative Kerr-cat qubit, realized with a Kerr nonlinear resonator. We find that the dissipation leads to a bidirectional jump between the two basis states of the cat qubit, which is in distinct contrast with the unidirectional jump associated with normal two-level systems. The competition between this jump and a single-photon drive gives arise to the emergence of third-order Liouvillian exceptional points (LEP3s), each corresponds to a crossing point of two lines of LEP2s. We further show that the LEP3 can exhibit the topological character of the Hamiltonian EP3s, which cannot be realized with a single qubit. Our work opens the possibility of realizing non-Hermitian phenomena with continuous-variable quantum systems.",
       "authors": [
-        "Pei‐Rong Han",
+        "Pei-Rong Han",
         "Huiye Qiu",
         "Hao-Long Zhang",
         "Wen Ning",
@@ -14720,19 +14946,19 @@
       "abstract": "Quantum machine learning (QML) models, like their classical counterparts, are vulnerable to adversarial attacks, hindering their secure deployment. Here, we report the first systematic experimental robustness benchmark for 20-qubit quantum neural network (QNN) classifiers executed on a superconducting processor. Our benchmarking framework features an efficient adversarial attack algorithm designed for QNNs, enabling quantitative characterization of adversarial robustness and robustness bounds. From our analysis, we verify that adversarial training reduces sensitivity to targeted perturbations by regularizing input gradients, significantly enhancing QNN's robustness. Additionally, our analysis reveals that QNNs exhibit superior adversarial robustness compared to classical neural networks, an advantage attributed to inherent quantum noise. Furthermore, the empirical upper bound extracted from our attack experiments shows a minimal deviation ($3 \\times 10^{-3}$) from the theoretical lower bound, providing strong experimental confirmation of the attack's effectiveness and the tightness of fidelity-based robustness bounds. This work establishes a critical experimental framework for assessing and improving quantum adversarial robustness, paving the way for secure and reliable QML applications.",
       "authors": [
         "Hai-Feng Zhang",
-        "Zhao‐Yun Chen",
+        "Zhao-Yun Chen",
         "Peng Wang",
         "Liang-Liang Guo",
         "Tian-Le Wang",
-        "Xiaoyan Yang",
+        "Xiao-Yan Yang",
         "Ren-Ze Zhao",
-        "Zean Zhao",
+        "Ze-An Zhao",
         "Sheng Zhang",
         "Lei Du",
-        "Haoran Tao",
+        "Hao-Ran Tao",
         "Zhi-Long Jia",
-        "Weicheng Kong",
-        "Huanyu Liu",
+        "Wei-Cheng Kong",
+        "Huan-Yu Liu",
         "Athanasios V. Vasilakos",
         "Yang Yang",
         "Yu-Chun Wu",
@@ -15332,10 +15558,10 @@
       "title": "Teleportation via spin-1/2 chain in solid-state quantum architecture",
       "abstract": "We propose the protocol for preparing the maximally entangled Bell state between remote qubits at the ends of the spin-1/2 chain governed by the specially engineered nearest-neighbor XX-Hamiltonian with excited central spin as the initial state. This method does not require including optical constituent in the teleportation protocol and can be implemented in the quantum devices with solid-state architecture for teleporting unknown states or organizing quantum gates between remote qubits. A superconducting flux-qubit chain is an example of such devises.",
       "authors": [
-        "E.B. Fel’dman",
+        "E. B. Fel'dman",
         "S. I. Doronin",
-        "E.I. Kuznetsova",
-        "A.I. Zenchuk"
+        "E. I. Kuznetsova",
+        "A. I. Zenchuk"
       ],
       "published_date": "2026-04-16",
       "journal": "Physics Letters A",
