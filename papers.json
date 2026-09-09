@@ -1,7 +1,199 @@
 {
-  "generated_at": "2026-09-08T19:06:16.183774+00:00",
-  "count": 931,
+  "generated_at": "2026-09-09T19:10:23.771022+00:00",
+  "count": 942,
   "papers": [
+    {
+      "id": 16418,
+      "title": "Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits",
+      "abstract": "Dynamic circuits, which augment unitary operations with mid-circuit measurements and classical feedforward, can generate long-range entanglement in constant depth, enabling low-depth primitives ranging from nontrivial state preparation to many-qubit entangling gates. Escaping the light-cone constraints of unitary circuits, however, comes at a cost: these primitives typically require a number of mid-circuit measurements that scales with system size and that, together with feedforward latency, can introduce errors that degrade the long-range entanglement they rely on. Here, we alleviate this tension by showing that many such primitives, when cast into a common framework, admit an error-detection scheme that trades infidelity for postselection overhead with no additional ancillas. Our framework thus unifies and upgrades a broad class of primitives including fan-out gates, multi-qubit Pauli rotations, the preparation of W and higher-weight Dicke states, and certain non-normal matrix product states. We also introduce a reduced-depth, error-detected implementation of the Hadamard test, extending the use cases of dynamic circuits to a key algorithmic primitive. Finally, we establish the practical utility of our scheme through experiments on a superconducting quantum processor. We demonstrate the error-detected preparation of a long-range entangled Bell pair spanning a 100-qubit chain with fidelity $F=0.59\\pm0.02$, surpassing the entanglement-certification threshold $F>0.5$ that the baseline dynamic-circuit implementation fails to reach ($0.39\\pm0.01$). Separately, we demonstrate constant-depth preparation of W states of up to 20 qubits by consuming GHZ states of up to 40 qubits, finding absolute fidelity improvements of $ΔF\\approx 0.2$ across the largest sizes studied. Altogether, these results bring low-depth dynamic-circuit primitives within practical reach on present-day hardware.",
+      "authors": [
+        "Kevin C. Smith",
+        "Bibek Pokharel",
+        "Satvik Maurya",
+        "Maika Takita"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.08925",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16433,
+      "title": "Adaptive AI for Pulse-Level Quantum Control",
+      "abstract": "The Control Variational Quantum Eigensolver (ctrl-VQE) directly optimizes microwave pulses to enable faster and lower-error quantum-state preparation, but its continuous control landscape re- quires efficient search strategies. We demonstrate that a reinforcement-learning agent based on a deep Q learning network can autonomously discover high-performance pulse sequences using only system parameters and a reward function. The approach is fully general for superconducting qubit platforms, requires no ansatz, and operates at nanosecond resolution compatible with hardware con- straints. As a proof of concept, we apply the method to ground-state preparation of the Hydrogen molecule on a simulated superconducting device. The agent consistently identifies optimized control sequences that achieve high fidelity and outperform random-search baselines. These results highlight adaptive learning as a promising hardware-ready framework for pulse-level quantum control.",
+      "authors": [
+        "Sanjeev Shapkota",
+        "Yayu Mo",
+        "Sanjaya Lohani"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.08727",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16443,
+      "title": "Recovering Readout-Limited Fisher Information in Superconducting-Qubit Magnetometry with Squeezed Microwaves",
+      "abstract": "The performance of superconducting-qubit magnetometers depends not only on magnetic-field encoding during Ramsey interrogation, but also on how efficiently the encoded information is recovered during readout. Here we quantify how squeezed-microwave-assisted dispersive readout can recover magnetic-field information lost during qubit-state assignment. We develop an effective detected-mode framework linking projected quadrature noise, state-assignment error, and the classical Fisher information accessible from binary readout outcomes. A finite mismatch between the squeezed quadrature and the discrimination axis produces an optimal squeezing strength through the competition between squeezed and anti-squeezed fluctuations. For representative parameters, squeezed readout reduces the readout-limited magnetic-field sensitivity bound by $27.3\\%$. This improvement arises from recovering information lost in the readout stage rather than from increasing the information encoded during Ramsey interrogation. These results may provide a practical route for mitigating measurement-stage information loss in superconducting quantum sensing.",
+      "authors": [
+        "M. -R. Yun",
+        "Y. -J. Qu",
+        "Zheng Shan",
+        "L. -L. Yan",
+        "Yu Jia",
+        "S. -L. Su"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.08598",
+      "tags": [
+        "superconducting-circuits",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16470,
+      "title": "Instantaneous-Frame Theory of Strongly Driven Parametric Gates",
+      "abstract": "Parametric two-qubit gates using tunable couplers are a promising approach to scalable superconducting quantum processors. However, conventional theories formulated in the idle eigenbasis break down in the large-amplitude regime required for fast gate operations. Here, we show that parametric gates are more naturally and accurately described as coherent rotations between instantaneous eigenstates rather than idle eigenstates. This approach may appear counterintuitive, since instantaneous eigenbases are usually associated with adiabatic dynamics. However, they also form a natural moving frame for driven dynamics, where the non-Abelian Berry connection governs transitions and provides a compact description of the exchange and effective $ZZ$ couplings. We show that this theory achieves quantitative agreement with exact numerical simulations across representative tunable-coupler architectures, including double-transmon, capacitively shunted double-transmon, and single-transmon couplers. The description remains accurate even in regimes where idle-frame descriptions fail, while substantially reducing the reliance on computationally demanding exact simulations. These results establish an instantaneous-frame theory of parametric gates beyond conventional idle-frame models and provide a new perspective on driven quantum dynamics.",
+      "authors": [
+        "Kentaro Kubo",
+        "Shinichi Inoue",
+        "Jushin Tei",
+        "Yinghao Ho",
+        "Yasunobu Nakamura",
+        "Hayato Goto"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.08348",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "tunable-coupler",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16384,
+      "title": "Characterization and comparison of energy relaxation in fluxonium qubits",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/3n9q-lg8m",
+      "tags": [
+        "fluxonium"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16537,
+      "title": "Experimental realization of quantum-computing-enhanced sensing",
+      "abstract": "Quantum algorithms offer computational advantages, yet incorporating them into quantum sensing and converting these advantages into enhanced information acquisition remains challenging. Here, we realize quantum-computing-enhanced sensing in a spin-oscillator architecture, where a microwave cavity provides a high-dimensional quantum register and a coupled superconducting qubit serves as the sensor. The unknown signal directly generates the phase oracle operation, establishing a natural physical interface between quantum computation and sensing. We experimentally demonstrate the first Grover search in a bosonic mode and observe quantum amplitude amplification in a Hilbert space spanning more than 128 photons. For the same number of sensing iterations, our protocol extracts more information and resolves more frequency candidates than classical sequential search. Our results establish signal-driven oracles as a route for harnessing oracle-based quantum algorithms and realizing quantum-computing-enhanced sensing.",
+      "authors": [
+        "Yifang Xu",
+        "Hongwei Huang",
+        "Yilong Zhou",
+        "Yunlai Zhu",
+        "Chuanlong Ma",
+        "Lida Sun",
+        "Lintao Xiao",
+        "Ziyue Hua",
+        "Weiting Wang",
+        "Zijie Chen",
+        "Weizhou Cai",
+        "Hekang Li",
+        "Haohua Wang",
+        "Xiaoting Wang",
+        "Ming Li",
+        "Chang-Ling Zou",
+        "Luyan Sun"
+      ],
+      "published_date": "2026-09-07",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.07613",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16578,
+      "title": "Qubit-Based Benchmarking of InP HEMT LNAs: Readout Fidelity Versus Power Consumption",
+      "abstract": "High-fidelity single-shot readout of superconducting qubits is essential for fault-tolerant quantum computation. Without a quantum-limited amplifier such as a Josephson parametric amplifier, the cryogenic high-electron-mobility-transistor (HEMT) low-noise amplifier (LNA) at the \\SI{4}{K} stage is the dominant noise source in the readout chain. HEMT LNAs are conventionally characterized by Y-factor measurements of the noise temperature $\\Tn$, independently of the quantum measurement they ultimately serve. Here we present a qubit-in-the-loop benchmarking method. The method uses the two-dimensional IQ histogram of single-shot readout as a direct figure of merit. We apply it to three state-of-the-art cryogenic InP HEMT LNAs with 53\\%, 60\\%, and 70\\% channel indium content, together with a commercial reference amplifier. The 60\\% and 70\\% devices have similar $\\Tn$ in Y-factor measurements, both lower than the 53\\% device. The 70\\% device has the highest gain, but qubit readout SNR and assignment fidelity instead peak at 60\\%. Using this method, we map assignment fidelity against HEMT LNA dc power consumption for each device. Fidelity does not simply saturate with increasing power. For several devices it declines above a device-dependent power well below typical operating points. For the 60\\% device, which has the highest overall fidelity, about \\SI{1}{mW} is needed to maintain $\\fid > 85\\%$. Across all four devices, $\\fid > 80\\%$ is reached with as little as about \\SI{0.3}{mW}, roughly an order of magnitude below typical operating points. These results establish a qubit-referenced benchmarking methodology and provide practical guidance for amplifier selection and bias in power-constrained multi-qubit readout systems.",
+      "authors": [
+        "Junjie Li"
+      ],
+      "published_date": "2026-09-07",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.07250",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "readout-control",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16595,
+      "title": "Single-tone drive-enhanced CROT gate for bosonic quantum error correction",
+      "abstract": "Bosonic error correction provides a hardware-efficient route to protected qubits for accurate quantum information processing. A critical component for error correction of rotation-symmetric bosonic (RSB) codes, like the well-known cat codes, is the two-mode controlled-rotation (CROT) operation. The CROT gate is useful because of its code-agnostic generality and its error-propagation properties. While the CROT gate can in principle be composed from existing bosonic physical primitives, the desirable properties are typically lost when composed as a sequence of imperfect primitive operations. Past work has focused on direct implementations that rely on features of specific codes. Here, we present a direct route to CROT within the circuit-QED architecture that retains its code-agnostic and error-propagation characteristics. By driving a transmon simultaneously coupled to two microwave cavities, we controllably enhance the effective nonlinearities between the microwave cavities and thus engineer the necessary two-mode interaction underlying the CROT gate. Using only a single drive frequency, we can achieve an on-off ratio sufficient for gate implementation, while minimizing mode distortions. We provide simple analytical formulas that permit the identification of potential working regimes, further refined by exact numerics, and illustrate the efficacy of our CROT approach in an error-correction example involving different RSB codes within the same circuit. Our CROT gate adds to the arsenal of direct two-mode gates available for general bosonic information processing.",
+      "authors": [
+        "Shushen Qin",
+        "Long D. H. My",
+        "Adrian Copetudo",
+        "Amon M. Kasper",
+        "Yvonne Y. Gao",
+        "Hui Khoon Ng"
+      ],
+      "published_date": "2026-09-07",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.07076",
+      "tags": [
+        "transmon",
+        "cat-qubit",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 16254,
       "title": "Benchmarking reproducible low-loss wire-bond interconnects for superconducting quantum computing",
@@ -25,6 +217,61 @@
         "quantum-circuit-context"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 16684,
+      "title": "High-Resolution Dynamical Eigenspectroscopy via Variational Trotter Compression on a Superconducting Qubit Processor",
+      "abstract": "The pursuit of high-resolution eigenspectroscopy on noisy intermediate-scale quantum devices is often hindered by the trade-off between circuit depth and coherence time. In this work, we introduce and experimentally demonstrate a dynamical eigenspectroscopy protocol that extracts fine-grained energy structures from time-dependent survival amplitudes. To overcome the finite coherence window of current superconducting processors, we employ Variational Trotter Compression (VTC) as a practical means to extend the duration of high-fidelity unitary evolution. Using a multi-connected 9-qubit superconducting processor, we reconstruct the time-domain autocorrelation signal via quantum state tomography for the H2 molecule at different bond lengths and for the Fermi-Hubbard model across different correlation regimes. Through multi-frequency fitting and Fourier analysis, the extracted eigenenergies agree with the exact-diagonalization values to within 2x10^-3, including the near-degenerate levels in the strongly interacting regime. Our results establish experimental dynamical spectroscopy as a robust and generalizable framework for simulating both quantum chemistry and strongly correlated lattice systems, bridging weak- and strong-coupling regimes on near-term quantum hardware.",
+      "authors": [
+        "Liyang Sui",
+        "Xingrui Liu",
+        "Yufan Li",
+        "Sainan Huai",
+        "Zhiwen Zong",
+        "Kunliang Bu",
+        "Xiaopei Yang",
+        "Wenyan Jin",
+        "Bowen Chen",
+        "Xutao Zhang",
+        "Jianlan Wu",
+        "Shengyu Zhang",
+        "Yi Yin"
+      ],
+      "published_date": "2026-09-05",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.05838",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16700,
+      "title": "Robustness of Dynamical Casimir Effect-Induced Quantum Synchronization",
+      "abstract": "The robustness of quantum synchronization induced by the dynamical Casimir effect (DCE) is analyzed within a circuit quantum electrodynamics (cQED) architecture consisting of two superconducting qubits coupled to a shared, parametrically driven cavity. Using a Lindblad master equation approach, this study evaluates the impact of various decoherence channels (including photon loss, relaxation, thermal excitation, and pure dephasing) on the resulting synchronization dynamics. The results demonstrate that DCE-induced synchronization persists under dissipation rates achievable in state-of-the-art superconducting platforms, confirming its experimental feasibility. Among the studied mechanisms, pure dephasing is identified as the dominant factor limiting the fidelity of the synchronized state. Furthermore, it is shown that in strongly dissipative regimes, the Pearson correlation coefficient may overestimate the degree of quantum synchronization, as environmental relaxation can generate classical correlations that mimic synchronized behavior. These findings establish the parameter regimes necessary for observing genuine DCE-induced quantum synchronization and provide practical guidelines for future cQED experiments.",
+      "authors": [
+        "Sebastián Francisquez",
+        "Fernando C. Lombardo",
+        "Paula I. Villar"
+      ],
+      "published_date": "2026-09-04",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.05659",
+      "tags": [
+        "superconducting-circuits",
+        "circuit-qed",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
@@ -787,6 +1034,27 @@
       "is_top_journal": false
     },
     {
+      "id": 16383,
+      "title": "Interfacing superconductor and semiconductor digital electronics: A review of superconducting output drivers",
+      "abstract": "Interface circuits are the key components that enable the hybrid integration of superconductor and semiconductor digital electronics. The design requirements of superconductor–semiconductor interface circuits vary depending on the application, such as high-performance classical computing, superconducting quantum computing, and digital signal processing. In this review, various interface circuits are categorized based on the working principle and structure. The superconducting output drivers are explored, which are capable of converting and amplifying, e.g., single flux quantum voltage pulses, to voltage levels that semiconductor circuits can process. Several tradeoffs between circuit- and system-level design parameters are examined. Accordingly, parameters such as the data rate, output voltage, power dissipation, layout area, thermal/heat load of cryogenic cables, and bit-error rate are considered.",
+      "authors": [
+        "Yerzhan Mustafa",
+        "Selçuk Köse"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Applied Physics Reviews",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0326611",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 16272,
       "title": "Gate Teleportation vs. Circuit Cutting in Distributed Quantum Computing",
       "abstract": "ABSTRACT While distributed quantum computation has primarily utilized circuit cutting, it incurs an exponential growth of sub‐circuit sampling and classical post‐processing overhead with an increasing number of cuts. In contrast, entanglement‐based gate teleportation avoids exponential sampling overhead but requires high‐fidelity quantum interconnects. We model noisy remote (teleported) gates between superconducting qubits entangled via noisy microwave‐to‐optical (M2O) transducers over optical links. We incorporate the effect of the transducer noise added () on the Bell pair state preparation circuit and inject noisy Bell pairs into remote CNOT gates. We perform comparative simulation of Greenberger–Horne–Zeilinger (GHZ) states generated between processor modules using remote gates and gate cuts and study the dependence of the Hellinger fidelity on the dominant error parameter for each approach. We identify break‐even points and regimes where noisy remote gates achieve parity with gate‐cuts. In particular, our work suggests that a 10‐fold reduction in the present M2O transducer noise added figures would favor generating multipartite entangled states with remote gates over circuit cutting. Our work informs near‐term quantum interconnect hardware metrics and motivates a network‐aware hybrid quantum‐classical distributed computation approach, where both quantum links and circuit cuts are employed to minimize quantum runtime.",
@@ -885,7 +1153,7 @@
     },
     {
       "id": 15929,
-      "title": "Mumax3-cQED: an extension of Mumax3 to simulate magnon-photon interactions in cavity QED",
+      "title": "Mumax3-cQED: An extension of Mumax3 to simulate magnon-photon interactions in cavity QED",
       "abstract": "We present an extension of the well-known micromagnetic package Mumax3 to simulate magnon-polaritons in realistic magnetic materials and nanostructures. Mumax3-cQED leverages the full GPU-accelerated capabilities of Mumax3 to model standard spin-spin interactions and the coupling of magnetic moments to external space- and time-dependent magnetic fields, with the additional unique feature of including the coupling to a cavity. We validate the code against results obtained from the Dicke model in both the paramagnetic and the superradiant phases. We show that hybrid magnon-light states can be calculated, as well as the non-equilibrium dynamics and their approach to equilibrium. In addition, we demonstrate the potential of Mumax3-cQED to reproduce experimental results and design magnon-cavity experiments, including three-dimensional and coplanar waveguide resonators. The code is fully available and will be useful for designing experiments involving microscopic saturated ferromagnets as well as systems featuring spin textures such as domain walls, vortices, or skyrmions.",
       "authors": [
         "Sergio Martínez-Losa del Rincón",
@@ -2422,7 +2690,7 @@
         "Haoran Lu",
         "Saswata Roy",
         "Luojia Zhang",
-        "Aleksandra Barbara Biedron",
+        "Aleksandra B. Biedron",
         "David A. Muller",
         "Valla Fatemi"
       ],
@@ -4818,11 +5086,11 @@
       "title": "Analog circuit-quantum-electrodynamics simulator of quantum spin dynamics through the extended Bose-Hubbard model",
       "abstract": "We propose and validate a framework for analog simulation of the Heisenberg spin model using a circuit quantum electrodynamics (circuit-QED) platform. To this end, we develop a continuous family of deformed boson representations of the SU(2) algebra, which includes the Holstein-Primakoff and Dyson-Maleev transformations as special cases. For spin-1/2 systems, we introduce a procedure to circumvent the inherent non-Hermiticity of the representation, showing that this entire family yields the extended Bose-Hubbard (EBH) Hamiltonian. For the experimental realization of this EBH model, we design a scalable circuit-QED architecture based on an engineered Josephson junction array. Numerical simulations confirm that the microwave photon dynamics in this simulator accurately reproduces the original spin dynamics. Our work establishes an experimentally accessible method for investigating complex quantum spin dynamics in a highly controllable bosonic setting.",
       "authors": [
-        "Anonymous",
+        "Ivan V. Dudinets",
         "Jaehee Kim",
         "Tomás Ramos",
         "Aleksey K. Fedorov",
-        "Vladimir I. Man’ko",
+        "Vladimir I. Man'ko",
         "Joonsuk Huh"
       ],
       "published_date": "2026-07-29",
@@ -10607,11 +10875,11 @@
       "title": "Quasiparticle-induced decoherence of a driven superconducting qubit",
       "abstract": "We develop a theory for two quasiparticle-induced decoherence mechanisms of a driven superconducting qubit. In the first mechanism, an existing quasiparticle (QP) tunnels across the qubit's Josephson junction while simultaneously absorbing a qubit excitation and one (or several) photons from the drive. In the second mechanism, a qubit transition occurs during the non-linear absorption process converting multiple drive quanta into a pair of new QPs. Both mechanisms can remain significant in gap engineered qubits whose coherence is insensitive to QPs without the drive. Our theory establishes a fundamental limitation on fidelity of the microwave qubit operations, such as readout and gates, stemming from QPs.",
       "authors": [
-        "Anonymous",
+        "Mykola Kishmar",
         "Pavel D. Kurilovich",
         "Andrey Klots",
-        "T. Connolly",
-        "I. L. Aleǐner",
+        "Thomas Connolly",
+        "Igor L. Aleiner",
         "Vladislav D. Kurilovich"
       ],
       "published_date": "2026-06-29",
