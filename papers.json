@@ -1,7 +1,138 @@
 {
-  "generated_at": "2026-09-09T19:10:23.771022+00:00",
-  "count": 942,
+  "generated_at": "2026-09-10T19:07:31.776153+00:00",
+  "count": 949,
   "papers": [
+    {
+      "id": 16788,
+      "title": "Quantum computational resources and validation protocols for a three-mode non-Gaussian trilinear Hamiltonian",
+      "abstract": "Non-Gaussian interactions are a key ingredient for achieving universality in continuous-variable quantum computation, yet their experimental characterization and the validation of their correct implementation remain challenging tasks. In this work, we focus on a three-mode non-Gaussian trilinear Hamiltonian that has recently been realized in superconducting microwave platforms, and present a comprehensive theoretical analysis of the computational resources it generates, together with experimentally accessible protocols to validate their presence. We systematically investigate its ability to generate two key resources for quantum computation: multipartite entanglement and Wigner negativity. In particular, using displaced-parity Bell tests, we demonstrate the generation of nonlocal states and thereby provide an operational certification of multipartite entanglement in the non-Gaussian states produced by the dynamics. We further quantify the Wigner logarithmic negativity and benchmark it against that of established non-Gaussian resource states. Building on this resource-based characterization, we introduce a measurement-efficient protocol for the experimental validation of the Hamiltonian implementation without requiring full reconstruction of the Wigner function. The protocol combines the measurement of zero-variance observables (nullifiers and stabilizers) with a limited number of targeted phase-space measurements, leading to a drastic reduction of the experimental overhead.",
+      "authors": [
+        "Niccolò Laurora",
+        "Matteo Bina",
+        "Giulia Ferrini",
+        "Alessandro Ferraro"
+      ],
+      "published_date": "2026-09-09",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.10043",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16723,
+      "title": "Breakdown of the Kerr-cat qubit tunneling time induced by auxiliary circuit modes",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-09",
+      "journal": "Physical Review X",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/z8jm-q289",
+      "tags": [
+        "cat-qubit"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 16848,
+      "title": "Certifying bipartite entanglement on a superconducting processor from a corrected QAOA cost layer",
+      "abstract": "The Quantum Approximate Optimisation Algorithm is the canonical near-term heuristic, yet on real superconducting hardware its behaviour is set by device physics, not by the algorithm. Hardware demonstrations rarely prove the intended coupling is realised, that genuine entanglement is prepared, or what controls it. We report a pre-registered single-device study on the nine-qubit superconducting processor Red at the Barcelona Supercomputing Center, using its five-qubit component. Across six calibrations we certify bipartite entanglement of a corrected QAOA cost layer on the good coupler at depth one by two-qubit tomographic negativity: 0.077, BCa 95% CI [0.065, 0.091], excluding zero every day, while the coupling-off twin stays separable and the degraded coupler equals zero. We then measure the device physics directly: in a pre-registered manipulation on a fixed Bell preparation (not the QAOA layer), reducing the CZ pulse amplitude causally reduces the certified negativity along a positive, well-fit slope (R^2 = 0.83-0.96), every rung-level interval excluding zero and surviving Holm and Benjamini-Hochberg correction. This is a local linearisation of a peaked response, not a global monotone law: the negativity peaks at conditional phase |zeta| = pi, which the nominal amplitude overshoots. The J=0 twin is a separate off-state control and the fringe visibility is constant, so the effect is coherent. The average gate fidelity is non-monotone in the drive and is reported only as a diagnostic. A per-circuit statevector guardrail excludes a diagonal compilation fault we disclose and repair. A randomized-measurement witness is consistent with entanglement but underpowered. The certificate collapses by depth three, and a pre-registered sixteen-instance depth-three ensemble shows no optimisation signal (one-sided Wilcoxon p = 0.15). We claim no advantage; the instances are classically trivial.",
+      "authors": [
+        "Carlos-Miguel Lorenzo"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.09495",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16853,
+      "title": "Josephson energy of superconducting junctions: amorphous versus crystalline tunnel barriers",
+      "abstract": "The Josephson energy $E_J$ is a key parameter governing the properties of transmon superconducting qubits. In Al/AlO$_x$/Al junctions, $E_J$ is set by electron tunneling through an ultrathin oxide barrier and therefore depends exponentially on the atomic structure of the barrier. We compute $E_J$ by first-principles device modeling based on the NEGF-DFT quantum-transport method, comparing a junction with a crystalline Al$_2$O$_3$ barrier against ten junctions with melt--quenched amorphous Al$_2$O$_3$ barriers of the same thickness. From the Fermi-level transmission and the Ambegaokar--Baratoff relation, we obtain a mean $E_J/h$ of $2.78$ GHz for the amorphous ensemble, with a standard deviation of $4.67$ GHz, compared with $0.73$ GHz for the crystalline reference; individual amorphous values span nearly two orders of magnitude. Scattering-state analysis shows that transport is quantum tunneling and that the variability originates from stoichiometric inhomogeneity of the amorphous oxide: Al-rich, low-barrier regions can connect into percolation-like tunneling pathways that strongly enhance the conductance. A realistic $200\\times200$ nm$^2$ junction self-averages over more than $2\\times10^4$ such microscopic regions. These results establish a quantitative atomistic route from oxide microstructure to the superconducting-circuit energy scale $E_J$.",
+      "authors": [
+        "Wanting Zhang",
+        "Aldilene Saraiva-Souza",
+        "Félix Beaudoin",
+        "Xianghua Kong",
+        "Hong Guo",
+        "Yu Zhu"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.09426",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16859,
+      "title": "Materials for Quantum Information Science: Roles in the Quantum Evolution 2.0",
+      "abstract": "Quantum information science is entering a second phase, the Quantum Evolution 2.0, in which the challenge has shifted from demonstrating coherent control of individual quantum states to building scalable multi-qubit processors and networks. This transition places materials science at the center of the field. Across superconducting circuits, quantum defects, quantum photonic devices, and emerging materials platforms, including two-dimensional materials and heterostructures, performance is now limited less by device design than by poorly controlled surfaces, buried interfaces, and defects whose atomic identities remain incompletely known. This review surveys the materials challenges of these quantum platforms together with the characterization methods needed to resolve them. For each platform we identify the dominant decoherence mechanisms, the current state of materials understanding, and the most pressing open materials problems. A cross-platform comparison then reveals a shared structure-coherence problem. The implicated material chemistry recurs across platforms, involving light elements in disordered or buried environments, yet no platform can quantitatively connect a specific atomic-scale structure to a measured change in coherence. We close by identifying three needs, mechanistic understanding of decoherence at the atomistic level, high-throughput proxy metrics predictive of device performance, and characterization tools built for quantum materials, whose resolution would advance coherence, scalability, and integration across all platforms.",
+      "authors": [
+        "Thang Pham",
+        "Vsevolod Ivanov",
+        "Dominic P. Goronzy",
+        "Abhiram Devata",
+        "Joshua Feldon",
+        "David Barton",
+        "You Zhou"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.09371",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16863,
+      "title": "Execution-transcript privacy for fault-tolerant surface-code memories",
+      "abstract": "A fault-tolerant quantum computer runs behind a telemetry stream logging syndromes, decoder actions, resets and timing separately from the answer. Can it reveal the logical input? For a distance-$d$ rotated surface-code memory on a fixed schedule of $T=Θ(d)$ rounds, under three stated hypotheses (sector-scalar honest backbone, transcript locality, Kotecky-Preiss smallness), the channel from logical qubit to transcript is $e^{-Θ(d)}$-close in diamond norm to one that ignores the input. A statement of this kind follows generically from correctability-privacy duality. Anisotropy does not. Each logical axis pays the distance of its own coset, so under amplitude damping the computational-basis label is governed by the code's $Z$-distance $d_Z\\ge d_{\\min}$ and not by the code distance. Two codes of quantum distance $1$ make the gap concrete. A phase-flip code's $X$-syndrome transcript is exactly input-independent under unobserved damping, while a repetition code leaks at first order. A matched converse identifies the records that do expose it, among them a lattice-surgery parity readout. On a 156-qubit superconducting processor our sufficient certificate misses by $21.5\\times$, so the theorem cannot be invoked there. Measured directly, a $d_Z=1$ memory's record identifies its input with total variation $\\ge 0.927$ under randomised, label-balanced acquisition. Holding the code fixed and varying the damping exposure reproduces the parameter-free law, with exponent $0.85\\pm0.03$ against a predicted $0.86$. Randomized encoding returns the statistic to the floor at no two-qubit-gate cost. Fault tolerance does not grant transcript privacy. It relocates it, and only to the logical state, not to the circuit's identity.",
+      "authors": [
+        "Jiachen Shen",
+        "Hui Zhong"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.09334",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 16418,
       "title": "Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits",
@@ -152,7 +283,7 @@
     {
       "id": 16578,
       "title": "Qubit-Based Benchmarking of InP HEMT LNAs: Readout Fidelity Versus Power Consumption",
-      "abstract": "High-fidelity single-shot readout of superconducting qubits is essential for fault-tolerant quantum computation. Without a quantum-limited amplifier such as a Josephson parametric amplifier, the cryogenic high-electron-mobility-transistor (HEMT) low-noise amplifier (LNA) at the \\SI{4}{K} stage is the dominant noise source in the readout chain. HEMT LNAs are conventionally characterized by Y-factor measurements of the noise temperature $\\Tn$, independently of the quantum measurement they ultimately serve. Here we present a qubit-in-the-loop benchmarking method. The method uses the two-dimensional IQ histogram of single-shot readout as a direct figure of merit. We apply it to three state-of-the-art cryogenic InP HEMT LNAs with 53\\%, 60\\%, and 70\\% channel indium content, together with a commercial reference amplifier. The 60\\% and 70\\% devices have similar $\\Tn$ in Y-factor measurements, both lower than the 53\\% device. The 70\\% device has the highest gain, but qubit readout SNR and assignment fidelity instead peak at 60\\%. Using this method, we map assignment fidelity against HEMT LNA dc power consumption for each device. Fidelity does not simply saturate with increasing power. For several devices it declines above a device-dependent power well below typical operating points. For the 60\\% device, which has the highest overall fidelity, about \\SI{1}{mW} is needed to maintain $\\fid > 85\\%$. Across all four devices, $\\fid > 80\\%$ is reached with as little as about \\SI{0.3}{mW}, roughly an order of magnitude below typical operating points. These results establish a qubit-referenced benchmarking methodology and provide practical guidance for amplifier selection and bias in power-constrained multi-qubit readout systems.",
+      "abstract": "High-fidelity single-shot readout of superconducting qubits is essential for fault-tolerant quantum computation. Without a quantum-limited amplifier such as a Josephson parametric amplifier, the cryogenic high-electron-mobility-transistor (HEMT) low-noise amplifier (LNA) at the 4 K stage is the dominant noise source in the readout chain. HEMT LNAs are conventionally characterized by Y-factor measurements of the noise temperature $T_N$, independently of the quantum measurement they ultimately serve. Here we present a qubit-in-the-loop benchmarking method. The method uses the two-dimensional IQ histogram of single-shot readout as a direct figure of merit. We apply it to three state-of-the-art cryogenic InP HEMT LNAs with 53\\%, 60\\%, and 70\\% channel indium content, together with a commercial reference amplifier. The 60\\% and 70\\% devices have similar $T_N$ in Y-factor measurements, both lower than the 53\\% device. The 70\\% device has the highest gain, but qubit readout SNR and assignment fidelity $\\mathcal{F}_a$ instead peak at 60\\%. Using this method, we map $\\mathcal{F}_a$ against HEMT LNA dc power consumption for each device. $\\mathcal{F}_a$ does not simply saturate with increasing power. For several devices it declines above a device-dependent power well below typical operating points. For the 60\\% device, which has the highest overall $\\mathcal{F}_a$, about 1~mW is needed to maintain $\\mathcal{F}_a > 85\\%$. Across all four devices, $\\mathcal{F}_a > 80\\%$ is reached with as little as about 0.3~mW, roughly an order of magnitude below typical operating points. These results establish a qubit-referenced benchmarking methodology and provide practical guidance for amplifier selection and bias in power-constrained multi-qubit readout systems.",
       "authors": [
         "Junjie Li"
       ],
@@ -192,6 +323,36 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16728,
+      "title": "Vapor-phase HMDS passivation improves performance and ambient stability of niobium superconducting resonators",
+      "abstract": "Native oxide formation (NbOx) at the niobium (Nb) metal–air interface is a source of microwave loss and performance variability in superconducting resonators. We introduce vapor-phase hexamethyldisilazane (HMDS) as a dry surface passivation treatment compatible with standard nanofabrication workflows. In five independent fabrication runs, HMDS-passivated resonators consistently demonstrate improved internal quality factor (Qi) and narrower performance distribution relative to paired unpassivated controls. The Qi improvement occurs across the full microwave power range, suggesting NbOx suppression as a contributing mechanism. Statistical depth profile analysis of Nb oxidation state by electron energy loss spectroscopy corroborates this mechanism, revealing smaller chemical shifts and shallower oxidation depth in passivated specimens relative to the control. Furthermore, re-measurement after 60 days of ambient storage shows that HMDS-passivated resonators retain their Qi, indicating their ambient stability. These results establish vapor-phase HMDS as a surface passivation strategy with strong potential for superconducting quantum devices.",
+      "authors": [
+        "Moeid Jamalzadeh",
+        "M. R. Perez",
+        "M. D. Nguyen",
+        "Christopher Nadeau",
+        "Sooyeon Hwang",
+        "Jiwon Park",
+        "Iliya Shiravand",
+        "Kim Kisslinger",
+        "Xiao Tong",
+        "Matthew LaHaye",
+        "Zhujun Huang",
+        "Davood Shahrjerdi"
+      ],
+      "published_date": "2026-09-07",
+      "journal": "Applied Physics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0341196",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -6992,10 +7153,16 @@
     },
     {
       "id": 7791,
-      "title": "What is the maximum density of microwave control lines in a superconducting quantum computer?",
-      "abstract": "",
+      "title": "What Is the Maximum Density of Microwave Control Lines in a Superconducting Quantum Computer?",
+      "abstract": "Scaling up superconducting quantum computers requires denser control wiring, introducing microwave crosstalk along the entire cryogenic signal path rather than only near the chip. Here, we introduce a framework that combines microwave transmission-line theory with a quantum Hamiltonian description to quantify the wiring-induced microwave crosstalk and the resulting gate infidelity for an all-microwave universal gate set. Using this approach, we determine the equal-level far-end crosstalk (ELFEXT) required to operate fixed-frequency transmons at arbitrary target fidelities and find that achieving 99.99% fidelity requires ELFEXT levels of approximately − 43 dB for the R X gate and − 73 dB for the cross-resonance gate. Finally, we use these results to bound the number of physical qubits on a chip.",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Mar Francis De Guzman",
+        "Slawomir Simbierowicz",
+        "Yuri Henriqson Accordi",
+        "Ville Nuutinen",
+        "Massimo Borrelli",
+        "Russell E. Lake"
       ],
       "published_date": "2026-07-16",
       "journal": "Physical Review Letters",
@@ -7003,6 +7170,7 @@
       "url": "https://doi.org/10.1103/m9p9-z6hl",
       "tags": [
         "superconducting-circuits",
+        "transmon",
         "superconducting-context",
         "quantum-superconducting-context"
       ],
