@@ -1,7 +1,114 @@
 {
-  "generated_at": "2026-09-10T19:07:31.776153+00:00",
-  "count": 949,
+  "generated_at": "2026-09-11T19:08:27.542301+00:00",
+  "count": 953,
   "papers": [
+    {
+      "id": 16948,
+      "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation",
+      "abstract": "Product-formula Hamiltonian simulation is naturally suited to near-term quantum processors, but its accuracy is set by two competing errors: finite-step Trotter bias and physical hardware noise. We introduce a joint extrapolation strategy that ties the tunable per-layer noise strength to the Trotter step size, $λ(s)=c(sT)^{p+1}$ for a $p$-th order product formula. Along this one-dimensional path, the leading physical-noise and Trotter corrections over the full evolution both enter at order $s^p$ and can be canceled by a single Richardson extrapolation. Building on a previously established finite-order Baker--Campbell--Hausdorff truncation bound, we derive a provably commutator-scaling resource guarantee for the joint extrapolation. For local Hamiltonians with local Lindbladian noise, the protocol mitigates physical noise together with Trotter error with only a constant asymptotic overhead relative to noiseless Trotter extrapolation, provided the required noise strengths lie above the intrinsic device-noise floor. We experimentally demonstrate the protocol for Ising dynamics on a superconducting quantum computer using learned noise amplification. Complementary 100-qubit Sparse Pauli Dynamics (SPD) simulations achieve comparable accuracy to two-dimensional Richardson extrapolation with fewer circuit settings.",
+      "authors": [
+        "Shuo Zhou",
+        "Xinzhao Wang",
+        "Ruiqi Zhang",
+        "Xiaoyang Wang",
+        "Yi-Cong Zheng",
+        "Tongang Li",
+        "Shengyu Zhang"
+      ],
+      "published_date": "2026-09-10",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.11508",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16977,
+      "title": "Engineered two-photon dissipative confinement of a Kerr-cat qubit using SISIS quantum circuit refrigerator",
+      "abstract": "Kerr-cat qubits realized in periodically driven superconducting nonlinear resonators are a promising platform for quantum information processing with biased noise. Pure dephasing in such systems induces leakage out of the qubit subspace, motivating the use of quantum circuit refrigeration (QCR) to remove excess excitations. While conventional superconductor--insulator--normal-metal--insulator--superconductor (SINIS)-based QCRs can suppress leakage via single-photon absorption, they also enhance QCR-induced phase-flip errors. Here we investigate a QCR based on a superconductor--insulator--superconductor--insulator--superconductor (SISIS) junction coupled to a Kerr parametric oscillator (KPO). We show that a SISIS-based QCR can operate in a regime where single-photon processes are suppressed while two-photon absorption dominates. As a result, the proposed SISIS-based QCR achieves strong suppression of dephasing-induced leakage while substantially reducing the increase in phase-flip errors associated with QCR operation. These results demonstrate that the proposed SISIS-based QCR provides an effective approach for mitigating leakage while limiting QCR-induced phase-flip errors in Kerr-cat qubits.",
+      "authors": [
+        "Shumpei Masuda",
+        "Tsuyoshi Yamamoto",
+        "Shuji Nakamura",
+        "Daichi Sugiyama",
+        "Akiyoshi Tomonaga"
+      ],
+      "published_date": "2026-09-10",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.11034",
+      "tags": [
+        "cat-qubit",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 16997,
+      "title": "Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits",
+      "abstract": "This paper presents the design and test results of a CMOS current-based Digital to Analog Converter (DAC) that operates at cryogenic temperatures and that can be used to precisely control the amount of flux coupled to qubits or that can be used in the readout of superconducting circuits. The current pulse output can be controlled in terms of its amplitude, rise and fall slopes, via digital controls, and pulse width, via external triggers, while driving a superconducting circuit. The design has been implemented in a planar 90 nm CMOS process and test results closely match circuit predictions. The solution's wide degree of digital tunability affords potential application of the same device to many types of quantum circuits, beyond those discussed here. Due to the wide-ranging flexibility of digital CMOS control, we envision that this DAC design will enable the next generation of high-fidelity cryo-CMOS control architectures for superconducting qubits.",
+      "authors": [
+        "A. Pelteku",
+        "D. Reitz",
+        "M. Covington",
+        "A. Frederick",
+        "H. Adebayo",
+        "K. D. Hillaire",
+        "N. Mitran",
+        "Z. Steffen",
+        "R. Schwartz",
+        "Z. Stegen",
+        "J. X. Przybysz",
+        "J. Yager",
+        "C. Walter",
+        "T. Graves",
+        "D. Meyer",
+        "J. Clark",
+        "G. R. Boyd",
+        "A. Pesetski"
+      ],
+      "published_date": "2026-09-09",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.10834",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17020,
+      "title": "Conditional-squeezing gate in superconducting circuits",
+      "abstract": "We present an implementation of a conditional-squeezing gate that squeezes a SQUID-terminated resonator mode along a direction determined by the state of a dispersively coupled qubit. This gate generalizes the controlled-squeezing gate [Phys. Rev. A \\textbf{111}, 042606 (2025)], and relies on a refocusing technique to suppress unwanted effects arising from slowly varying time-dependent terms in the Hamiltonian during the state-dependent parametric resonance required for the operation. As an application, we use the gate to encode an arbitrary qubit state into superpositions of single- and two-mode squeezed states of the resonator. These non-Gaussian states enable error-detectable encoding through parity measurements. We show that refocusing substantially improves the encoding fidelity, which is ultimately limited by Kerr nonlinearities and dissipation in realistic implementations. For experimentally optimistic values of the nonlinearities and decay rates, we obtain encoding fidelities above 0.99 for arbitrary input qubit states. Our results provide a route toward extending this scheme to the generation of higher-order superpositions of squeezed states (a class of rotation-symmetric bosonic codes) using a control qudit.",
+      "authors": [
+        "Roman Schiaffino",
+        "Fernando C. Lombardo",
+        "Juan Pablo Paz"
+      ],
+      "published_date": "2026-09-09",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.10655",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 16788,
       "title": "Quantum computational resources and validation protocols for a three-mode non-Gaussian trilinear Hamiltonian",
@@ -2305,7 +2412,24 @@
       "title": "High-fidelity control of superconducting qubits with an optically transmitted signal",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Dengxin Fan",
+        "Na Li",
+        "Fusheng Chen",
+        "Shaowei Li",
+        "Dongdong Li",
+        "Yu Xu",
+        "Jin Lin",
+        "Ming Gong",
+        "He-Liang Huang",
+        "Hui Deng",
+        "Yulin Wu",
+        "Haoran Qian",
+        "Shaojun Guo",
+        "Futian Liang",
+        "Xiaobo Zhu",
+        "Cheng-Zhi Peng",
+        "Jian-Wei Pan"
       ],
       "published_date": "2026-08-24",
       "journal": "Physical Review A",
