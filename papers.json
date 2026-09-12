@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:08:27.542301+00:00",
+  "generated_at": "2026-09-12T19:03:33.144604+00:00",
   "count": 953,
   "papers": [
     {
@@ -2143,7 +2143,7 @@
     },
     {
       "id": 15073,
-      "title": "Practical Fidelity Limits of Toffoli Gates in Superconducting Quantum Processors",
+      "title": "Practical fidelity limits of Toffoli gates in superconducting quantum processors",
       "abstract": "High-fidelity multi-qubit gates are a critical resource for near-term quantum computing, as they underpin the execution of both quantum algorithms and fault-tolerant protocols. The Toffoli gate (CCNOT), in particular, plays a central role in quantum error correction and quantum arithmetic, yet its efficient implementation on current quantum hardware remains limited by noise and connectivity constraints. In this work, we present a hardware-aware characterization of the Toffoli gate using optimized, connectivity-compliant decompositions executed on IBM's 127-qubit superconducting quantum processors. Our study integrates state preparation, gate synthesis, and quantum state/process tomography (QST/QPT) to evaluate fidelity across three distinct classes of input states: Greenberger-Horne-Zeilinger (GHZ), W, and the uniform superposition of all three-qubit computational basis states -- under noise-free simulation, noise-aware emulation, and real hardware execution. For GHZ states, we report state fidelities of 98.442% (noise-free simulation), 81.470% (noise-aware quantum emulation), and 56.368% (real quantum hardware). For W states, state fidelities are 98.739%, 79.900%, and 63.689%, respectively, and for the uniform superposition state, we observe state fidelities of 99.490%, 85.469%, and 61.161%. Comparative QPT experiments yield process fidelities of 98.976% (noise-free) and 80.160% (noise-aware emulation). Our results empirically characterize state-dependent error patterns in multi-qubit circuits and quantify trade-offs between gate decomposition strategies and native hardware performance, offering practical insights for scalable, hardware-efficient quantum circuit design.",
       "authors": [
         "M. AbuGhanem"
@@ -2975,7 +2975,7 @@
         "Haoran Lu",
         "Saswata Roy",
         "Luojia Zhang",
-        "Aleksandra B. Biedron",
+        "Aleksandra Barbara Biedron",
         "David A. Muller",
         "Valla Fatemi"
       ],
@@ -5371,11 +5371,11 @@
       "title": "Analog circuit-quantum-electrodynamics simulator of quantum spin dynamics through the extended Bose-Hubbard model",
       "abstract": "We propose and validate a framework for analog simulation of the Heisenberg spin model using a circuit quantum electrodynamics (circuit-QED) platform. To this end, we develop a continuous family of deformed boson representations of the SU(2) algebra, which includes the Holstein-Primakoff and Dyson-Maleev transformations as special cases. For spin-1/2 systems, we introduce a procedure to circumvent the inherent non-Hermiticity of the representation, showing that this entire family yields the extended Bose-Hubbard (EBH) Hamiltonian. For the experimental realization of this EBH model, we design a scalable circuit-QED architecture based on an engineered Josephson junction array. Numerical simulations confirm that the microwave photon dynamics in this simulator accurately reproduces the original spin dynamics. Our work establishes an experimentally accessible method for investigating complex quantum spin dynamics in a highly controllable bosonic setting.",
       "authors": [
-        "Ivan V. Dudinets",
+        "Anonymous",
         "Jaehee Kim",
         "Tomás Ramos",
         "Aleksey K. Fedorov",
-        "Vladimir I. Man'ko",
+        "Vladimir I. Man’ko",
         "Joonsuk Huh"
       ],
       "published_date": "2026-07-29",
@@ -11167,11 +11167,11 @@
       "title": "Quasiparticle-induced decoherence of a driven superconducting qubit",
       "abstract": "We develop a theory for two quasiparticle-induced decoherence mechanisms of a driven superconducting qubit. In the first mechanism, an existing quasiparticle (QP) tunnels across the qubit's Josephson junction while simultaneously absorbing a qubit excitation and one (or several) photons from the drive. In the second mechanism, a qubit transition occurs during the non-linear absorption process converting multiple drive quanta into a pair of new QPs. Both mechanisms can remain significant in gap engineered qubits whose coherence is insensitive to QPs without the drive. Our theory establishes a fundamental limitation on fidelity of the microwave qubit operations, such as readout and gates, stemming from QPs.",
       "authors": [
-        "Mykola Kishmar",
+        "Anonymous",
         "Pavel D. Kurilovich",
         "Andrey Klots",
-        "Thomas Connolly",
-        "Igor L. Aleiner",
+        "T. Connolly",
+        "I. L. Aleǐner",
         "Vladislav D. Kurilovich"
       ],
       "published_date": "2026-06-29",
@@ -12189,10 +12189,10 @@
       "title": "Strong coupling of a microwave photon to an electron on helium",
       "abstract": "Electrons bound to the surface of superfluid helium have been proposed for scalable charge and spin-based quantum computing. However single electron quantum measurement in this system has remained elusive. Here we use a hybrid circuit quantum electrodynamic (cQED) device that comprises a quantum dot and a high-impedance superconducting resonator to demonstrate, for the first time, strong coupling between the resonator microwave field and the motional quantum state of the electron. We find a coupling strength between the electron motion and a resonator photon of $g/2π=118$ MHz, exceeding both the electron motional state decoherence and the resonator loss. These experiments open new avenues for investigating light-matter interaction at the single electron level, and are a key step towards measurement and control of electrons on helium-based spin qubits.",
       "authors": [
-        "G. Koolstra",
+        "Gerwin Koolstra",
         "E. O. Glen",
         "N. R. Beysengulov",
-        "H. Byeon",
+        "Heejun Byeon",
         "K. E. Castoria",
         "M. Sammon",
         "S. A. Lyon",
@@ -12256,7 +12256,7 @@
         "Tang Su",
         "Ming Li",
         "Haifeng Yu",
-        "Chang-Ling Zou",
+        "Chang‐Ling Zou",
         "Luyan Sun"
       ],
       "published_date": "2026-06-13",
@@ -12581,7 +12581,7 @@
       "authors": [
         "Wenhui Huang",
         "Xin-Chi Zhou",
-        "Libo Zhang",
+        "L. Zhang",
         "Jiawei Zhang",
         "Yuxuan Zhou",
         "Bing-Chen Yao",
@@ -12591,10 +12591,10 @@
         "Yongqi Liang",
         "Yiting Liu",
         "Jiawei Qiu",
-        "Daxiong Sun",
+        "Dali Sun",
         "Xuandong Sun",
         "Zilin Wang",
-        "Changrong Xie",
+        "Chunsong Xie",
         "Yuzhe Xiong",
         "Xiaohan Yang",
         "Jiajian Zhang",
@@ -14831,7 +14831,7 @@
         "Stefan Filipp",
         "Kirill G. Fedorov",
         "Rudolf Gross",
-        "Nadezhda P. Kukharchyk"
+        "Nadezhda Kukharchyk"
       ],
       "published_date": "2026-05-05",
       "journal": "Cryogenics",
@@ -15377,10 +15377,10 @@
     },
     {
       "id": 6627,
-      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-Cat qubit",
+      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-cat qubit",
       "abstract": "The intriguing physical phenomena associated with exceptional points have established non-Hermitian physics as a frontier of modern research. Recent investigations have extended non-Hermitian physics into the fully quantum domain. However, existing studies predominantly concentrate on discrete-variable quantum systems, while non-Hermitian quantum effects in continuous-variable encoded systems remain largely unexplored. In this work, we investigate the exceptional structure for a driven-dissipative Kerr-cat qubit, realized with a Kerr nonlinear resonator. We find that the dissipation leads to a bidirectional jump between the two basis states of the cat qubit, which is in distinct contrast with the unidirectional jump associated with normal two-level systems. The competition between this jump and a single-photon drive gives arise to the emergence of third-order Liouvillian exceptional points (LEP3s), each corresponds to a crossing point of two lines of LEP2s. We further show that the LEP3 can exhibit the topological character of the Hamiltonian EP3s, which cannot be realized with a single qubit. Our work opens the possibility of realizing non-Hermitian phenomena with continuous-variable quantum systems.",
       "authors": [
-        "Pei-Rong Han",
+        "Pei‐Rong Han",
         "Huiye Qiu",
         "Hao-Long Zhang",
         "Wen Ning",
@@ -15506,19 +15506,19 @@
       "abstract": "Quantum machine learning (QML) models, like their classical counterparts, are vulnerable to adversarial attacks, hindering their secure deployment. Here, we report the first systematic experimental robustness benchmark for 20-qubit quantum neural network (QNN) classifiers executed on a superconducting processor. Our benchmarking framework features an efficient adversarial attack algorithm designed for QNNs, enabling quantitative characterization of adversarial robustness and robustness bounds. From our analysis, we verify that adversarial training reduces sensitivity to targeted perturbations by regularizing input gradients, significantly enhancing QNN's robustness. Additionally, our analysis reveals that QNNs exhibit superior adversarial robustness compared to classical neural networks, an advantage attributed to inherent quantum noise. Furthermore, the empirical upper bound extracted from our attack experiments shows a minimal deviation ($3 \\times 10^{-3}$) from the theoretical lower bound, providing strong experimental confirmation of the attack's effectiveness and the tightness of fidelity-based robustness bounds. This work establishes a critical experimental framework for assessing and improving quantum adversarial robustness, paving the way for secure and reliable QML applications.",
       "authors": [
         "Hai-Feng Zhang",
-        "Zhao-Yun Chen",
+        "Zhao‐Yun Chen",
         "Peng Wang",
         "Liang-Liang Guo",
         "Tian-Le Wang",
-        "Xiao-Yan Yang",
+        "Xiaoyan Yang",
         "Ren-Ze Zhao",
-        "Ze-An Zhao",
+        "Zean Zhao",
         "Sheng Zhang",
         "Lei Du",
-        "Hao-Ran Tao",
+        "Haoran Tao",
         "Zhi-Long Jia",
-        "Wei-Cheng Kong",
-        "Huan-Yu Liu",
+        "Weicheng Kong",
+        "Huanyu Liu",
         "Athanasios V. Vasilakos",
         "Yang Yang",
         "Yu-Chun Wu",
@@ -16118,10 +16118,10 @@
       "title": "Teleportation via spin-1/2 chain in solid-state quantum architecture",
       "abstract": "We propose the protocol for preparing the maximally entangled Bell state between remote qubits at the ends of the spin-1/2 chain governed by the specially engineered nearest-neighbor XX-Hamiltonian with excited central spin as the initial state. This method does not require including optical constituent in the teleportation protocol and can be implemented in the quantum devices with solid-state architecture for teleporting unknown states or organizing quantum gates between remote qubits. A superconducting flux-qubit chain is an example of such devises.",
       "authors": [
-        "E. B. Fel'dman",
+        "E.B. Fel’dman",
         "S. I. Doronin",
-        "E. I. Kuznetsova",
-        "A. I. Zenchuk"
+        "E.I. Kuznetsova",
+        "A.I. Zenchuk"
       ],
       "published_date": "2026-04-16",
       "journal": "Physics Letters A",
