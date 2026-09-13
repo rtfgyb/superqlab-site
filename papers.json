@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-09-12T19:03:33.144604+00:00",
-  "count": 953,
+  "generated_at": "2026-09-13T19:04:54.652948+00:00",
+  "count": 956,
   "papers": [
+    {
+      "id": 17035,
+      "title": "Calibration-aware CNN-U-Net syndrome decoding for a two-patch surface-colour code on a superconducting processor",
+      "abstract": "Abstract Neural syndrome decoders are usually validated in simulation. Hardware evidence remains scarce. This paper reports a calibration-aware convolutional U-Net decoder executed on ibm fez, a 156-qubit Heron r2 processor. The decoder consumes two inputs. The first is the stabilizer syndrome. The second is a perqubit calibration snapshot read from the device at run time. A rotated surface-code patch and a triangular colour-code patch are both constructed and verified. Over 1024 single-shot trials on real hardware, the decoder reached 77.15% logical fidelity (95% CI [74.58, 79.72]) against 67.19% for a minimum-weight perfect matching baseline decoded from the same trials (z = 5.03, p < 10 -6 ). Error-site identification reached 49.92% over 615 injected-error trials. We report five implementation defects found during development, including a boundary rule that produced a distance-2 code while passing commutation and rank checks, and a result-retrieval collision that silently decoupled every syndrome from its label. Each was caught by a verification test rather than by inspection. We also derive an information-theoretic ceiling of 78.7% on exact error localisation for the distance-5 surface code and show that the residual degeneracy is harmless, since every colliding pair differs by a stabilizer rather than a logical operator. Measured fidelity is bounded by circuit depth: transpilation onto the heavy-hex lattice inflates a 24-gate logical circuit to 99 two-qubit gates, and the resulting error product accounts for the observed ceiling.",
+      "authors": [
+        "Sandeep Kumar",
+        "Pradeep Kumar Biswal"
+      ],
+      "published_date": "2026-09-11",
+      "journal": "Physica Scripta",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/1402-4896/aea656",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 17032,
+      "title": "Magnetic-field-free parity-protected qubit based on a narrow altermagnet Josephson junction",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-11",
+      "journal": "Physical review. B./Physical review. B",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/srnr-kn2s",
+      "tags": [
+        "josephson-circuits"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 16948,
       "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation",
@@ -1299,6 +1335,33 @@
         "superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17031,
+      "title": "Reducing TLS loss in tantalum CPW resonators using titanium sacrificial layers",
+      "abstract": "We demonstrate a substantial reduction in two-level system loss in tantalum coplanar waveguide resonators fabricated on high-resistivity silicon substrates through the use of an ultrathin titanium sacrificial layer. A 2 Å titanium film, deposited atop pre-sputtered α-tantalum, acts as a solid-state oxygen getter that chemically modifies the native Ta oxide at the metal–air interface. After device fabrication, the titanium layer is removed using buffered oxide etchant, leaving behind a chemically reduced Ta oxide surface. Subsequent high-vacuum annealing further suppresses two-level system loss. Resonators treated with this process exhibit internal quality factors Qi exceeding an average of 1.5 × 106 in the single-photon regime across ten devices—over three times higher than otherwise identical devices lacking the titanium layer. These results highlight the critical role of interfacial oxide chemistry in superconducting loss and reinforce atomic-scale surface engineering as an effective approach to improving coherence in tantalum-based quantum circuits. The method is compatible with existing fabrication workflows applicable to tantalum films, offering a practical route to further extending T1 lifetimes in superconducting qubits.",
+      "authors": [
+        "Zachary Degnan",
+        "Chun-Ching Chiu",
+        "Yi‐Hsun Chen",
+        "David Sommers",
+        "L. V. Abdurakhimov",
+        "Lihuang Zhu",
+        "Arkady Fedorov",
+        "Peter Jacobson"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Applied Physics Reviews",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0324744",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -3067,7 +3130,11 @@
       "title": "Engineered broadband Purcell protection using a shared <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>Π</mml:mi> </mml:math> -filter for multiplexed superconducting qubits",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Yael Kriheli",
+        "S Goldstein",
+        "Daniel Dahan",
+        "Nadav Katz"
       ],
       "published_date": "2026-08-17",
       "journal": "Physical Review Applied",
