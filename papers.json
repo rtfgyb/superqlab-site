@@ -1,7 +1,121 @@
 {
-  "generated_at": "2026-09-15T19:31:45.993983+00:00",
-  "count": 973,
+  "generated_at": "2026-09-16T19:08:20.228808+00:00",
+  "count": 980,
   "papers": [
+    {
+      "id": 17454,
+      "title": "Phase-stable voltage bias for Josephson photonics devices",
+      "abstract": "Parametric interactions are foundational to superconducting quantum technologies, yet conventional microwave-driven pumping introduces parasitic Kerr nonlinearities and higher-order harmonics that limit device performance. Josephson Photonics (JP) avoids these parasitics by utilizing dc-biased junctions but has remained constrained by high phase noise and the absence of a stable phase reference. Here, we overcome this limitation by integrating a Josephson voltage standard (JVS) to establish a noise-tolerant phase reference, and demonstrate that this reference is coherently transferred to an inelastic Cooper-pair tunneling amplifier (ICTA) via the superconducting order parameter.The resulting low-phase-noise architecture yields a 14-dB enhancement in averaged gain and better quantum-limited noise performance. Critically, the phase reference enables the first observation of phase-sensitive gain and sqeezing in a dc-biased amplifier. By reconciling clean, Kerr-free nonlinearities with phase-coherent drive, our architecture establishes a robust platform for high-purity parametric processes in superconducting circuits.",
+      "authors": [
+        "Amir Hosein Esmaeili",
+        "Naveen Nehra",
+        "Alexandre Paquette",
+        "Mona Arabmohammadi",
+        "Baptiste Monge",
+        "Alexandre Rogalle",
+        "Francois Cyrenne-Bergeron",
+        "Yannick Lapointe",
+        "Nicolas Lavoie",
+        "Nicolas Bourlet",
+        "Max Hofheinz"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.17165",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17500,
+      "title": "Two-qubit gates for the soft 0-π qubit",
+      "abstract": "The 0-π qubit promises longer lifetimes than the transmon, making it a strong candidate for a next-generation, lower-error qubit. Gyenis et al. experimentally demonstrated an unprotected single-qubit gate in the soft 0-π regime [1], but no corresponding two-qubit gate has yet been proposed. We propose an unprotected CZ gate for capacitively coupled soft 0-π qubits. The gate uses a direct transition between a computational state and a higher non-computational state. Assuming negligible device disorder and a phenomenological noise model, the simulated CZ gate achieves a fidelity of approximately 99.9% at a gate time of approximately 160 ns.",
+      "authors": [
+        "Zhenxing Liu",
+        "Eli Weissler",
+        "Joshua Combes"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.16630",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17501,
+      "title": "Quantum Simulation of Two-Dimensional Free Dirac Hamiltonian in Multimode Circuit QED",
+      "abstract": "Two-dimensional massive Dirac systems feature a gapped Dirac-cone dispersion central to a broad range of phenomena in condensed-matter and topological physics. While quantum simulations have demonstrated one-dimensional Dirac dynamics and two-dimensional massless Weyl dynamics, programmable simulation of massive two-dimensional Dirac dynamics remains experimentally unexplored. Here, we realize a programmable two-dimensional free Dirac Hamiltonian in circuit QED, with independently tunable spin-momentum couplings and mass, using a single Rabi-driven qubit coupled to two modes of a multimode cavity. Using this Hamiltonian, we observe rotational Zitterbewegung of a two-dimensional massive Dirac particle and its dependence on the effective mass. Time-dependent master-equation simulations incorporating measured decoherence, corrections beyond the rotating-wave approximation (RWA), and anharmonicity of the transmon reproduce the observed dynamics. Our results establish multimode circuit QED as a compact, programmable platform for higher-dimensional relativistic quantum dynamics and provide a foundation for exploring dynamical and topological phenomena in gapped Dirac systems.",
+      "authors": [
+        "Jiwon Kang",
+        "Jiuk Lee",
+        "Eliya Blumenthal",
+        "Shay Hacohen-Gourgy",
+        "Eunseong Kim"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.16628",
+      "tags": [
+        "transmon",
+        "circuit-qed",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17513,
+      "title": "Error-Bounded Fixed-Point Design of Super-Sample-Rate IIR Filters for Real-Time Superconducting Qubit Flux Predistortion",
+      "abstract": "Flux-activated two-qubit gates in superconducting processors require correction of line distortion, which otherwise produces residual detuning, conditional-phase error, and leakage. Prior demonstrations of cryoscope-based distortion calibration have generally used commercial solutions that specify the filter models but not their FPGA implementation. These details matter for custom and open-source systems, where the fixed-point coefficient and datapath formats set how accurately the correction is realized, and the IIR feedback loop in its standard form does not meet timing at the required clock rate. We derive the coefficient formats of the correction filters from a step response error tolerance, using bounds on the quantization-induced displacement of the poles and zeros over the physical parameter range of each distortion, and the accumulator format from the smallest input change that must remain resolvable at the output. The same analysis gives the conditions under which quantization preserves filter stability. We implement the resulting FIR/IIR cascade on the QubiC platform at a fabric clock rate of \\SI{500}{MHz}, using a super-sample-rate structure with scattered look-ahead pipelining, which removes the feedback recursion from the critical path without changing the target transfer function. A representative cascade for our \\SI{1}{GS/s} flux lines, comprising an integrator, a second-order section, and a 20-tap FIR, consumes 88 DSP slices and adds \\SI{162}{ns} of latency. We confirm the hardware implementation by correcting characteristic bias-tee distortion, an intermediate step toward full cryoscope-based calibration.",
+      "authors": [
+        "Matt Huszabianlou",
+        "Angelos Ioannou",
+        "Nirmalendu Bikash Patra",
+        "Anastasiia Butko",
+        "Gang Huang",
+        "Irfan Siddiqi"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.16488",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17414,
+      "title": "Magnetic memory and hysteresis from quantum transitions in theory and experiments on quantum annealers",
+      "abstract": "Abstract Quantum annealing leverages quantum tunneling for non-local searches, thereby minimizing memory effects that typically arise from metastabilities. Nonetheless, recent work has demonstrated protocols for robust hysteresis in large-scale transverse-field Ising systems on D-Wave quantum hardware. The quantum nature of these results remains to be understood, and existing theoretical approaches fail to capture the observed phenomenology in the far-from-equilibrium regime of driven longitudinal fields. Here, we present a hybrid framework that interleaves low-order Landau-Zener transitions with semiclassical domain wall kinetics, coupling the two channels through an iterative proportional fitting procedure that captures decoherence and measurement without requiring an explicit open-system model. Validated on three D-Wave annealers, the framework reproduces measured hysteresis loops, non-monotonic magnetization reversals, and transiently negative susceptibilities in rings of up to 4,906 qubits, and yields analytic scaling predictions for defect density and hysteresis area confirmed by experiment. These results establish programmable quantum annealers as platforms for exploring memory and non-equilibrium dynamics in driven quantum many-body systems.",
+      "authors": [
+        "Frank Barrows",
+        "Elijah Pelofske",
+        "Pratik Sathe",
+        "Francesco Caravelli",
+        "Cristiano Nisoli"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "Communications Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s42005-026-02847-6",
+      "tags": [],
+      "primary_category": "",
+      "is_top_journal": true
+    },
     {
       "id": 17114,
       "title": "Shadow-Masked Angled Ion Milling for Junction Integration in Silicon-based Tantalum Superconducting Qubits",
@@ -46,6 +160,56 @@
         "superconducting-circuits",
         "superconducting-context",
         "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17517,
+      "title": "Pump-Free Microwave-Optical Bell Pair Generation for Teleportation-Based Quantum Transduction",
+      "abstract": "The coherent conversion between microwave and optical photons, known as quantum transduction, is critical for connecting superconducting processors to optical networks. Existing methods are limited by complications associated with optical pumping. We propose a pump-free microwave-optical Bell-pair source for teleportation-based transduction. Using a spin or atomic system resonantly coupled to optical and microwave cavities, the scheme generates loss-robust heralded Bell pairs. Across color centers, atomic ensembles, and phonon-mediated systems, this assembly achieves kilohertz-range heralding rates with high fidelity.",
+      "authors": [
+        "Fangxin Li",
+        "Jaesung Heo",
+        "Zhaoyou Wang",
+        "Benjamin Pingault",
+        "Xingyu Gao",
+        "Tengyang Ruan",
+        "Anjun Chu",
+        "David D. Awschalom",
+        "Andrew N. Cleland",
+        "Andrew P. Higginbotham",
+        "Alexander A. High",
+        "Liang Jiang"
+      ],
+      "published_date": "2026-09-14",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.16364",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17538,
+      "title": "Pulse-Level Compilation of Measurement-Free Recovery in Transmon Circuits",
+      "abstract": "Quantum error correction commonly relies on syndrome measurement, decoding, and conditional feedback. We numerically show that the conditional spectrum of an interacting transmon circuit can compile a local recovery rule into a fixed open-loop control cycle. In a four-bit repetition-code ring, the resulting input-independent control slows the decay of logical coherence under Pauli-\\(X\\) noise and stabilizes logical-one population under data relaxation relative to uncorrected references. Its local, bounded-degree architecture provides a hardware-native framework for extending compiled recovery control to larger quantum networks.",
+      "authors": [
+        "Yi-Han Yu",
+        "Kai Xu",
+        "Heng Fan"
+      ],
+      "published_date": "2026-09-14",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.16133",
+      "tags": [
+        "transmon",
+        "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
       "is_top_journal": false
