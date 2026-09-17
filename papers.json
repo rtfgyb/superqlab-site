@@ -1,11 +1,78 @@
 {
-  "generated_at": "2026-09-16T19:08:20.228808+00:00",
-  "count": 980,
+  "generated_at": "2026-09-17T19:08:37.500170+00:00",
+  "count": 988,
   "papers": [
+    {
+      "id": 17664,
+      "title": "Remote Adiabatic Controlled-Z Gate between Distant Superconducting Qubits",
+      "abstract": "Direct entangling gates between spatially separated qubits are a key capability for modular quantum computing. They enable nonlocal quantum circuits to be executed across different processor modules, thereby alleviating single-chip scaling constraints and expanding the effective connectivity of the system. Here, we propose and numerically investigate a remote adiabatic controlled-Z gate between two frequency-tunable superconducting qubits connected by a multi-mode coaxial cable. The cable-mediated interaction enables the gate to be implemented without additional tunable couplers, preserving a simple circuit architecture. For a 30-cm cable, simulations incorporating ten standing-wave modes yield an optimized gate infidelity of $4.71\\times10^{-7}$ with a duration of 376.7 ns in the absence of decoherence. The gate maintains high fidelity under qubit-frequency fluctuations and millimeter-scale cable-length variations. Calculations for 50- and 100-cm cable situations demonstrate its potential for even larger cryogenic systems. These results provide a promising approach to extending high-fidelity quantum operations beyond individual chips and toward scalable, interconnected superconducting quantum processors.",
+      "authors": [
+        "Si-Yu Xu",
+        "Yi-Rong Jin",
+        "Wen-Gang Zhang",
+        "Hai-Feng Yu"
+      ],
+      "published_date": "2026-09-16",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.18081",
+      "tags": [
+        "superconducting-circuits",
+        "tunable-coupler",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17674,
+      "title": "Qurrium: A Python package for randomized measurement-based estimation of quantum state properties",
+      "abstract": "Estimating quantum state properties is essential across a wide range of applications, from studying quantum many-body physics to benchmarking quantum hardware. We present Qurrium, a Python package built on Qiskit that implements randomized measurement protocols for estimating purity, second-order Rényi entropy, expectation values of Pauli observables, and state overlap. In this paper, we focus on the classical shadow protocol and demonstrate two workflows in Qurrium. One is the end-to-end workflow that integrates quantum circuit preparation, simulation, measurement, and analysis. The other is the standalone estimation workflow that accepts pre-collected measurement data from any hardware platform in Qurrium's data format. We demonstrate both workflows through examples of a cluster state and an Ising time-evolved state. Furthermore, we report results obtained from a superconducting quantum processor developed by Academia Sinica and analyzed using the standalone estimation workflow. Qurrium is built on Qiskit, the dominant framework in quantum computing software, making it directly accessible to the large community of researchers already working with Qiskit. The source code is openly available at https://github.com/qurrium/qurrium and the example code is provided at https://github.com/qurrium/classical-shadow-examples.",
+      "authors": [
+        "Huai-Chun Chang",
+        "Teik-Hui Lee",
+        "Arthur Strauss",
+        "Yu-Cheng Lin",
+        "Hsiu-Chuan Hsu"
+      ],
+      "published_date": "2026-09-16",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.17979",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17681,
+      "title": "Quantifying and Bounding Spatiotemporal Correlations in Quantum Noise",
+      "abstract": "Spatial and temporal correlations in quantum noise challenge the local Markovian models commonly used in quantum information processing. We develop a unified operational framework for quantifying temporal, spatial, and total spatiotemporal correlations in general quantum processes. Using process tensors, we define these quantities through optimal distinguishability from Markovian, spatially local, and fully uncorrelated processes. Optimization over admissible probing combs ensures monotonicity under every superprocess that preserves the corresponding free set, while Choi-state functionals and restricted probes provide accessible lower bounds. We establish hierarchy and interpolation relations among the correlation measures and derive dimension-dependent upper bounds on temporal correlations transmitted by quantum memories, with tighter bounds for classical memory, together with universal ceilings imposed by the system dimension. These bounds turn certified lower estimates into witnesses of minimum memory dimension, nonclassicality under a memory-dimension constraint, and inconsistencies in the assumed process model. We illustrate the results with effective superconducting-qubit models featuring \\(ZZ\\) and \\(XY\\) interactions, exhibiting saturation of classical-memory, quantum-memory, and system-dimension ceilings. These results pave the way toward practical approaches to characterizing and addressing spatiotemporally correlated errors in quantum devices.",
+      "authors": [
+        "Guilherme Zambon",
+        "Diogo O. Soares-Pinto"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.17870",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 17454,
       "title": "Phase-stable voltage bias for Josephson photonics devices",
-      "abstract": "Parametric interactions are foundational to superconducting quantum technologies, yet conventional microwave-driven pumping introduces parasitic Kerr nonlinearities and higher-order harmonics that limit device performance. Josephson Photonics (JP) avoids these parasitics by utilizing dc-biased junctions but has remained constrained by high phase noise and the absence of a stable phase reference. Here, we overcome this limitation by integrating a Josephson voltage standard (JVS) to establish a noise-tolerant phase reference, and demonstrate that this reference is coherently transferred to an inelastic Cooper-pair tunneling amplifier (ICTA) via the superconducting order parameter.The resulting low-phase-noise architecture yields a 14-dB enhancement in averaged gain and better quantum-limited noise performance. Critically, the phase reference enables the first observation of phase-sensitive gain and sqeezing in a dc-biased amplifier. By reconciling clean, Kerr-free nonlinearities with phase-coherent drive, our architecture establishes a robust platform for high-purity parametric processes in superconducting circuits.",
+      "abstract": "Parametric interactions are foundational to superconducting quantum technologies, yet conventional microwave-driven pumping introduces parasitic Kerr nonlinearities and higher-order harmonics that limit device performance. Josephson Photonics (JP) avoids these parasitics by utilizing dc-biased junctions but has remained constrained by high phase noise and the absence of a stable phase reference. Here, we overcome this limitation by integrating a Josephson voltage standard (JVS) to establish a noise-tolerant phase reference, and demonstrate that this reference is coherently transferred to an inelastic Cooper-pair tunneling amplifier (ICTA) via the superconducting order parameter. The resulting low-phase-noise architecture yields a 14-dB enhancement in averaged gain and better quantum-limited noise performance. Critically, the phase reference enables the first observation of phase-sensitive gain and squeezing in a dc-biased amplifier. By reconciling clean, Kerr-free nonlinearities with phase-coherent drive, our architecture establishes a robust platform for high-purity parametric processes in superconducting circuits.",
       "authors": [
         "Amir Hosein Esmaeili",
         "Naveen Nehra",
@@ -95,6 +162,118 @@
         "superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17566,
+      "title": "Phase formation and thermal stability of superconducting platinum silicide thin films on silicon",
+      "abstract": "Platinum silicide (PtSi) thin films are promising for silicon-based superconducting quantum devices due to their compatibility with CMOS fabrication, air stability, and superconducting transition temperature near 1 K. We report a systematic study of PtSi phase formation, microstructure, and interface quality as a function of annealing temperature and duration, characterizing films using grazing-incidence x-ray diffraction, x-ray reflectivity, and electrical transport measurements. Phase-pure PtSi forms within minutes by rapid thermal processing at 600 °C and is stable under extended annealing, while 30 s anneals across 300–600 °C yield equivalent film quality with consistent microstructure and superconducting properties. X-ray reflectivity reveals that interfacial roughening is an intrinsic consequence of the Pt2Si-to-PtSi conversion step rather than a result of elevated temperature or prolonged annealing. These results establish a robust processing window for PtSi formation in silicon-based superconducting device fabrication flows.",
+      "authors": [
+        "Tharanga Nanayakkara",
+        "Ananya Chattaraj",
+        "Mingzhao Liu",
+        "Charles T. Black"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "Journal of Vacuum Science & Technology A Vacuum Surfaces and Films",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1116/6.0005644",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 17558,
+      "title": "A Geometrical Design Tool for Building Cost-Effective Layout-Aware n-Bit Quantum Gates Using the Bloch Sphere Approach",
+      "abstract": "The conventional design technique of any n-bit quantum gate is mainly achieved using the multiplication of unitary matrices for control qubits and target qubits, where and .These matrices represent quantum rotations by an n-bit quantum gate.For a quantum designer, such a conventional technique requires extensive computational time and effort, which may generate an n-bit quantum gate with too high quantum cost.In general, the Bloch sphere is only utilized as a visualization tool to verify the conventional design correctness for quantum rotations by a quantum gate.In contrast, this paper introduces a new concept of using the Bloch sphere as a \"geometrical design tool\" to build cost-effective n-bit quantum gates with lower quantum costs.This concept is termed the \"Bloch sphere approach (BSA).\"In BSA, a cost-effective n-bit quantum gate is built without using any multiplication of unitary matrices.Instead, the quantum rotations for such a gate are visually selected using the geometrical planar intersections of the Bloch sphere.The BSA can efficiently map m targets among controls for an n-bit quantum gate to satisfy the limited layout connectivity for the physical neighboring qubits of a superconducting quantum computer.Experimentally, n-bit quantum gates built using the BSA always have lower quantum costs than those for such gates built using the conventional quantum design techniques, by utilizing the same transpilation settings and the restricted layout connectivity of a real IBM superconducting quantum computer, where qubits.",
+      "authors": [
+        "Ali Al-Bayaty",
+        "Shanyan Chen",
+        "Ali Al-Shuwaili",
+        "Abbas AlZubaidi",
+        "Marek Perkowski"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "Cureus Journal of Computer Science.",
+      "publication_status": "published",
+      "url": "https://doi.org/10.7759/s44389-026-00279-5",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 17557,
+      "title": "Multi-stage suppression of Josephson junction variability with wafer-scale uniformity in 20-qubit superconducting circuits",
+      "abstract": "Variability in Josephson junction area and resistance remains a central challenge in scaling fixed-frequency superconducting qubit architectures, where resistance fluctuations translate into qubit-frequency dispersion and potential frequency collisions. Here, we present a fabrication strategy that combines large-area process control on 200 mm wafers with chip-level electrical fine-tuning to improve junction-resistance repeatability. Within a central 80 × 80 mm 2 field on 200 mm wafers, the Manhattan-style aluminum junction process yielded relative standard deviations of 5.1–5.2% in junction area (RSD A ) and 5.8–7.2% in room-temperature resistance (RSD R ). Alternating-bias assisted annealing (ABAA) further reduced chip-level RSD R to 1.3% in a chip with all 20 junctions tuned and to 1.7% for 16 tuned junctions in a cryogenically characterized 20-qubit chip. In a cross-chip comparison, the coherence distributions of the ABAA-treated chip and the untreated reference chip overlapped. These results show that large-area feed-forward correction and post-fabrication tuning can improve junction-parameter repeatability in fixed-frequency superconducting circuits.",
+      "authors": [
+        "Hyeokshin Kwon",
+        "Dae-Yun Kim",
+        "Dae Seok Han",
+        "Kiho Kim",
+        "Hyoung Kug Kim",
+        "Geunyong Kim",
+        "June-Young M. Lee",
+        "Chungsun Lee",
+        "Jaeho Shin"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "Scientific Reports",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s41598-026-70944-1",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 17556,
+      "title": "Phase Dynamics and Dissipation in Tunnel Ferromagnetic Josephson Junctions",
+      "abstract": "Abstract We investigate tunnel ferromagnetic Josephson junctions based on Superconductor-Insulator-thin superconductor-Ferromagnet-Superconductor multilayers. A comparative study of their electrodynamic properties is performed for junctions with niobium and aluminum (Al) electrodes, featuring different ferromagnetic interlayer materials and lateral dimensions ranging from the micrometric to the submicrometric scale. The parameters extracted from the fitting of the current-voltage characteristics using the tunnel junction microscopic model are found to be consistent with those independently estimated from switching current distribution measurements. Submicrometric Al-based devices exhibit electrodynamic properties comparable to those implemented in state-of-the-art transmon qubits and display clear signatures of quantum phase diffusion. The strong agreement between transport modelling and escape dynamics establishes a robust framework for describing hybrid ferromagnetic Josephson junctions consistent with their energy scales and supports their potential integration into superconducting quantum and classical digital circuits.",
+      "authors": [
+        "F. Calloni",
+        "R. Satariano",
+        "R. Ferraiuolo",
+        "H. G. Ahmad",
+        "D. Gatta",
+        "E. Raja",
+        "G. Santo",
+        "G. Serpico",
+        "R. Vydyasagar",
+        "D. Montemurro",
+        "N. Poccia",
+        "A. Vettoliere",
+        "G. Ausanio",
+        "C. Granata",
+        "L. Parlato",
+        "G. P. Pepe",
+        "A. Bruno",
+        "F. Tafuri",
+        "D. Massarotti"
+      ],
+      "published_date": "2026-09-15",
+      "journal": "Journal of Superconductivity and Novel Magnetism",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1007/s10948-026-07236-2",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -2937,6 +3116,27 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17559,
+      "title": "Dressed-state optomechanics in the few-photon regime",
+      "abstract": "Efficient optomechanical cooling typically requires high photon occupancy to maximize cooling power, a constraint that generally limits the degree of coherent quantum control available in the few-photon regime. Here, we investigate this trade-off by considering a strongly nonlinear cavity operated as a discrete quantum system. In the weak-coupling limit, we derive a general connection between the optomechanical damping rate and the cavity's dressed-state manifold. This framework reveals that the damping rate (determined by the population imbalance across dressed states) is directly tunable via the coherent manipulation tools, which are standard in circuit quantum electrodynamics. We illustrate this framework using a Josephson photonics architecture, where a dc-biased junction induces a photon blockade that truncates the cavity to an N -level system. By sacrificing raw cooling (or heating) power, this platform enables full quantum mechanical control over optomechanical properties, offering a versatile avenue for the quantum manipulation of mechanical modes.",
+      "authors": [
+        "Anonymous",
+        "Björn Kubala",
+        "Joachim Ankerhold",
+        "Ciprian Padurariu"
+      ],
+      "published_date": "2026-08-25",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/2pg1-7jrl",
+      "tags": [
+        "circuit-qed",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -6099,7 +6299,10 @@
       "title": "High-fidelity transmon reset with a multimode acoustic resonator",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Simon Storz",
+        "Igor Kladarić",
+        "Yiwen Chu"
       ],
       "published_date": "2026-07-29",
       "journal": "Physical Review Applied",
