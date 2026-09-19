@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-09-18T19:09:30.389808+00:00",
-  "count": 998,
+  "generated_at": "2026-09-19T19:05:38.202285+00:00",
+  "count": 999,
   "papers": [
+    {
+      "id": 17869,
+      "title": "High-Permeability Pulse-Reverse Electroplated NiFe for Integrated Chip-Scale Magnetic Shielding in Cryogenic Quantum Systems",
+      "abstract": "Abstract Compact passive magnetic shielding at the chip and package level is essential for cryogenic quantum and superconducting systems, where even weak static magnetic fields can degrade device performance. In this work, a pulse-reverse electroplating strategy for NiFe (80:20) is developed to achieve precise control over composition and microstructure. The resulting films exhibit exceptionally high low-field relative permeability and are compatible with integrated chip-scale shielding architectures. Optimization of the deposition parameters produces smooth, low-stress NiFe layers with relative permeability μr > 104 at low applied fields, while maintaining soft-magnetic behavior from room temperature down to 2 K. In the low-field regime relevant to ambient and cryogenic environments, the films retain high permeability, which is critical for effective shielding. The electroplated NiFe is implemented in a three-dimensional architecture consisting of a continuous backplane, fully filled through-silicon vias (TSVs), and a conformal cap, which together form a closed magnetic enclosure. Finite-element simulations based on measured μr (H) indicate strong shielding performance, with shielding factors up to SFv ≈ 114 and SFh ≈ 187 at 25 μT, and sustained attenuation across the 62−200 μT range. By connecting electroplating-controlled microstructure with field-dependent permeability and device-level shielding behavior, this work supports electroplated NiFe as a scalable platform for compact magnetic shielding in cryogenic electronic systems.",
+      "authors": [
+        "Zahra Barani",
+        "Chase C. Tillman",
+        "Harshil Goyal",
+        "Jacob Ward",
+        "Md Sabbir Hossen Bijoy",
+        "Fariborz Kargar",
+        "Mark L. Adams"
+      ],
+      "published_date": "2026-09-18",
+      "journal": "ACS Applied Engineering Materials",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1021/acsaenm.6c00380",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 17738,
       "title": "Analytic leakage suppression with a single control field: fast two-qubit gates with tunable couplers",
