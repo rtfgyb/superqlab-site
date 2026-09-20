@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T19:05:38.202285+00:00",
-  "count": 999,
+  "generated_at": "2026-09-20T19:05:43.871658+00:00",
+  "count": 1000,
   "papers": [
     {
       "id": 17869,
@@ -3534,6 +3534,27 @@
       "is_top_journal": false
     },
     {
+      "id": 17886,
+      "title": "Dual Shapiro steps and fundamental transconductance in the dc-driven Bloch transistor",
+      "abstract": "We propose a superconducting circuit based on the Bloch transistor, a quantum device consisting of two small-capacitance Josephson junctions, connected in series and having a small superconducting island in between. This device is driven by two dc electrical sources controlling Josephson oscillations of frequency $f_J = 2e\\overline{V_J}/h$, related to the average transistor voltage $\\overline{V_J}$, and Bloch oscillations of frequency $f_B = \\overline{I_B}/2e$, related to the average current $\\overline{I_B}$ injected into the transistor island. We show that due to the Bloch transistor properties, these two types of oscillations are coupled and can mutually phase-lock, i.e., $f_J = f_B$. This leads to the formation of a current step on the current-voltage curve at $\\overline{I_B} = 2ef_J$, which is similar to the dual Shapiro step, appearing under microwave irradiation of frequency $f$ on the current-voltage curve of a small Josephson Junction at current $I=2ef$. Moreover, the Bloch transistor transconductance $\\overline{I_B}/\\overline{V_J}$ takes the fundamental value of $1/R_Q$, where $R_Q = h/4e^2$ is the resistance quantum. The obtained results pave the way to an alternative quantum standard of resistance, based on the superconducting circuit and operating without applying a strong magnetic field.",
+      "authors": [
+        "A. B. Zorin"
+      ],
+      "published_date": "2026-08-24",
+      "journal": "Physical review. B./Physical review. B",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/pfyb-pdk9",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "cond-mat.supr-con",
+      "is_top_journal": false
+    },
+    {
       "id": 14819,
       "title": "Frequency control of superconducting resonators using integrated interferometers",
       "abstract": "Predictable frequency trimming of superconducting resonators at liquid-helium temperatures requires a tuning element whose usable range remains well defined despite screening currents and hysteresis. Here, we realize flux-controlled λ/4 coplanar-waveguide resonators terminated by two-junction DC superconducting quantum interference devices (SQUIDs) fabricated in a standard Nb/Al-AlOx/Nb multilayer process. Integrated on-chip flux-bias lines allow the resonant frequency to be controlled at 4.2 K. RF measurements show periodic frequency modulation with applied flux, with a maximum shift of δfr=8.63 MHz and a single-valued tuning interval of δfr0=2.85 MHz. Near half-integer flux quanta, the response exhibits hysteretic jumps caused by the finite SQUID loop inductance, so that the usable single-valued tuning interval is smaller than the full modulation range. We develop a semi-analytical model of the frequency–flux response, supported by numerical simulations and 3D electromagnetic extraction of the device parameters, which reproduces the measured hysteretic branches and identifies the SQUID loop inductance and junction critical current as the main parameters limiting the usable tuning range. These results provide a quantitative design framework for MHz-scale frequency trimming of Nb superconducting resonators in 4 K cryogenic readout circuits.",
@@ -4749,7 +4770,7 @@
     {
       "id": 8291,
       "title": "Spectator Leakage Suppression via Invariant Subspace Engineering for cz Gates in Superconducting Quantum Circuits",
-      "abstract": "",
+      "abstract": "Spectator leakage poses a fundamental challenge to scalable quantum computing, particularly as frequency collisions become unavoidable in multiqubit processors. We introduce a leakage mitigation strategy based on dynamically reshaping the system Hamiltonian. Our technique utilizes a tunable coupler to enforce a block-diagonal structure on the effective Hamiltonian governing near-resonant spectator interactions, confining the gate dynamics to a two-dimensional invariant subspace and thus preventing leakage by construction. On a multiqubit superconducting processor, we experimentally demonstrate that this dynamic control scheme suppresses leakage rates to the order of 10^{-4}, across a wide near-resonant detuning range and with up to three simultaneous spectator qubits. These results demonstrate a robust and scalable method that resolves the critical trade-off between dense frequency packing and high-fidelity gate operation. Our Letter establishes dynamic Hamiltonian engineering as an essential technology for building fault-tolerant quantum computers.",
       "authors": [
         "Anonymous",
         "Bin-Han Lu",
@@ -4772,6 +4793,7 @@
       "url": "https://doi.org/10.1103/zywf-twfv",
       "tags": [
         "superconducting-circuits",
+        "tunable-coupler",
         "superconducting-context",
         "quantum-superconducting-context",
         "quantum-circuit-context"
@@ -16122,7 +16144,7 @@
       "authors": [
         "Tuomas Uusnäkki",
         "Timm Mörstedt",
-        "Wallace Teixeira",
+        "Wallace S. Teixeira",
         "Miika Rasola",
         "Mikko Möttönen"
       ],
