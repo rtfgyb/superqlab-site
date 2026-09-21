@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-09-20T19:05:43.871658+00:00",
-  "count": 1000,
+  "generated_at": "2026-09-21T19:07:45.225851+00:00",
+  "count": 1003,
   "papers": [
+    {
+      "id": 17921,
+      "title": "Microwave dielectric properties of LiNbO$_{\\mathbf{3}}$ and AlN at millikelvin temperatures and single-photon power",
+      "abstract": "Efficient bidirectional microwave optical photon conversion is a key capability for scaling superconducting quantum processors into distributed networks. However, achieving the necessary conversion efficiency requires filling a critical knowledge gap in understanding the loss mechanisms of electro optic materials. Here, we characterize the microwave properties of single crystal bulk LiNbO3 and AlN over a broad range of powers, down to single photon levels, and spanning from millikelvin temperatures to above 1K. We demonstrate that both materials exhibit two level systems (TLS) behavior, while piezoelectric related losses are excluded. We show that TLS induced dissipation is predominantly localized on the surface rather than being an intrinsic bulk property, a result further corroborated by room temperature 3D XPS and time of flight SIMS analyses. These findings provide useful insights to engineer hybrid architectures that integrate bulk electro optic crystals within superconducting cavities, proving that microwave quality factors compatible with high efficiency microwave optical transduction are within reach.",
+      "authors": [
+        "Alessandro Reineri",
+        "Francesco Crisa",
+        "Akshay Murthy",
+        "Maithlee Shinde",
+        "Daniel Bafia",
+        "Changqing Wang",
+        "Tanay Roy",
+        "Alexander Romanenko",
+        "John Zasadzinski",
+        "Anna Grassellino",
+        "Silvia Zorzetti"
+      ],
+      "published_date": "2026-09-18",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.22002",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17984,
+      "title": "The Pinnacle Architecture with fixed connectivity of degree eight",
+      "abstract": "We show how the Pinnacle architecture can be adapted to be compatible with superconducting qubits, where the connectivity between qubits must be fixed at fabrication. Specifically, we present a modified instantiation of the architecture that has fixed connectivity degree of eight. With this instantiation, we show that a 2048-bit RSA integer can be factored in one month with approximately 120 000 physical qubits, given a physical error rate of $10^{-3}$, code cycle time of 1 microsecond and reaction time of 10 microseconds.",
+      "authors": [
+        "Paul Webster",
+        "Tom Peham",
+        "Lawrence Z. Cohen"
+      ],
+      "published_date": "2026-09-18",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.21249",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 17869,
       "title": "High-Permeability Pulse-Reverse Electroplated NiFe for Integrated Chip-Scale Magnetic Shielding in Cryogenic Quantum Systems",
@@ -75,6 +124,40 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 17892,
+      "title": "Highly crystalline superconducting TiN resonators grown on thermally reconstructed sapphire",
+      "abstract": "Abstract High-quality crystalline growth of a thin film on sapphire requires sufficient substrate preparation, often achieved via aggressive chemical cleaning. Direct thermal reconstruction of the sapphire substrate via a CO 2 laser beam may provide an alternative method to prepare the substrate for epitaxy without the use of any chemical processing. In this work, we demonstrate that the thermal annealing of sapphire into its ( √ 31× √ 31) R±9 ○ reconstruction is a valid alternative preparation technique for sapphire substrates. TiN films grown via plasma-assisted molecular beam epitaxy upon these substrates exhibit greater crystallinity than those grown on chemically-cleaned sapphire substrates. Superconducting resonators fabricated from these films exhibit similar performance, with many possessing internal quality factors at single photon levels greater than 10 6 for both substrate preparation methods.",
+      "authors": [
+        "Thomas J. Smart",
+        "Marc Neis",
+        "Janine Lorenz",
+        "Marcello P. Guardascione",
+        "Roudy Hanna",
+        "Michael Schleenvoigt",
+        "Yuan Gao",
+        "Joscha Domnick",
+        "Benjamin Bennemann",
+        "Abdur Rehman Jalil",
+        "Jin Hee Bae",
+        "H. D. Bhardwaj",
+        "F. Stefan Tautz",
+        "Felix Lüpke",
+        "Detlev Grützmacher",
+        "R. Barends",
+        "Pavel Bushev",
+        "Peter Schüffelgen"
+      ],
+      "published_date": "2026-09-17",
+      "journal": "Superconductor Science and Technology",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/1361-6668/aea939",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
