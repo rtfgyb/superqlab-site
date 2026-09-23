@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-09-22T19:08:32.002514+00:00",
-  "count": 1009,
+  "generated_at": "2026-09-23T19:02:46.344068+00:00",
+  "count": 1012,
   "papers": [
+    {
+      "id": 18051,
+      "title": "Mechanism of energy transfer in a hybrid circuit-QED architecture",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-22",
+      "journal": "Physical review. B./Physical review. B",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/lxjd-4r8x",
+      "tags": [],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 18050,
+      "title": "Oxide-Nitride Heteroepitaxy for Low-Loss Dielectrics in Superconducting Quantum Circuits",
+      "abstract": "Abstract Superconducting qubits show great promise for the realization of fault-tolerant quantum computing, but lossy, amorphous dielectrics limit current technology. Identifying highly crystalline and stoichiometric dielectrics with intrinsically low microwave loss is therefore a central materials challenge, yet experimentally validated platforms remain scarce. This work integrates a crystalline dielectric into a heteroepitaxial TiN/γ-Al2O3/TiN trilayer grown via pulsed laser deposition. Correlative high-resolution imaging, diffraction, and spectroscopy measurements confirm the single-crystal quality and chemical integrity of all layers, with minimal defects and limited anion interdiffusion across the oxide–nitride interfaces. Using microwave lumped-element resonators with parallel-plate capacitors, this work establishes an experimentally measured upper bound for the dielectric loss of epitaxial γ-Al2O3, which has a low intrinsic two-level system loss of δTLS0 = (2.8 ± 0.1) × 10–5. These results establish heteroepitaxial oxides on transition metal nitrides as an attractive materials platform for superconducting quantum circuits, particularly for integration into compact device architectures such as merged-element transmons and microwave kinetic inductance detectors.",
+      "authors": [
+        "David A. Garcia-Wetten",
+        "Mitchell J. Walker",
+        "Peter G. Lim",
+        "André Vallières",
+        "Maria G. Jimenez-Guillermo",
+        "Miguel A. Alvarado",
+        "Dominic P. Goronzy",
+        "Anna Grassellino",
+        "Jens Koch",
+        "V. P. Dravid",
+        "Mark C. Hersam",
+        "Michael J. Bedzyk"
+      ],
+      "published_date": "2026-09-22",
+      "journal": "ACS Nano",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1021/acsnano.6c09621",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 18016,
       "title": "Rabi profile framework: A simple analytical and graphical toolkit for quantum control",
@@ -805,6 +852,27 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 18052,
+      "title": "Quantum effective action for dissipative semiclassical dynamics",
+      "abstract": "Using the quantum effective action in the Schwinger-Keldysh formalism, we derive quantum-thermal corrections to the semiclassical dynamics of a dissipative system described by a macroscopic degree of freedom. We discuss the connection with the Ehrenfest theorem and, within the local potential approximation, obtain the corrections in closed form for arbitrary temperature and damping, showing that as the temperature increases, they cross over from purely quantum to purely thermal. In the low-temperature and weak-damping regime, corrections are set by the zero-point energy of fluctuations evaluated at the classical underdamped frequency, closely paralleling the conservative case, which allows us to go to higher order in the derivative expansion. We apply these general results to the resistively and capacitively shunted superconducting Josephson junction and to an elongated bosonic junction, where corrections can reach the percent level under realistic conditions.",
+      "authors": [
+        "Anonymous",
+        "Andrea Bardin",
+        "Luca Salasnich"
+      ],
+      "published_date": "2026-09-14",
+      "journal": "Physical review. B./Physical review. B",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/m2gf-nrsn",
+      "tags": [
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -3494,7 +3562,7 @@
     },
     {
       "id": 15073,
-      "title": "Practical Fidelity Limits of Toffoli Gates in Superconducting Quantum Processors",
+      "title": "Practical fidelity limits of Toffoli gates in superconducting quantum processors",
       "abstract": "High-fidelity multi-qubit gates are a critical resource for near-term quantum computing, as they underpin the execution of both quantum algorithms and fault-tolerant protocols. The Toffoli gate (CCNOT), in particular, plays a central role in quantum error correction and quantum arithmetic, yet its efficient implementation on current quantum hardware remains limited by noise and connectivity constraints. In this work, we present a hardware-aware characterization of the Toffoli gate using optimized, connectivity-compliant decompositions executed on IBM's 127-qubit superconducting quantum processors. Our study integrates state preparation, gate synthesis, and quantum state/process tomography (QST/QPT) to evaluate fidelity across three distinct classes of input states: Greenberger-Horne-Zeilinger (GHZ), W, and the uniform superposition of all three-qubit computational basis states -- under noise-free simulation, noise-aware emulation, and real hardware execution. For GHZ states, we report state fidelities of 98.442% (noise-free simulation), 81.470% (noise-aware quantum emulation), and 56.368% (real quantum hardware). For W states, state fidelities are 98.739%, 79.900%, and 63.689%, respectively, and for the uniform superposition state, we observe state fidelities of 99.490%, 85.469%, and 61.161%. Comparative QPT experiments yield process fidelities of 98.976% (noise-free) and 80.160% (noise-aware emulation). Our results empirically characterize state-dependent error patterns in multi-qubit circuits and quantify trade-offs between gate decomposition strategies and native hardware performance, offering practical insights for scalable, hardware-efficient quantum circuit design.",
       "authors": [
         "M. AbuGhanem"
@@ -3735,10 +3803,10 @@
     },
     {
       "id": 18010,
-      "title": "Correlation Functions and Photon-Photon Interactions Controlled by a Giant Atom",
+      "title": "Correlation functions and photon-photon interactions controlled by a giant atom",
       "abstract": "Waveguide quantum electrodynamics (WQED) provides a powerful platform for exploring quantum optical phenomena by enhancing atom-photon interactions through photon confinement in a waveguide. Here we investigate the photon-scattering dynamics of a weak coherent pulse incident from the left on a giant atom coupled to a bidirectional waveguide, focusing on effects absent in the small-atom approximation. Using an extended input-output formalism, we calculate the relevant correlation functions and show that the competition between two scattering processes is governed by the ratio of the pulse width to the atomic lifetime, leading to time-dependent switching between bunching and antibunching. In addition, tuning the phase accumulated between the two coupling points of the giant atom allows the photon statistics to be switched among three distinct regimes, each with a finite phase bandwidth. We also discuss the experimental feasibility in superconducting circuits. Our results provide a route toward giant-atom-based control of photon pulses and potential applications in quantum control.",
       "authors": [
-        "Yanjin Yue",
+        "Anonymous",
         "Rui-Yang Gong",
         "Shengyong Li",
         "Ze-Liang Xiang"
@@ -3761,7 +3829,7 @@
       "title": "Dual Shapiro steps and fundamental transconductance in the dc-driven Bloch transistor",
       "abstract": "We propose a superconducting circuit based on the Bloch transistor, a quantum device consisting of two small-capacitance Josephson junctions, connected in series and having a small superconducting island in between. This device is driven by two dc electrical sources controlling Josephson oscillations of frequency $f_J = 2e\\overline{V_J}/h$, related to the average transistor voltage $\\overline{V_J}$, and Bloch oscillations of frequency $f_B = \\overline{I_B}/2e$, related to the average current $\\overline{I_B}$ injected into the transistor island. We show that due to the Bloch transistor properties, these two types of oscillations are coupled and can mutually phase-lock, i.e., $f_J = f_B$. This leads to the formation of a current step on the current-voltage curve at $\\overline{I_B} = 2ef_J$, which is similar to the dual Shapiro step, appearing under microwave irradiation of frequency $f$ on the current-voltage curve of a small Josephson Junction at current $I=2ef$. Moreover, the Bloch transistor transconductance $\\overline{I_B}/\\overline{V_J}$ takes the fundamental value of $1/R_Q$, where $R_Q = h/4e^2$ is the resistance quantum. The obtained results pave the way to an alternative quantum standard of resistance, based on the superconducting circuit and operating without applying a strong magnetic field.",
       "authors": [
-        "A. B. Zorin"
+        "Alexander B Zorin"
       ],
       "published_date": "2026-08-24",
       "journal": "Physical review. B./Physical review. B",
@@ -3828,12 +3896,12 @@
       "title": "High-fidelity control of superconducting qubits with an optically transmitted signal",
       "abstract": "Superconducting circuits exhibit remarkable potential for constructing large-scale quantum simulation and computation systems, featuring numerous qubits, extended coherence time, and precise control. Nevertheless, the growing number of signal cables poses a challenge in dilution refrigerators due to space and heat load constraints. To overcome this issue, we experimentally implemented an optically-assisted transmission line as an alternative to coaxial cables. By modulating microwave signals on laser intensities at room temperature and regenerating the signals at a cryogenic plate within the dilution refrigerator, we demonstrated full control of superconducting qubits using photocurrent. We demonstrate and benchmark both single-qubit and two-qubit gates on frequency tunable transmon qubits, achieving fidelities of 99.915% $\\pm$ 0.005% and 99.676% $\\pm$ 0.041%, respectively, which have reached the requirement of the surface code.",
       "authors": [
-        "Yu-Huai Li",
-        "Daojin Fan",
+        "Anonymous",
+        "Dengxin Fan",
         "Na Li",
         "Fusheng Chen",
         "Shaowei Li",
-        "Dong-Dong Li",
+        "Dongdong Li",
         "Yu Xu",
         "Jin Lin",
         "Ming Gong",
@@ -4364,8 +4432,8 @@
         "Haoran Lu",
         "Saswata Roy",
         "Luojia Zhang",
-        "Aleksandra B. Biedron",
-        "David A. Muller",
+        "Aleksandra Barbara Biedron",
+        "David Anthony Muller",
         "Valla Fatemi"
       ],
       "published_date": "2026-08-18",
@@ -4432,10 +4500,10 @@
     },
     {
       "id": 18012,
-      "title": "Pontryagin's Principle for Leakage-Immune Adiabatic Quantum State Transfer",
+      "title": "Pontryagin's principle for leakage-immune adiabatic quantum state transfer",
       "abstract": "The standard stimulated Raman adiabatic passage (STIRAP) protocol enables high-fidelity quantum state transfer in an ideal three-level system via adiabatic following of a dark state. However, in practical systems with more energy levels, control pulses with finite spectral selectivity often couple the three-level subspace to the remaining subspace, introducing leakage that fundamentally limits the transfer performance. Here, we adopt a multilevel chain model for STIRAP that explicitly incorporates this leakage subspace. Using Pontryagin's maximum principle, we formulate a leakage-penalized quantum optimal control problem with the control pulses constrained to experimentally feasible Gaussian pulse families. We derive explicit gradients of the objective functional with respect to the pulse parameters, enabling efficient low-dimensional optimization that suppresses leakage while preserving the counterintuitive STIRAP pulse ordering. Numerical simulations for a superconducting transmon platform demonstrate that the optimized control pulses significantly enhance the target-state transfer fidelity and improve robustness against amplitude miscalibration and detuning drifts.",
       "authors": [
-        "Xiao-Yu Dong",
+        "Anonymous",
         "Xi-Lai Wang",
         "Wen-Long Ma"
       ],
@@ -4477,11 +4545,11 @@
       "title": "Engineered broadband Purcell protection using a shared <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mi>Π</mml:mi> </mml:math> -filter for multiplexed superconducting qubits",
       "abstract": "We propose a broadband Purcell-protection scheme based on a single shared filter integrated directly into the feedline, enabling simultaneous protection of multiple qubits in a compact architecture with minimal hardware overhead. The filter consists of two open-ended stubs connected by an in-line transmission line, forming a $Π$ geometry, and operates via engineered passive microwave interference that suppresses the real part of the environmental admittance over a wide frequency window. Circuit simulations and finite-element modeling show that transmission is suppressed by several orders of magnitude within the target band (the qubits' frequencies) while preserving the readout mode of the multiplexed architecture. For realistic device parameters, the proposed design yields Purcell-limited relaxation times exceeding $1$ ms over a frequency span of approximately $1.5$ GHz. Our results establish the $Π$ filter as a compact and scalable solution for broadband impedance engineering in superconducting quantum circuits, compatible with standard dispersive readout protocols.",
       "authors": [
-        "Samuel D. Escribano",
+        "Anonymous",
         "Yael Kriheli",
         "Samuel Goldstein",
         "Daniel Dahan",
-        "Nadav Katz"
+        "Nadav Y. Katz"
       ],
       "published_date": "2026-08-17",
       "journal": "Physical Review Applied",
@@ -6791,11 +6859,11 @@
       "title": "Analog circuit-quantum-electrodynamics simulator of quantum spin dynamics through the extended Bose-Hubbard model",
       "abstract": "We propose and validate a framework for analog simulation of the Heisenberg spin model using a circuit quantum electrodynamics (circuit-QED) platform. To this end, we develop a continuous family of deformed boson representations of the SU(2) algebra, which includes the Holstein-Primakoff and Dyson-Maleev transformations as special cases. For spin-1/2 systems, we introduce a procedure to circumvent the inherent non-Hermiticity of the representation, showing that this entire family yields the extended Bose-Hubbard (EBH) Hamiltonian. For the experimental realization of this EBH model, we design a scalable circuit-QED architecture based on an engineered Josephson junction array. Numerical simulations confirm that the microwave photon dynamics in this simulator accurately reproduces the original spin dynamics. Our work establishes an experimentally accessible method for investigating complex quantum spin dynamics in a highly controllable bosonic setting.",
       "authors": [
-        "Ivan V. Dudinets",
+        "Anonymous",
         "Jaehee Kim",
         "Tomás Ramos",
         "Aleksey K. Fedorov",
-        "Vladimir I. Man'ko",
+        "Vladimir I. Man’ko",
         "Joonsuk Huh"
       ],
       "published_date": "2026-07-29",
@@ -6812,10 +6880,10 @@
     },
     {
       "id": 3600,
-      "title": "High-Fidelity Transmon Reset with a Multimode Acoustic Resonator",
+      "title": "High-fidelity transmon reset with a multimode acoustic resonator",
       "abstract": "Achieving sufficiently low residual excited-state populations remains a key challenge in superconducting quantum circuits, particularly for protocols operating close to noise limits or requiring repeated qubit initialization. Existing protocols primarily address this challenge through sophisticated control, engineered dissipation, or feedback mechanisms. Here, we demonstrate an alternative approach in which a superconducting qubit is reset using a physically distinct, intrinsically colder phononic bath. Specifically, we interface a transmon with a high-overtone bulk acoustic resonator (HBAR), enabling cooling of the qubit into GHz-frequency modes. Using this approach, we achieve a residual excited-state population of the qubit below $10^{-4}$, representing an improvement of one to two orders of magnitude compared to existing reset schemes. These results highlight the potential of phononic baths as a resource for high-fidelity qubit initialization in superconducting circuits.",
       "authors": [
-        "Andraž Omahen",
+        "Anonymous",
         "Simon Storz",
         "Igor Kladarić",
         "Yiwen Chu"
@@ -12676,11 +12744,11 @@
       "title": "Quasiparticle-induced decoherence of a driven superconducting qubit",
       "abstract": "We develop a theory for two quasiparticle-induced decoherence mechanisms of a driven superconducting qubit. In the first mechanism, an existing quasiparticle (QP) tunnels across the qubit's Josephson junction while simultaneously absorbing a qubit excitation and one (or several) photons from the drive. In the second mechanism, a qubit transition occurs during the non-linear absorption process converting multiple drive quanta into a pair of new QPs. Both mechanisms can remain significant in gap engineered qubits whose coherence is insensitive to QPs without the drive. Our theory establishes a fundamental limitation on fidelity of the microwave qubit operations, such as readout and gates, stemming from QPs.",
       "authors": [
-        "Mykola Kishmar",
+        "Anonymous",
         "Pavel D. Kurilovich",
         "Andrey Klots",
         "Thomas Connolly",
-        "Igor L. Aleiner",
+        "I. L. Aleǐner",
         "Vladislav D. Kurilovich"
       ],
       "published_date": "2026-06-29",
@@ -13698,12 +13766,12 @@
       "title": "Strong coupling of a microwave photon to an electron on helium",
       "abstract": "Electrons bound to the surface of superfluid helium have been proposed for scalable charge and spin-based quantum computing. However single electron quantum measurement in this system has remained elusive. Here we use a hybrid circuit quantum electrodynamic (cQED) device that comprises a quantum dot and a high-impedance superconducting resonator to demonstrate, for the first time, strong coupling between the resonator microwave field and the motional quantum state of the electron. We find a coupling strength between the electron motion and a resonator photon of $g/2π=118$ MHz, exceeding both the electron motional state decoherence and the resonator loss. These experiments open new avenues for investigating light-matter interaction at the single electron level, and are a key step towards measurement and control of electrons on helium-based spin qubits.",
       "authors": [
-        "G. Koolstra",
+        "Gerwin Koolstra",
         "E. O. Glen",
         "N. R. Beysengulov",
-        "H. Byeon",
+        "Heejun Byeon",
         "K. E. Castoria",
-        "M. Sammon",
+        "Michael J. Sammon",
         "S. A. Lyon",
         "D. G. Rees",
         "J. Pollanen"
@@ -13765,7 +13833,7 @@
         "Tang Su",
         "Ming Li",
         "Haifeng Yu",
-        "Chang-Ling Zou",
+        "Chang‐Ling Zou",
         "Luyan Sun"
       ],
       "published_date": "2026-06-13",
@@ -13857,7 +13925,7 @@
         "Reem Altuijri",
         "Rachid Ahl Laamara",
         "Kottakkaran Sooppy Nisar",
-        "Abdel-Haleem Abdel-Aty"
+        "Abdel‐Haleem Abdel‐Aty"
       ],
       "published_date": "2026-06-11",
       "journal": "Physics Letters A",
@@ -14090,7 +14158,7 @@
       "authors": [
         "Wenhui Huang",
         "Xin-Chi Zhou",
-        "Libo Zhang",
+        "Lushuang Zhang",
         "Jiawei Zhang",
         "Yuxuan Zhou",
         "Bing-Chen Yao",
@@ -14100,10 +14168,10 @@
         "Yongqi Liang",
         "Yiting Liu",
         "Jiawei Qiu",
-        "Daxiong Sun",
+        "Dali Sun",
         "Xuandong Sun",
         "Zilin Wang",
-        "Changrong Xie",
+        "Chunsong Xie",
         "Yuzhe Xiong",
         "Xiaohan Yang",
         "Jiajian Zhang",
@@ -16340,7 +16408,7 @@
         "Stefan Filipp",
         "Kirill G. Fedorov",
         "Rudolf Gross",
-        "Nadezhda P. Kukharchyk"
+        "Nadezhda Kukharchyk"
       ],
       "published_date": "2026-05-05",
       "journal": "Cryogenics",
@@ -16886,10 +16954,10 @@
     },
     {
       "id": 6627,
-      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-Cat qubit",
+      "title": "Non-Hermitian topology in a single driven-dissipative Kerr-cat qubit",
       "abstract": "The intriguing physical phenomena associated with exceptional points have established non-Hermitian physics as a frontier of modern research. Recent investigations have extended non-Hermitian physics into the fully quantum domain. However, existing studies predominantly concentrate on discrete-variable quantum systems, while non-Hermitian quantum effects in continuous-variable encoded systems remain largely unexplored. In this work, we investigate the exceptional structure for a driven-dissipative Kerr-cat qubit, realized with a Kerr nonlinear resonator. We find that the dissipation leads to a bidirectional jump between the two basis states of the cat qubit, which is in distinct contrast with the unidirectional jump associated with normal two-level systems. The competition between this jump and a single-photon drive gives arise to the emergence of third-order Liouvillian exceptional points (LEP3s), each corresponds to a crossing point of two lines of LEP2s. We further show that the LEP3 can exhibit the topological character of the Hamiltonian EP3s, which cannot be realized with a single qubit. Our work opens the possibility of realizing non-Hermitian phenomena with continuous-variable quantum systems.",
       "authors": [
-        "Pei-Rong Han",
+        "Pei‐Rong Han",
         "Huiye Qiu",
         "Hao-Long Zhang",
         "Wen Ning",
@@ -17015,19 +17083,19 @@
       "abstract": "Quantum machine learning (QML) models, like their classical counterparts, are vulnerable to adversarial attacks, hindering their secure deployment. Here, we report the first systematic experimental robustness benchmark for 20-qubit quantum neural network (QNN) classifiers executed on a superconducting processor. Our benchmarking framework features an efficient adversarial attack algorithm designed for QNNs, enabling quantitative characterization of adversarial robustness and robustness bounds. From our analysis, we verify that adversarial training reduces sensitivity to targeted perturbations by regularizing input gradients, significantly enhancing QNN's robustness. Additionally, our analysis reveals that QNNs exhibit superior adversarial robustness compared to classical neural networks, an advantage attributed to inherent quantum noise. Furthermore, the empirical upper bound extracted from our attack experiments shows a minimal deviation ($3 \\times 10^{-3}$) from the theoretical lower bound, providing strong experimental confirmation of the attack's effectiveness and the tightness of fidelity-based robustness bounds. This work establishes a critical experimental framework for assessing and improving quantum adversarial robustness, paving the way for secure and reliable QML applications.",
       "authors": [
         "Hai-Feng Zhang",
-        "Zhao-Yun Chen",
+        "Zhao‐Yun Chen",
         "Peng Wang",
         "Liang-Liang Guo",
         "Tian-Le Wang",
-        "Xiao-Yan Yang",
+        "Xiaoyan Yang",
         "Ren-Ze Zhao",
-        "Ze-An Zhao",
+        "Zean Zhao",
         "Sheng Zhang",
         "Lei Du",
-        "Hao-Ran Tao",
+        "Haoran Tao",
         "Zhi-Long Jia",
-        "Wei-Cheng Kong",
-        "Huan-Yu Liu",
+        "Weicheng Kong",
+        "Huanyu Liu",
         "Athanasios V. Vasilakos",
         "Yang Yang",
         "Yu-Chun Wu",
@@ -17627,10 +17695,10 @@
       "title": "Teleportation via spin-1/2 chain in solid-state quantum architecture",
       "abstract": "We propose the protocol for preparing the maximally entangled Bell state between remote qubits at the ends of the spin-1/2 chain governed by the specially engineered nearest-neighbor XX-Hamiltonian with excited central spin as the initial state. This method does not require including optical constituent in the teleportation protocol and can be implemented in the quantum devices with solid-state architecture for teleporting unknown states or organizing quantum gates between remote qubits. A superconducting flux-qubit chain is an example of such devises.",
       "authors": [
-        "E. B. Fel'dman",
+        "E.B. Fel’dman",
         "S. I. Doronin",
         "E. I. Kuznetsova",
-        "A. I. Zenchuk"
+        "A.I. Zenchuk"
       ],
       "published_date": "2026-04-16",
       "journal": "Physics Letters A",
