@@ -1,7 +1,56 @@
 {
-  "generated_at": "2026-09-23T19:02:46.344068+00:00",
-  "count": 1012,
+  "generated_at": "2026-09-24T19:02:31.208268+00:00",
+  "count": 1014,
   "papers": [
+    {
+      "id": 18064,
+      "title": "Mitigating crosstalk errors for simultaneous single-qubit gates on a superconducting quantum processor",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-23",
+      "journal": "PRX Quantum",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/qhss-mgkt",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 2160,
+      "title": "Quantum many-body mixed phase space revealed by hybrid feedback control",
+      "abstract": "Abstract Understanding how complex systems transition between order and chaos is a central challenge of non-equilibrium physics. Although weak perturbations of classical integrable systems give rise to a mixed phase space in which regular and chaotic trajectories coexist, analogous behaviour in interacting quantum many-body systems has been difficult to identify. Here we develop and experimentally implement a hybrid quantum–classical feedback protocol that autonomously discovers and stabilizes long-lived regular trajectories in a superconducting quantum processor. Each iteration combines short-time quantum evolution with classical optimization that projects the dynamics back onto a low-entanglement variational manifold, effectively distilling coherence from chaotic evolution. The stabilized trajectories reveal signatures of a quantum many-body mixed phase space emerging from nonlinear variational dynamics, without a direct analogue in few-body quantum systems described by a small number of effective degrees of freedom. Our results establish a framework for the algorithmic identification and control of coherent dynamics in quantum many-body systems.",
+      "authors": [
+        "Hang Dong",
+        "Jie Ren",
+        "Andrew Hallam",
+        "Han Wang",
+        "Zhengyi Cui",
+        "Yiren Zou",
+        "Junlin Wang",
+        "Hekang Li",
+        "Qiujiang Guo",
+        "Zhen Wang",
+        "Lei Ying",
+        "Zlatko Papic"
+      ],
+      "published_date": "2026-09-23",
+      "journal": "Nature Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s41567-026-03431-z",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": true
+    },
     {
       "id": 18051,
       "title": "Mechanism of energy transfer in a hybrid circuit-QED architecture",
@@ -283,7 +332,7 @@
         "Felix Lüpke",
         "Detlev Grützmacher",
         "R. Barends",
-        "Pavel Bushev",
+        "Pavel A. Bushev",
         "Peter Schüffelgen"
       ],
       "published_date": "2026-09-17",
@@ -587,7 +636,7 @@
         "Shanyan Chen",
         "Ali Al-Shuwaili",
         "Abbas AlZubaidi",
-        "Marek Perkowski"
+        "Marek A. Perkowski"
       ],
       "published_date": "2026-09-15",
       "journal": "Cureus Journal of Computer Science.",
@@ -1964,7 +2013,7 @@
       "published_date": "2026-09-04",
       "journal": "PLoS ONE",
       "publication_status": "published",
-      "url": "https://doi.org/10.5281/zenodo.19150933",
+      "url": "https://doi.org/10.5281/zenodo.19150934",
       "tags": [
         "transmon",
         "josephson-circuits",
@@ -2653,8 +2702,8 @@
         "Xiao-Xue Zhang",
         "X. X. Zhang",
         "Jie Zhou",
-        "X. Z. Zhang",
-        "X. Z. Zhang"
+        "X. X. Zhang",
+        "X. X. Zhang"
       ],
       "published_date": "2026-09-01",
       "journal": "Advanced Quantum Technologies",
@@ -4226,7 +4275,7 @@
         "He Gao",
         "Zhouhui Liu",
         "Yudong Gu",
-        "XiangXiang Ren",
+        "Xiangxiang Ren",
         "Nan Li",
         "Guofu Liao",
         "Qinglei Xiu",
@@ -9016,36 +9065,6 @@
       "is_top_journal": false
     },
     {
-      "id": 2160,
-      "title": "Quantum many-body mixed phase space revealed by hybrid feedback control",
-      "abstract": "Understanding how complex systems transition between order and chaos is a central challenge of nonequilibrium physics. While weak perturbations of classical integrable systems give rise to a mixed phase space of coexisting regular and chaotic trajectories, analogous behavior in interacting quantum many-body systems has remained elusive. Here we develop and experimentally implement a hybrid quantum-classical feedback protocol that autonomously discovers and stabilizes long-lived regular trajectories in a superconducting quantum processor. Each iteration combines short-time quantum evolution with classical optimization that projects the dynamics back onto a low-entanglement variational manifold, effectively distilling coherence from chaotic evolution. The stabilized trajectories reveal a quantum many-body mixed phase space emerging from nonlinear variational dynamics, without a direct analogue in classical or few-body quantum systems. Our results establish a versatile framework for algorithmic discovery and control of coherent dynamics previously inaccessible to experiment.",
-      "authors": [
-        "Hang Dong",
-        "Jie Ren",
-        "Andrew Hallam",
-        "Han Wang",
-        "Zhengyi Cui",
-        "Yiren Zou",
-        "Junlin Wang",
-        "Hekang Li",
-        "Qiujiang Guo",
-        "Zhen Wang",
-        "Lei Ying",
-        "Zlatko Papic"
-      ],
-      "published_date": "2026-07-15",
-      "journal": "",
-      "publication_status": "preprint",
-      "url": "https://arxiv.org/abs/2607.14223",
-      "tags": [
-        "superconducting-circuits",
-        "superconducting-context",
-        "quantum-superconducting-context"
-      ],
-      "primary_category": "quant-ph",
-      "is_top_journal": false
-    },
-    {
       "id": 2163,
       "title": "Analytic gradients for low-rank quantum optimal control",
       "abstract": "We introduce low-rank optimal control (LROC), a method for designing control pulses in open quantum systems whose full density-matrix simulation is prohibitively expensive. The method exploits a feature of quantum computing itself: because protocols are designed to preserve purity, the density matrix is dominated by a few pure states and admits an accurate low-rank factorization. LROC propagates only this factorized form and, by deriving the corresponding adjoint equation, obtains the gradient of any differentiable objective at the same reduced cost as the simulation, leading to a quadratic improvement in time and memory compared to the full master equation. We illustrate the breadth of the method on four superconducting-circuit tasks: preparation of a five-qubit GHZ state, a CNOT gate, qubit readout, and an error correction primitive, modeled with realistic multilevel transmons, decay, and strong drives, in each case reaching fidelities consistent with the intrinsic dissipation limits. LROC thereby extends pulse-level optimization to system sizes beyond the reach of existing gradient-based methods.",
@@ -12746,7 +12765,7 @@
       "authors": [
         "Anonymous",
         "Pavel D. Kurilovich",
-        "Andrey Klots",
+        "Andrey R. Klots",
         "Thomas Connolly",
         "I. L. Aleǐner",
         "Vladislav D. Kurilovich"
@@ -13610,7 +13629,7 @@
         "Aneesh Kamat",
         "Kishan Bhowal",
         "Gaurav Agarwal",
-        "Lakshay Bharadwaj",
+        "Lakshay Bharadwaj -",
         "Eeshita Chawla",
         "Panya Jain",
         "Meghan P. Patankar",
@@ -14251,7 +14270,7 @@
       "title": "Superconducting artificial neural networks and quantum circuits",
       "abstract": "",
       "authors": [
-        "A. S. Sidorenko"
+        "Anatolie Sidorenko"
       ],
       "published_date": "2026-06-08",
       "journal": "Beilstein Journal of Nanotechnology",
@@ -14434,7 +14453,7 @@
       "abstract": "",
       "authors": [
         "Jin-sheng Chen",
-        "Qing-hong Liao",
+        "Qing‐Hong Liao",
         "Jian-gong Hu",
         "Jin-hua Zhang"
       ],
@@ -17311,7 +17330,7 @@
       "abstract": "Qutrits offer the potential for enhanced quantum computation by exploiting an enlarged Hilbert space. However, the synthesis of high-fidelity and fast qutrit gates, particularly for single qutrits, remains an ongoing challenge, as it involves overcoming intrinsic constraints in quantum platforms. Here, we develop a novel framework for the efficient implementation of a single-qutrit gate set via coherent control, leveraging SU(3) dynamics while obviating platform-specific constraints such as those arising from the selection rule. As a proof-of-principle demonstration, we realize 35-ns qutrit hadamard and x gates using a superconducting transmon, achieving an average fidelity of 99.5%, as verified by randomized benchmarking. We further demonstrate two paradigmatic quantum circuits, which can be naturally extended to scalable qudit algorithms for phase estimation and parity check. In addition, we propose an SU(3)-based decomposition strategy for an arbitrary single-qutrit gate and numerically demonstrate its substantial efficiency improvement over conventional SU(2)-based protocols. By addressing the challenge of efficiently implementing single-qutrit gates, our protocol paves the way for realizing high-performance qutrit processors in diverse quantum platforms.",
       "authors": [
         "Xiangmin Yu",
-        "Xiang Deng",
+        "Xiang Hua Deng",
         "Wen Zheng",
         "Xin Wei",
         "Tao Zhang",
@@ -17698,7 +17717,7 @@
         "E.B. Fel’dman",
         "S. I. Doronin",
         "E. I. Kuznetsova",
-        "A.I. Zenchuk"
+        "A. I. Zenchuk"
       ],
       "published_date": "2026-04-16",
       "journal": "Physics Letters A",
@@ -25648,6 +25667,30 @@
       ],
       "primary_category": "",
       "is_top_journal": true
+    },
+    {
+      "id": 18061,
+      "title": "Experimental demonstration of Shor’s algorithm for factoring N=21 on Tianyan-176 superconducting processor via Fredkin gate synthesis",
+      "abstract": "We present an experimental demonstration of factoring 21 using a compiled version of Shor’s algorithm on the Tianyan-176 superconducting processor. Our compilation approach—Fredkin gate synthesis—is primarily derived from the symmetry of the permutation operations in the modular exponentiation function (MEF) modules. The effectiveness of the approximate Toffoli gate substitution is also theoretically validated. Additionally, we propose several novel compilation strategies for implementing a lower-depth, topology-adapted inverse quantum Fourier transform (QFT). The 6-qubit demonstration achieves a state-of-the-art implementation with only 19 two-qubit gates on a grid-based qubit topology, without introducing any SWAP gates. Owing to the permutation symmetry, the demonstration is readily extensible to larger-scale instances and other factoring cases by introducing only a minimal number of SWAP gates, leveraging the commutation properties between the controlled MEF and inverse QFT modules.",
+      "authors": [
+        "Guihui Li",
+        "Yadong Yang",
+        "Haibo Lin",
+        "Jing Zhang",
+        "Shijian Zheng",
+        "Xiancun Zhou"
+      ],
+      "published_date": "2026-01-01",
+      "journal": "IEICE Electronics Express",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1587/elex.23.20260366",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
     },
     {
       "id": 11261,
