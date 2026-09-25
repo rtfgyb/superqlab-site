@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-09-24T19:02:31.208268+00:00",
-  "count": 1014,
+  "generated_at": "2026-09-25T19:04:52.261713+00:00",
+  "count": 1018,
   "papers": [
+    {
+      "id": 18074,
+      "title": "Effect of metal encapsulation on bulk superconducting properties of niobium thin films used in qubits",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-24",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/sbx1-g6vb",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 18072,
+      "title": "Modeling Logical Gates and Read-Out of Superconducting Gottesman-Kitaev-Preskill Qubits",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-24",
+      "journal": "PRX Quantum",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/k1tk-wh93",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 18071,
+      "title": "Macroscopic entanglement between two magnon modes via two-tone driving of a superconducting qubit",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-24",
+      "journal": "Physical Review A",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/jtyx-xsgc",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 18064,
       "title": "Mitigating crosstalk errors for simultaneous single-qubit gates on a superconducting quantum processor",
@@ -37,7 +89,7 @@
         "Qiujiang Guo",
         "Zhen Wang",
         "Lei Ying",
-        "Zlatko Papic"
+        "Zlatko Papić"
       ],
       "published_date": "2026-09-23",
       "journal": "Nature Physics",
@@ -635,7 +687,7 @@
         "Ali Al-Bayaty",
         "Shanyan Chen",
         "Ali Al-Shuwaili",
-        "Abbas AlZubaidi",
+        "A H Alzubaidi",
         "Marek A. Perkowski"
       ],
       "published_date": "2026-09-15",
@@ -2588,6 +2640,27 @@
       "is_top_journal": false
     },
     {
+      "id": 18069,
+      "title": "Periodic Driving Enhances Quantum Zeno Protection of a Superconducting Qubit",
+      "abstract": "ABSTRACT The quantum Zeno effect, in which frequent measurements suppress the evolution of a quantum system, is well characterized for static Hamiltonians. We investigate how periodic driving modifies Zeno protection for a single qubit on the superconducting processor ibm_marrakesh . In our gate‐based protocol, an interrupted Rabi oscillation is combined with a digitized longitudinal drive of frequency and amplitude , and the number of projective measurements, , is varied. Strong driving (, , dimensionless circuit units) enhances peak survival at the optimal measurement number by approximately relative to the undriven case, and reduces the effective per‐interval decay rate by up to . The relative enhancement was reproduced across two sessions separated by a recalibration cycle ( and , consistent within the statistical uncertainty), while absolute survival shifted by about 18 percentage points, identifying the relative enhancement as the robust quantity. Exact noiseless predictions computed from the Trotterized circuit unitaries track the hardware data with a consistent decoherence offset. A Trotter‐step control experiment shows that an apparent single‐measurement survival anomaly under fast driving () is a discretization artifact, illustrating the need for convergence verification when digitizing periodic drives.",
+      "authors": [
+        "Prince N",
+        "Lalitha Nallamothula"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Advanced Quantum Technologies",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1002/qute.70477",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 18017,
       "title": "Vacuum-controlled growth of high-quality α-Ta superconducting films for quantum circuits",
       "abstract": "",
@@ -2935,7 +3008,7 @@
         "Kevin C. Smith",
         "James R. Garrison",
         "Lachlan P. Lindoy",
-        "Jason Crain",
+        "Jason N. Crain",
         "Ben Jaderberg"
       ],
       "published_date": "2026-09-01",
@@ -4621,7 +4694,7 @@
       "authors": [
         "Elizabeth Hedrick",
         "Faranak Bahrami",
-        "Alexander C. Pakpour-Tabrizi",
+        "Alexander C. Pakpour‐Tabrizi",
         "Atharv Joshi",
         "Q. Rumman Rahman",
         "Ambrose Yang",
@@ -4630,7 +4703,7 @@
         "Apoorv Jindal",
         "Guangming Cheng",
         "Nan Yao",
-        "Robert J. Cava",
+        "R. J. Cava",
         "Andrew Houck",
         "Nathalie P. de Leon"
       ],
@@ -14453,7 +14526,7 @@
       "abstract": "",
       "authors": [
         "Jin-sheng Chen",
-        "Qing‐Hong Liao",
+        "Qinghong Liao",
         "Jian-gong Hu",
         "Jin-hua Zhang"
       ],
@@ -15075,7 +15148,7 @@
         "Ramona Wolf",
         "Florence Berterottière",
         "Christoph Hellings",
-        "Andreas Wallraff",
+        "Andreas J. Wallraff",
         "Renato Renner"
       ],
       "published_date": "2026-05-27",
@@ -17120,7 +17193,7 @@
         "Yu-Chun Wu",
         "Ji Guan",
         "Peng Duan",
-        "Guo-Ping Guo"
+        "Guo‐Ping Guo"
       ],
       "published_date": "2026-04-27",
       "journal": "Science China Physics Mechanics and Astronomy",
@@ -17714,7 +17787,7 @@
       "title": "Teleportation via spin-1/2 chain in solid-state quantum architecture",
       "abstract": "We propose the protocol for preparing the maximally entangled Bell state between remote qubits at the ends of the spin-1/2 chain governed by the specially engineered nearest-neighbor XX-Hamiltonian with excited central spin as the initial state. This method does not require including optical constituent in the teleportation protocol and can be implemented in the quantum devices with solid-state architecture for teleporting unknown states or organizing quantum gates between remote qubits. A superconducting flux-qubit chain is an example of such devises.",
       "authors": [
-        "E.B. Fel’dman",
+        "E. B. Fel’dman",
         "S. I. Doronin",
         "E. I. Kuznetsova",
         "A. I. Zenchuk"
