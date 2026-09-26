@@ -1,7 +1,39 @@
 {
-  "generated_at": "2026-09-25T19:04:52.261713+00:00",
-  "count": 1018,
+  "generated_at": "2026-09-26T19:03:05.522507+00:00",
+  "count": 1022,
   "papers": [
+    {
+      "id": 18125,
+      "title": "Tantalum as a base material for superconducting integrated circuits",
+      "abstract": "Abstract The performance of superconducting integrated circuits for quantum applications is fundamentally limited by material-related losses. Tantalum, as an emerging material for next-generation quantum circuits has attracted considerable attention in recent years after demonstrating breakthrough performance in both superconducting microwave resonators and qubits. Concurrently, a growing body of work is devoted to the operation of tantalum-based circuits and related fabrication techniques. This interest is further stimulated by tantalum thin films polymorphism resulting in a variety of its crystalline structure, superconducting properties, coherence, etc. Furthermore, tantalum circuits exhibit distinctive features in cryogenic experiments, which have not been observed in aluminum or niobium ones. In this review, we summarize recent results on tantalum thin films growth and phase selection mechanisms on various substrates, key aspects of fabrication and performance of superconducting circuit, including a material first-principles theoretical study. In conclusion, we address a number of open issues, including the role of β-phase impurities, the effect of hydrofluoric acid solutions on chain characteristics, and the anomalous behavior of α-tantalum chains at cryogenic temperatures.",
+      "authors": [
+        "E. V. Zikiy",
+        "Nikita S. Smirnov",
+        "Stanislav A. Kotenkov",
+        "Ilya A. Stepanov",
+        "Julia A. Agafonova",
+        "Daria A. Moskaleva",
+        "Aleksei R. Matanin",
+        "Аnton I. Ivanov",
+        "Dmitry O. Moskalev",
+        "Julia A. Kurochkina",
+        "A. V. Andriyash",
+        "Ilya A. Rodionov"
+      ],
+      "published_date": "2026-09-25",
+      "journal": "Communications Materials",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s43246-026-01352-1",
+      "tags": [
+        "superconducting-circuits",
+        "microwave-hardware",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 18074,
       "title": "Effect of metal encapsulation on bulk superconducting properties of niobium thin films used in qubits",
@@ -2257,6 +2289,32 @@
       "is_top_journal": false
     },
     {
+      "id": 18124,
+      "title": "Aluminum Air Bridges for Integrated Superconducting Quantum Circuits",
+      "abstract": "",
+      "authors": [
+        "L. Kaczmarek",
+        "M. Schmelz",
+        "E. Mutsenik",
+        "A. Sultanov",
+        "K. Peiselt",
+        "G. Oelsner",
+        "R. Stolz"
+      ],
+      "published_date": "2026-09-02",
+      "journal": "IEEE Transactions on Applied Superconductivity",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/tasc.2026.3730518",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 15924,
       "title": "Momentum-driven reversible logic accelerates efficient irreversible universal computation",
       "abstract": "Abstract We present implementations of two physically-embedded computation-universal logical operations using a 2-bit logical unit composed of coupled quantum flux parametrons—Josephson-junction superconducting circuits. To illustrate universality, we investigate NAND gates built from these two distinct elementary operations. On the one hand, Controlled Erasure (CE) is designed using fixed-point analysis and assumes that information must be stored in locally metastable distributions. On the other, Erasure-Flip (EF) leverages momentum as a computational resource and significantly outperforms the metastable approach, simultaneously achieving higher fidelity and faster computational speed without incurring any additional energetic cost. Notably, the momentum degree of freedom allows the EF to achieve universality by using both nontrivial reversible and irreversible logic simultaneously in different logical subspaces. These results not only provide a practical, high-performance protocol ripe for experimental realization but also underscore the broader potential of momentum-based computing paradigms.",
@@ -2640,6 +2698,26 @@
       "is_top_journal": false
     },
     {
+      "id": 18127,
+      "title": "A Three‐Qubit Ising Hamiltonian For High‐Efficiency Quantum Energy Teleportation on Superconducting Hardware",
+      "abstract": "ABSTRACT Quantum Energy Teleportation (QET) leverages quantum entanglement to transfer energy between two distant locations without physically moving it. The first realization of QET on superconducting hardware, a 2‐qubit system, demonstrated about work efficiency (work relative to the deposited energy). Here we introduce a 3‐qubit approach that enhances QET's energy efficiency through a novel 3‐qubit ground state Ising Model Hamiltonian satisfying zero mean energy and anti‐commutation constraints on the sender and receiver observables. We study two protocols. In the Single‐Input Multiple‐Output (SIMO) model, a single sender (Alice) deposits energy and two receivers (Bob and Charlie) jointly extract negative energy; with every interaction term retained, including the inter‐receiver bond, the honest efficiency is to , comparable to the of the minimal 2‐qubit model but now shared by two outputs. In the Multiple‐Input Single‐Output (MISO) model, two senders (Alice and Charlie) deposit a combined energy through a single entangle‐then‐measure measurement and a single receiver (Bob) extracts it, giving a net teleportation efficiency of to , well above the 2‐qubit value, with energy conservation respected. The negative energy density at the receiver is the protocol's signature.",
+      "authors": [
+        "Md Shoyib Hassan",
+        "Golam Dastegir Al-Quaderi",
+        "M. R. C. Mahdy"
+      ],
+      "published_date": "2026-09-01",
+      "journal": "Advanced Quantum Technologies",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1002/qute.70484",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 18069,
       "title": "Periodic Driving Enhances Quantum Zeno Protection of a Superconducting Qubit",
       "abstract": "ABSTRACT The quantum Zeno effect, in which frequent measurements suppress the evolution of a quantum system, is well characterized for static Hamiltonians. We investigate how periodic driving modifies Zeno protection for a single qubit on the superconducting processor ibm_marrakesh . In our gate‐based protocol, an interrupted Rabi oscillation is combined with a digitized longitudinal drive of frequency and amplitude , and the number of projective measurements, , is varied. Strong driving (, , dimensionless circuit units) enhances peak survival at the optimal measurement number by approximately relative to the undriven case, and reduces the effective per‐interval decay rate by up to . The relative enhancement was reproduced across two sessions separated by a recalibration cycle ( and , consistent within the statistical uncertainty), while absolute survival shifted by about 18 percentage points, identifying the relative enhancement as the robust quantity. Exact noiseless predictions computed from the Trotterized circuit unitaries track the hardware data with a consistent decoherence offset. A Trotter‐step control experiment shows that an apparent single‐measurement survival anomaly under fast driving () is a discretization artifact, illustrating the need for convergence verification when digitizing periodic drives.",
@@ -2663,7 +2741,7 @@
     {
       "id": 18017,
       "title": "Vacuum-controlled growth of high-quality α-Ta superconducting films for quantum circuits",
-      "abstract": "",
+      "abstract": "High-quality superconducting α-Ta films are grown on Si and Al 2 O 3 by dc magnetron sputtering with Nb buffer layers. At a sputtering pressure of 4 mTorr, pure α-Ta (110) phase is obtained. Reducing base pressure from 2 × 10 −6 to 5 × 10 −7 Torr raises the superconducting transition temperature from 3.63 to 4.05 K on Si and from 3.59 to 4.07 K on Al 2 O 3 , while decreasing normal-state resistivity. Improved vacuum suppresses structural disorder, yielding smoother surfaces and denser microstructures. These results demonstrate that vacuum engineering offers an effective route for optimizing Ta films for scalable quantum technologies.",
       "authors": [
         "Xiang Zhang",
         "Xiumin Long",
@@ -4084,7 +4162,7 @@
         "Yuan Zhou",
         "Guanghui Wang",
         "Lianzhen Cao",
-        "Yongchen Xiong"
+        "Yong-chen Xiong"
       ],
       "published_date": "2026-08-23",
       "journal": "Modern Physics Letters B",
@@ -8322,7 +8400,14 @@
       "title": "Experimental signatures of a <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"> <mml:mrow> <mml:msub> <mml:mi>σ</mml:mi> <mml:mi>z</mml:mi> </mml:msub> <mml:msub> <mml:mi>σ</mml:mi> <mml:mi>x</mml:mi> </mml:msub> </mml:mrow> </mml:math> beam-splitter interaction between a Kerr-cat and transmon qubit",
       "abstract": "",
       "authors": [
-        "Anonymous"
+        "Anonymous",
+        "Henry Hardy Cole",
+        "Hebah Goderya",
+        "Z. Hao",
+        "Yao-Chun Chang",
+        "T. M. Shaw",
+        "Aikaterini Kargioti",
+        "Shyam Shankar"
       ],
       "published_date": "2026-07-21",
       "journal": "Physical Review Applied",
@@ -15323,7 +15408,7 @@
         "Bethany M. Niedzielski",
         "Kevin A. Grossklaus",
         "Duncan Miller",
-        "F. Contipelli",
+        "Felipe Contipelli",
         "Kate Azar",
         "Luke Burkhart",
         "Greg Calusine",
@@ -25740,6 +25825,30 @@
       ],
       "primary_category": "",
       "is_top_journal": true
+    },
+    {
+      "id": 18120,
+      "title": "A 65-nm Cryo-CMOS-Based 4–7-GHz Wideband Noise-Canceling Receiver for Superconducting Multi-Qubits Readout",
+      "abstract": "",
+      "authors": [
+        "Juhui Jeong",
+        "Hyeonsik Ahn",
+        "Junhyeop Kim",
+        "Assyifa Nur Annisa Rizkia Putri",
+        "Dae-Yun Kim",
+        "Jae-Won Nam",
+        "Junghwan Han",
+        "Jusung Kim"
+      ],
+      "published_date": "2026-01-01",
+      "journal": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/tcsi.2026.3732161",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
     },
     {
       "id": 18061,
