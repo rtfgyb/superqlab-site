@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T19:03:05.522507+00:00",
-  "count": 1022,
+  "generated_at": "2026-09-27T19:03:02.134007+00:00",
+  "count": 1023,
   "papers": [
     {
       "id": 18125,
@@ -17,7 +17,7 @@
         "Аnton I. Ivanov",
         "Dmitry O. Moskalev",
         "Julia A. Kurochkina",
-        "A. V. Andriyash",
+        "Aleksander V. Andriyash",
         "Ilya A. Rodionov"
       ],
       "published_date": "2026-09-25",
@@ -33,6 +33,27 @@
       ],
       "primary_category": "",
       "is_top_journal": false
+    },
+    {
+      "id": 18163,
+      "title": "Mechanisms of self-heating in cryogenic high-electron mobility transistors",
+      "abstract": "Cryogenic low-noise amplifiers employ high-electron mobility transistors to amplify the readout signals of quantum computers and quantum sensors. While these components benefit from the cryogenic environment to achieve reduced noise levels, they are limited by self-heating, which causes a minimum noise level that is independent of the ambient temperature below 4-10 K. The characterization of self-heating has remained challenging, as traditional methods have relatively low temperature resolution and require elevated power levels to generate observable temperature increases. Furthermore, the phonon bath inside and around the device cannot readily be assumed to be in equilibrium with the electronic system. In this work, we use Shubnikov-de Haas quantum oscillation thermometry to determine the electron temperature in a high-performance cryogenic amplifier with high temperature resolution. We detect four distinct regimes of energy dissipation, and find links between self-heating, electron-electron interactions, i.e. hydrodynamic transport, as well as acoustic phonon emission. These insights can inform future amplifier designs with improved resilience to self-heating and reduced noise, to support next-generation quantum computers. We determine the self-heating in cryogenic high-electron mobility transistors using Shubnikov-de Haas thermometry. At elevated power levels, electrons cannot be cooled down below about 20 K due to phonon interactions, which explains the inability of low-noise amplifier noise performance to improve below this temperature.",
+      "authors": [
+        "Federico Balduini",
+        "Eunjung Cha",
+        "Alberto Ferraris",
+        "Nathan Drucker",
+        "Heinz Schmid",
+        "Bernd Gotsmann",
+        "Cezar B. Zota"
+      ],
+      "published_date": "2026-09-24",
+      "journal": "Communications Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s42005-026-02886-z",
+      "tags": [],
+      "primary_category": "",
+      "is_top_journal": true
     },
     {
       "id": 18074,
@@ -155,7 +176,7 @@
       "title": "Oxide-Nitride Heteroepitaxy for Low-Loss Dielectrics in Superconducting Quantum Circuits",
       "abstract": "Abstract Superconducting qubits show great promise for the realization of fault-tolerant quantum computing, but lossy, amorphous dielectrics limit current technology. Identifying highly crystalline and stoichiometric dielectrics with intrinsically low microwave loss is therefore a central materials challenge, yet experimentally validated platforms remain scarce. This work integrates a crystalline dielectric into a heteroepitaxial TiN/γ-Al2O3/TiN trilayer grown via pulsed laser deposition. Correlative high-resolution imaging, diffraction, and spectroscopy measurements confirm the single-crystal quality and chemical integrity of all layers, with minimal defects and limited anion interdiffusion across the oxide–nitride interfaces. Using microwave lumped-element resonators with parallel-plate capacitors, this work establishes an experimentally measured upper bound for the dielectric loss of epitaxial γ-Al2O3, which has a low intrinsic two-level system loss of δTLS0 = (2.8 ± 0.1) × 10–5. These results establish heteroepitaxial oxides on transition metal nitrides as an attractive materials platform for superconducting quantum circuits, particularly for integration into compact device architectures such as merged-element transmons and microwave kinetic inductance detectors.",
       "authors": [
-        "David A. Garcia-Wetten",
+        "David A. Garcia‐Wetten",
         "Mitchell J. Walker",
         "Peter G. Lim",
         "André Vallières",
@@ -272,6 +293,34 @@
       "is_top_journal": false
     },
     {
+      "id": 18017,
+      "title": "Vacuum-controlled growth of high-quality α-Ta superconducting films for quantum circuits",
+      "abstract": "High-quality superconducting α-Ta films are grown on Si and Al 2 O 3 by dc magnetron sputtering with Nb buffer layers. At a sputtering pressure of 4 mTorr, pure α-Ta (110) phase is obtained. Reducing base pressure from 2 × 10 −6 to 5 × 10 −7 Torr raises the superconducting transition temperature from 3.63 to 4.05 K on Si and from 3.59 to 4.07 K on Al 2 O 3 , while decreasing normal-state resistivity. Improved vacuum suppresses structural disorder, yielding smoother surfaces and denser microstructures. These results demonstrate that vacuum engineering offers an effective route for optimizing Ta films for scalable quantum technologies.",
+      "authors": [
+        "Xiang Zhang",
+        "Xiumin Long",
+        "Haojie Pan",
+        "Shuaishuai Geng",
+        "Zi Liu",
+        "Xiaopei Sun",
+        "Han Lin",
+        "Mingqian Zhang",
+        "Chang Xue",
+        "Guixin Cao"
+      ],
+      "published_date": "2026-09-21",
+      "journal": "Chemical Physics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1016/j.cplett.2026.143060",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 17921,
       "title": "Microwave dielectric properties of LiNbO$_{\\mathbf{3}}$ and AlN at millikelvin temperatures and single-photon power",
       "abstract": "Efficient bidirectional microwave optical photon conversion is a key capability for scaling superconducting quantum processors into distributed networks. However, achieving the necessary conversion efficiency requires filling a critical knowledge gap in understanding the loss mechanisms of electro optic materials. Here, we characterize the microwave properties of single crystal bulk LiNbO3 and AlN over a broad range of powers, down to single photon levels, and spanning from millikelvin temperatures to above 1K. We demonstrate that both materials exhibit two level systems (TLS) behavior, while piezoelectric related losses are excluded. We show that TLS induced dissipation is predominantly localized on the surface rather than being an intrinsic bulk property, a result further corroborated by room temperature 3D XPS and time of flight SIMS analyses. These findings provide useful insights to engineer hybrid architectures that integrate bulk electro optic crystals within superconducting cavities, proving that microwave quality factors compatible with high efficiency microwave optical transduction are within reach.",
@@ -328,7 +377,7 @@
         "Zahra Barani",
         "Chase C. Tillman",
         "Harshil Goyal",
-        "Jacob Ward",
+        "Jacob W. Ward",
         "Md Sabbir Hossen Bijoy",
         "Fariborz Kargar",
         "Mark L. Adams"
@@ -767,23 +816,23 @@
       "abstract": "Abstract We investigate tunnel ferromagnetic Josephson junctions based on Superconductor-Insulator-thin superconductor-Ferromagnet-Superconductor multilayers. A comparative study of their electrodynamic properties is performed for junctions with niobium and aluminum (Al) electrodes, featuring different ferromagnetic interlayer materials and lateral dimensions ranging from the micrometric to the submicrometric scale. The parameters extracted from the fitting of the current-voltage characteristics using the tunnel junction microscopic model are found to be consistent with those independently estimated from switching current distribution measurements. Submicrometric Al-based devices exhibit electrodynamic properties comparable to those implemented in state-of-the-art transmon qubits and display clear signatures of quantum phase diffusion. The strong agreement between transport modelling and escape dynamics establishes a robust framework for describing hybrid ferromagnetic Josephson junctions consistent with their energy scales and supports their potential integration into superconducting quantum and classical digital circuits.",
       "authors": [
         "F. Calloni",
-        "R. Satariano",
-        "R. Ferraiuolo",
-        "H. G. Ahmad",
+        "Roberta Satariano",
+        "Raffaella Ferraiuolo",
+        "Halima Giovanna Ahmad",
         "D. Gatta",
         "E. Raja",
         "G. Santo",
-        "G. Serpico",
+        "Giuseppe Serpico",
         "R. Vydyasagar",
-        "D. Montemurro",
-        "N. Poccia",
-        "A. Vettoliere",
+        "Domenico Montemurro",
+        "Nicola Poccia",
+        "Antonio Vettoliere",
         "G. Ausanio",
         "C. Granata",
         "L. Parlato",
-        "G. P. Pepe",
+        "Giovanni Piero Pepe",
         "A. Bruno",
-        "F. Tafuri",
+        "Francesco Tafuri",
         "D. Massarotti"
       ],
       "published_date": "2026-09-15",
@@ -2091,7 +2140,7 @@
         "Md. Ifthakhar Khan Sagor",
         "Md. Sanwar Hossain",
         "Md. Zillur Rahman",
-        "Partha Mandal",
+        "Partha Sarathi Mandal",
         "Anit Barua"
       ],
       "published_date": "2026-09-04",
@@ -2739,34 +2788,6 @@
       "is_top_journal": false
     },
     {
-      "id": 18017,
-      "title": "Vacuum-controlled growth of high-quality α-Ta superconducting films for quantum circuits",
-      "abstract": "High-quality superconducting α-Ta films are grown on Si and Al 2 O 3 by dc magnetron sputtering with Nb buffer layers. At a sputtering pressure of 4 mTorr, pure α-Ta (110) phase is obtained. Reducing base pressure from 2 × 10 −6 to 5 × 10 −7 Torr raises the superconducting transition temperature from 3.63 to 4.05 K on Si and from 3.59 to 4.07 K on Al 2 O 3 , while decreasing normal-state resistivity. Improved vacuum suppresses structural disorder, yielding smoother surfaces and denser microstructures. These results demonstrate that vacuum engineering offers an effective route for optimizing Ta films for scalable quantum technologies.",
-      "authors": [
-        "Xiang Zhang",
-        "Xiumin Long",
-        "Haojie Pan",
-        "Shuaishuai Geng",
-        "Zi Liu",
-        "Xiaopei Sun",
-        "Han Lin",
-        "Mingqian Zhang",
-        "Chang Xue",
-        "Guixin Cao"
-      ],
-      "published_date": "2026-09-01",
-      "journal": "Chemical Physics Letters",
-      "publication_status": "published",
-      "url": "https://doi.org/10.1016/j.cplett.2026.143060",
-      "tags": [
-        "superconducting-context",
-        "quantum-superconducting-context",
-        "quantum-circuit-context"
-      ],
-      "primary_category": "",
-      "is_top_journal": false
-    },
-    {
       "id": 17707,
       "title": "Parallel‐Channel Topological Quantum Routing in a Superconducting Qudit Chain",
       "abstract": "ABSTRACT Efficient quantum routing and entanglement distribution are essential for scalable quantum networks. We propose a parallel chain topological quantum routing based on a chain of superconducting qudits, where distinct internal levels of each qudit define independent topologically protected channels. Utilizing a network of superconducting qudits (multi‐level quantum systems) and microwave resonators, our scheme realizes multiple independent SSH‐type chains in the single‐excitation subspace, each associated with a distinct internal level of the qudits. The key innovation is that distinct internal levels of qudits realize mutually independent parallel SSH chains, enabling independent and protected quantum channels. We demonstrate that quantum states can be routed to different output ports based on internal degrees of freedom (i.e., distinct energy levels of superconducting qudits). Furthermore, we show that this system enables adiabatic pumping for state transfer and preparation of entanglement via the Rice‐Mele model. Numerical simulations demonstrate that the system possesses topological robustness against coupling and potential disorders, and remains stable in the presence of dissipation, highlighting its potential for quantum routing and entanglement distribution and establishing it as a versatile building block for multi‐functional quantum devices in noise‐resilient quantum networks.",
@@ -2795,7 +2816,7 @@
       "abstract": "ABSTRACT Precise control of the external magnetic field orientation with respect to quantum devices is of particular importance since the field orientation can significantly influence quantum states. Therefore, in situ calibration of rotational misalignment of the magnetic field at cryogenic temperatures, where quantum devices are usually operated, is essential, yet remains largely unexplored. Here, leveraging the advantages of low microwave loss and high critical field, we demonstrate that high‐quality TiN nanowire superconducting microwave resonators exhibit sensitive and anisotropic responses to varied magnetic fields, enabling three‐dimensional calibration of the field orientation using a single device. Based on a developed tensor model, we extract competitive out‐of‐plane orientation calibration uncertainty of . Our approach maps the magnetic field to a readily measurable scalar parameter, thereby providing a reliable, repeatable, and efficient method for precisely quantifying field orientation, a capability highly desirable in research fields such as condensed matter physics and quantum computation.",
       "authors": [
         "Shu-Kun Ye",
-        "Zhiyu Huang",
+        "Zi‐Qing Huang",
         "Yong-Qiang Xu",
         "Yuan Kang",
         "Rui Wu",
@@ -2972,7 +2993,7 @@
       "title": "Operating a Contextual Stern–Gerlach Apparatus",
       "abstract": "ABSTRACT We propose a contextual cavity/circuit QED analog and extension of the Stern–Gerlach experiment, where the pseudo‐spin of a two‐state “atomic” transition plays the role of the “spin,” while the resonant field driving the transition stands for the “magnetic field.” A phase‐sensitive continuous detection of the cavity field coupled to the induced “atomic” dipole affects the stability of the two distinct outcomes. The dressed states comprising the latter give their place to a self‐consistent spontaneous dressed‐state polarization as the driving strength is lowered. The associated evolution proves anew highly contextual, underpinned by a persistent production of coherent‐state superpositions for a particular setting of the monitoring device. Finally, when bistability is absent, we employ the photoelectron “atomic” emission statistics as a diagnostic tool of the cavity field fluctuations.",
       "authors": [
-        "TH. K. MAVROGORDATOS"
+        "Th. K. Mavrogordatos"
       ],
       "published_date": "2026-09-01",
       "journal": "Annalen der Physik",
@@ -3107,7 +3128,7 @@
         "Ilari Lilja",
         "Ekaterina Mukhanova",
         "Michael Perelshtein",
-        "Kirill Petrovnin",
+        "Kirill Viktorovich Petrovnin",
         "Stanislav Khaldeev",
         "Visa Vesterinen",
         "Gheorghe Sorin Paraoanu",
@@ -4097,7 +4118,7 @@
       "abstract": "Superconducting circuits exhibit remarkable potential for constructing large-scale quantum simulation and computation systems, featuring numerous qubits, extended coherence time, and precise control. Nevertheless, the growing number of signal cables poses a challenge in dilution refrigerators due to space and heat load constraints. To overcome this issue, we experimentally implemented an optically-assisted transmission line as an alternative to coaxial cables. By modulating microwave signals on laser intensities at room temperature and regenerating the signals at a cryogenic plate within the dilution refrigerator, we demonstrated full control of superconducting qubits using photocurrent. We demonstrate and benchmark both single-qubit and two-qubit gates on frequency tunable transmon qubits, achieving fidelities of 99.915% $\\pm$ 0.005% and 99.676% $\\pm$ 0.041%, respectively, which have reached the requirement of the surface code.",
       "authors": [
         "Anonymous",
-        "Dengxin Fan",
+        "Daojin Fan",
         "Na Li",
         "Fusheng Chen",
         "Shaowei Li",
@@ -5106,7 +5127,7 @@
       "authors": [
         "Tian-Le Yang",
         "Wen Ning",
-        "Zhen-Biao Yang",
+        "Zhen‐Biao Yang",
         "Shi-Biao Zheng"
       ],
       "published_date": "2026-08-13",
@@ -6427,8 +6448,8 @@
       "title": "Time optimal bang–bang control for dissipative superconducting N-level quantum systems",
       "abstract": "",
       "authors": [
-        "H. Jirari",
-        "H Rabitz",
+        "Hamza Jirari",
+        "HERSCHEL A. RABITZ",
         "A. Elamrani"
       ],
       "published_date": "2026-08-01",
@@ -13819,7 +13840,7 @@
         "Yidong Song",
         "Yu-Long Li",
         "Yanjie Zeng",
-        "Guang-Ming Xue",
+        "Guangming Xue",
         "Wei-Jie Sun",
         "Mei-Ling Li",
         "Yirong Jin",
@@ -15002,7 +15023,7 @@
       "authors": [
         "Azat R. Gubaydullin",
         "Vladimir Slepnev",
-        "Valerii Vinokur",
+        "V. M. Vinokur",
         "Florian Neukart"
       ],
       "published_date": "2026-05-29",
@@ -16067,7 +16088,7 @@
         "Yue-Shan Xu",
         "Cheng-Lin Deng",
         "Yu Liu",
-        "Wei‐Guo Ma",
+        "Wei-Guo Ma",
         "Tian-Ming Li",
         "Jiachi Zhang",
         "Cai-Ping Fang",
@@ -16584,7 +16605,7 @@
         "Achim Marx",
         "Stefan Filipp",
         "Kirill G. Fedorov",
-        "Rudolf Gross",
+        "Rudolf Groß",
         "Nadezhda Kukharchyk"
       ],
       "published_date": "2026-05-05",
@@ -17138,7 +17159,7 @@
         "Huiye Qiu",
         "Hao-Long Zhang",
         "Wen Ning",
-        "Zhen-Biao Yang",
+        "Zhen‐Biao Yang",
         "Shi-Biao Zheng"
       ],
       "published_date": "2026-04-28",
@@ -17239,7 +17260,7 @@
       "authors": [
         "Qi-Ping Su",
         "Rui-qi Shen",
-        "Yi-Hao Kang",
+        "Yi‐Hao Kang",
         "Lijiong Shen",
         "Chui-Ping Yang"
       ],
@@ -17873,9 +17894,9 @@
       "abstract": "We propose the protocol for preparing the maximally entangled Bell state between remote qubits at the ends of the spin-1/2 chain governed by the specially engineered nearest-neighbor XX-Hamiltonian with excited central spin as the initial state. This method does not require including optical constituent in the teleportation protocol and can be implemented in the quantum devices with solid-state architecture for teleporting unknown states or organizing quantum gates between remote qubits. A superconducting flux-qubit chain is an example of such devises.",
       "authors": [
         "E. B. Fel’dman",
-        "S. I. Doronin",
+        "Serge I. Doronin",
         "E. I. Kuznetsova",
-        "A. I. Zenchuk"
+        "Alexander Ivanovich Zenchuk"
       ],
       "published_date": "2026-04-16",
       "journal": "Physics Letters A",
