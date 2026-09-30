@@ -1,7 +1,208 @@
 {
-  "generated_at": "2026-09-29T19:10:32.299223+00:00",
-  "count": 1056,
+  "generated_at": "2026-09-30T19:08:51.139830+00:00",
+  "count": 1067,
   "papers": [
+    {
+      "id": 19160,
+      "title": "Data-driven Hamiltonian correction of transmon qubits",
+      "abstract": "",
+      "authors": [
+        "John George Francis",
+        "Anil Shaji"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "Quantum Information Processing",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1007/s11128-026-05350-7",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19249,
+      "title": "Parametric DRAG for leakage-suppressed exchange gates in superconducting qubits",
+      "abstract": "Programmable exchange interactions support quantum gates and many-body simulation in superconducting circuits. Fast excitation transfer, however, opens two leakage pathways in weakly anharmonic transmons, degrading gates and driving simulated dynamics outside the encoded state space. We introduce parametric derivative removal by adiabatic gate (PDRAG) to suppress both pathways while preserving the target exchange. Their conjugate structure determines first- and second-derivative corrections implemented through one real frequency command. At $g/2π=100$ MHz, calibrated PDRAG achieves a geometric-mean leakage reduction of $5.27\\times10^5$ relative to the base pulse across 12.5--35 ns in Duffing simulations. At 13 ns, endpoint leakage reaches $1.98\\times10^{-7}$ for the calibrated full-exchange pulse. Transferring the derivative coefficients to a charge Hamiltonian gives a mean 893-fold reduction over 12.5--22 ns after amplitude and carrier recalibration. Floquet return interference and charge-induced gap shifts explain the calibration and transfer gains, connecting compact pulse design to leakage-suppressed programmable interactions.",
+      "authors": [
+        "Yiwen Li",
+        "Xinsheng Tan",
+        "Yang Yu"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.37296",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19252,
+      "title": "Directional transfer from coherence to longitudinal polarization and algebraic storage in a transmon with Markovian dephasing and a glassy environment: A non-Markovian fractional renewal model",
+      "abstract": "We develop a completely positive and trace-preserving non-Markovian transmon model with longitudinal Markovian dephasing and transverse renewal events motivated by a glassy two-level-system environment. A microscopic Hamiltonian identifies coupling subspaces; a normalized Prabhakar waiting-time law phenomenologically coarse grains slow defect reconfigurations. Forward chronological renewal histories yield an exact map-level Volterra equation, a noncommuting kernel--resolvent master equation, and an equivalent drift-conjugated Caputo-type representation with its required initial-value term. Without energy relaxation, Pauli-space dynamics splits into two one-dimensional subspaces and a coupled $(σ_y,σ_z)$ subspace supporting directional transfer between coherence and longitudinal polarization; $σ_x$ polarization is renewal-insensitive. For heavy-tailed waiting times with $0<α<1$, branch-cut analysis gives a generic $t^{-α}$ storage tail in longitudinal polarization generated from initial coherence and $O(t^{-1-α})$ reverse transfer; constant-rate Poisson renewal yields pole-generated exponential decay. Independent zero-temperature relaxation at finite $T_1$ exponentially cuts off these tails when its rate is below twice the pure-dephasing rate. We compare independent inverse-Laplace reconstructions of the waiting-time density, memory kernel, and selected qubit-response components to assess numerical accuracy. For the studied parameters, Prabhakar renewal gives larger forward-transfer magnitudes at the prescribed readout than both a scale-matched constant-rate Poisson reference and an inhomogeneous Poisson reference matching the full expected-count profile, including finite-$T_1$ tests. Both Poisson references yield larger evaluated finite-window peaks. Disorder-motivated renewal memory reshapes transmon decoherence selectively by state and direction.",
+      "authors": [
+        "Ruha Uğraş Erdoğan",
+        "Ferit Acar Savacı"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.37270",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19266,
+      "title": "A quantum thermal machine surpassing the classical thermodynamic limit on precision",
+      "abstract": "Precision in nonequilibrium processes comes at a thermodynamic cost: suppressing fluctuations generally requires increased dissipation. Thermodynamic uncertainty relations (TURs) make this trade-off quantitative by linking current fluctuations to entropy production in classical stochastic dynamics. In the decade since its discovery, the canonical steady-state TUR and its finite-time generalizations have become a cornerstone of non-equilibrium thermodynamics, constraining the performance of molecular machines and allowing heat dissipation to be inferred from observable fluctuations. Whether the canonical TUR can be violated in a controlled quantum device remains an outstanding experimental question, in part because doing so requires resolving extremely small steady-state currents as well as their fluctuations. Here we experimentally show that steady-state quantum transport can surpass the precision permitted by the canonical TUR. We observe this violation in a superconducting quantum thermal machine coupled to a microwave waveguide acting as a cold bath and to a classical noise source providing an effective infinite-temperature bath. We observe a TUR ratio $Q = 1.71 \\pm 0.17$, in violation of the classical bound $Q \\geq 2$. Our results demonstrate a fundamental distinction between classical and quantum thermodynamics, paving the way for quantum thermal devices that achieve enhanced precision at reduced energy cost.",
+      "authors": [
+        "Simon Sundelin",
+        "Ludvig Nordqvist",
+        "Khalak Mahadeviya",
+        "Vyom Kulkarni",
+        "Mohammed Ali Aamir",
+        "Mark T. Mitchison",
+        "Simone Gasparinetti"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.37149",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19291,
+      "title": "Closing a single-copy gap to the Holevo bound with two-copy measurements",
+      "abstract": "The Holevo Cramér-Rao bound sets the asymptotically attainable precision of quantum multiparameter estimation, but its attainability with finite quantum state copies remains unresolved in general. While a gap between the single-copy optimum and the Holevo bound persists at any finite copy number for two-parameter estimation models, the higher-parameter case has remained open. Here we disprove universal finite-copy gap persistence beyond two parameters by constructing a three-parameter rank-two model whose Holevo bound is unattainable with one copy but attained exactly with two. We further prove finite-copy persistence for full-rank models with any number of parameters. We then experimentally implement the two-copy collective measurement for the constructed model using superconducting qubits. We observe a two-copy estimation error below the single-copy and separate-measurement bounds determined from state tomography. By introducing controlled depolarization, we show that this precision advantage persists over a finite noise range. Our results connect the attainability of ultimate quantum precision to the structure of the multiparameter estimation model and the resources available for collective measurements.",
+      "authors": [
+        "Changhao Li"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.36874",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19317,
+      "title": "Evanescent-wave Johnson Noise from Superconductors",
+      "abstract": "We compute the evanescent-wave Johnson noise (EWJN) in the vacuum half-space above a superconductor, and the resulting relaxation time ($T_1$) of spin and charge qubits placed at nanometer distances from the surface. The electromagnetic response is described by a single microscopic transverse current-response kernel $Q(q, ω)$ for a BCS superconductor. This is computed for varying densities of both non-magnetic impurities and magnetic impurities, for arbitrary frequency and temperature and for wave vectors $q \\ll k_F$ (the Fermi wavevector). When combined with the fluctuation-dissipation theorem and the nonlocal surface impedances of the half-space, this yields the magnetic and electric field noise at any distance $z \\gg k_F^{-1}$ from the surface, from which we obtain $T_1$. Just below $T_c$ the magnetic noise is enhanced relative to the normal state by the coherence (Hebel-Slichter-type) peak of the dissipative conductivity and drops exponentially at lower temperatures; the electric noise shows no coherence peak. The theory predicts that there is a zero-temperature noise floor induced by magnetic impurities. In the gapless regime produced by pair breaking, the finite subgap density of states $ν(0)$ yields a temperature-independent noise spectral density and a relaxation rate bounded by $T_1^{-1}(T)\\le[ν(0)/ν_F]^{2}\\,T_{1,N}^{-1}(T)$ for $T\\ll T_c$, with equality in the extreme nonlocal regime. Here $ν(0)$ and $ν_F$ are the superconducting and normal-state densities of states at the Fermi energy, and $T_{1,N}(T)$ is the relaxation time the same electrode would produce in its normal state at the same temperature.",
+      "authors": [
+        "Hruday Mallubhotla",
+        "Gustav Romare",
+        "Ilya Esterlis",
+        "Maxim Vavilov",
+        "Robert Joynt",
+        "Alex Levchenko"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.36497",
+      "tags": [
+        "superconducting-qubit-types",
+        "superconducting-context"
+      ],
+      "primary_category": "cond-mat.supr-con",
+      "is_top_journal": false
+    },
+    {
+      "id": 19158,
+      "title": "Qubit noise sensing via induced photon loss in a superconducting cavity",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "Physical Review Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/jjcg-z4xb",
+      "tags": [
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": true
+    },
+    {
+      "id": 19153,
+      "title": "Improvement of Josephson junction uniformity via early‑stage junction formation for scalable qubit production",
+      "abstract": "Abstract To maximize the yield of scalable superconducting quantum processors, we introduce a fabrication strategy that prioritizes the formation of Josephson junctions (JJs) before the shunting capacitors. The junction-first approach minimizes the impact of accumulated process-induced surface modifications on the JJ interface. We show through wafer-scale statistical measurements that this sequence substantially reduces fluctuations in junction resistance across different wafers. Surface analysis via transmission electron microscopy (TEM) and atomic force microscopy (AFM) identifies that preceding lithography and etching steps in conventional workflows damage the substrate surface, leading to non-uniform junction morphology. The compatibility of this process with high-performance qubit operation is demonstrated through the fabrication of an eight-qubit quantum processing unit. The resulting coherence times remain sufficient for fully functional qubit operation, confirming that that the junction-first process significantly enhances junction reproducibility while maintaining viable qubit performance, offering a scalable pathway for next-generation quantum hardware.",
+      "authors": [
+        "Hyoungkug Kim",
+        "Kiho Kim",
+        "Jeongmin Shim",
+        "Sunje Kim",
+        "Insu Jeon",
+        "Daeseok Han",
+        "Hyeokshin Kwon",
+        "ChungSun Lee",
+        "Geunyong Kim",
+        "Eun-A Kim",
+        "Dongmin Kim",
+        "Jaeho Shin",
+        "Daeyun Kim"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "Superconductor Science and Technology",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/1361-6668/aeaddc",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19152,
+      "title": "Fundamentals and applications of hybrid electro- and opto- mechanical system coupled to superconducting qubit: a short review",
+      "abstract": "Superconducting qubits, realised by incorporating Josephson junctions into superconducting circuits, behave as artificial atoms with anharmonic energy spectra and can be precisely controlled and measured using microwave cavities within the framework of circuit quantum electrodynamics (cQED). Since its emergence in the early 2000 s, cQED has established superconducting qubits as leading candidates for scalable quantum devices and has enabled the exploration of hybrid quantum systems that integrate disparate physical platforms. This review surveys superconducting hybrid quantum electromechanical systems in which mechanical resonators are coupled to superconducting qubits, with a focus on two widely used qubit platforms: the transmon and the fluxonium. We provide an overview of the underlying coupling mechanisms arising from interactions through the phase and charge degrees of freedom of the qubit, and discuss how these mechanisms give rise to both longitudinal and transverse qubit–mechanical interactions. We further review extensions of electromechanical platforms to electro-optomechanical architectures, in which optical cavities are integrated to enable coherent interfacing between superconducting circuits and optical photons. This review aims to present a unified framework and perspective on qubit–mechanical and qubit–mechanical–optical hybrid systems in superconducting quantum technologies and sensor applications.",
+      "authors": [
+        "Roson Nongthombam",
+        "Urmimala Dewan",
+        "Amarendra K. Sarma"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "Discover Quantum Science",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1007/s44464-026-00041-9",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "fluxonium",
+        "circuit-qed",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 18998,
       "title": "Experimental quantum-computing-enhanced sensing using Grover's algorithm",
@@ -4008,6 +4209,27 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19147,
+      "title": "Phonon blockade via Floquet-sideband resonance in a circuit quantum acoustodynamics system",
+      "abstract": "",
+      "authors": [
+        "Mei-Rong Wei",
+        "Yuchi Zhang",
+        "Qi Guo",
+        "Gang Li",
+        "Tiancai Zhang"
+      ],
+      "published_date": "2026-08-31",
+      "journal": "Physical Review A",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/j4f6-q52t",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -9068,6 +9290,25 @@
         "cat-qubit"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19148,
+      "title": "High-fidelity quantum state transfer in multimode resonators via tunable pulses",
+      "abstract": "Quantum state transfer between distant nodes is essential for distributed quantum information processing. Existing protocols are typically optimized for specific coupling regimes, such as adiabatic dark-state transfer in the single-mode limit and pitch-and-catch schemes in the multimode regime, leaving the crossover between them without a simple and unified control strategy. Here, we identify a minimal two-parameter control framework that enables high-fidelity quantum state transfer across this single-mode–to–multimode crossover in a multimode quantum channel. Using a pulse-shaped pitch-and-catch protocol controlled only by the pulse ramp rate and the emission-absorption delay, we achieve transfer fidelities exceeding 99.9 % , extending pitch-and-catch protocols toward the single-mode limit without requiring dark-state protection or complex pulse design. We further demonstrate robustness against dissipation, disorder, detuning, and imperfect initialization under experimentally realistic conditions. These results provide a simple and broadly applicable framework for state transfer in multimode quantum channels, with relevance to circuit-QED and hybrid quantum-acoustic systems.",
+      "authors": [
+        "Anonymous",
+        "Xinxin Yang",
+        "Simon Gröblacher"
+      ],
+      "published_date": "2026-07-22",
+      "journal": "Physical Review A",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/brt1-c8yd",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
