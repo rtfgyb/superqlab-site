@@ -1,7 +1,93 @@
 {
-  "generated_at": "2026-09-30T19:08:51.139830+00:00",
-  "count": 1067,
+  "generated_at": "2026-10-01T19:10:08.882601+00:00",
+  "count": 1073,
   "papers": [
+    {
+      "id": 19492,
+      "title": "Oscillator-Qubit Primitives for a Molecular Quantum Dynamics Simulator",
+      "abstract": "Molecular quantum dynamics simulations that treat both electrons and nuclei quantum mechanically are crucial for predicting chemical reactions. With classical computation, a full wave-function representation of both types of particles requires resources that grow exponentially with their number. Oscillator-qubit processors, including trapped-ion and circuit QED devices, represent electronic states with qubits and nuclear vibrations with oscillators. Their native operations produce linear vibronic interactions, from which programmable anharmonic interactions can be built. Product-formula approaches build the corresponding phase gates by repeating small noncommuting phase steps, and quantum signal processing (QSP) approaches approximate each gate directly with a Fourier series. Simulations apply many such gates in sequence, so accumulated cost and error limit how long the dynamics can be followed. We propose near-optimal quantum primitives for molecular quantum dynamics simulation, covering the representations of both types of particles and their interactions. We synthesize nonlinear and multimode bosonic phase gates using generalized Jacobi-Anger (GJA) expansions within QSP, with a cost that grows near-optimally in both interaction strength and precision. Our interaction model and gate synthesis each have their own accuracy setting. Chosen together, these settings make our multimode benchmark circuits about one-third shorter than those of the previous direct QSP approach. We then simulate energy exchange between the stretching and bending vibrations of a simplified carbon dioxide model. With circuit-QED noise, a short simulation narrowly misses our accuracy criteria at qubit and oscillator lifetimes near 2 ms and 5 ms. These lifetimes mark a concrete checkpoint on the way to simulating anharmonic multimode molecular quantum dynamics on near-term oscillator-qubit processors.",
+      "authors": [
+        "Jungsoo Hong",
+        "Joonsuk Huh"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.40078",
+      "tags": [
+        "circuit-qed",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19539,
+      "title": "All-Microwave Multiqubit Gates",
+      "abstract": "Implementing high-fidelity multiqubit gates is critical for reducing circuit depth in near-term quantum processors and fault-tolerant architectures. However, realizing multiqubit interactions and entanglement remains a critical challenge that limits the implementation of multiqubit gates. Here we propose an all-microwave scheme to realize single-step multiqubit gates incorporating n control and m target qubits, tailored for frequency-tunable superconducting transmon networks. By leveraging cross-resonance (CR) drives, this approach induces effective two-body ZX interactions that are significantly stronger than those achieved in conventional resonant regimes, circumventing the need for tunable couplers. The system's effective Hamiltonian is analytically derived using both quad frame rotation and rigorous block diagonalization. These combined theoretical methods facilitate the identification of optimal parameter regimes that simultaneously enhance desired target couplings and suppress parasitic higher-order terms, such as ZXX interactions. Through numerical simulations and gradient-based pulse-shape optimization, we demonstrate three-qubit gates achieving fidelities exceeding 99.9% within a 60 ns gate duration. Furthermore, we evaluate the fundamental scalability of this framework by extending the optimization to a five-qubit CXXXX architecture, confirming the physical viability of the multi-target driving scheme. Because these multiqubit operations naturally emulate stabilizer measurements, this architecture provides a hardware-efficient strategy for reducing the circuit depth of stabilizer-type operations by replacing sequential two-qubit gate decompositions with single-step multiqubit gates.",
+      "authors": [
+        "Guanqi Wang",
+        "Yao Song",
+        "Peng-Bo Li",
+        "Xiu-Hao Deng"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.39834",
+      "tags": [
+        "transmon",
+        "tunable-coupler",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19373,
+      "title": "Extending the DRAG method to Landau–Zener control via isoprobability twin models",
+      "abstract": "Abstract The Derivative Removal by Adiabatic Gate (DRAG) technique is the standard remedy for leakage to non-computational states in transmon-based quantum gates. However, a wide class of platforms -- including fluxonium and composite-transmon qubits -- cannot benefit from it, since their canonical gate implementations rely on Landau-Majorana-Stückelberg-Zener (LMSZ) protocols. Specifically, the constant Rabi envelope of the LMSZ model does not allow using the DRAG correction, which requires a non-zero first derivative. A complementary obstruction affects hardware that does not support time-dependent Rabi-frequency modulation: such platforms cannot benefit from the Allen-Eberly-Hioe (AEH) model either, an unpleasant fact given its analytical tractability. We resolve both limitations by introducing the concept of isoprobability twin models -- distinct pairs of Rabi frequency $\\Omega(t)$ and detuning $\\Delta(t)$ that yield identical post-pulse transition probabilities through the Delos-Thorson transformation. We experimentally demonstrate the equivalence of multiple LMSZ and AEH twin models on IBM's \\textit{ibm\\_kyiv} processor. We then show that the framework unlocks the DRAG technique by trading the canonical, constant-Rabi LMSZ pulse for a smooth cosine-Rabi twin, and numerically demonstrate that the resulting DRAG-corrected pulse suppresses leakage to a transmon's non-computational states by up to six orders of magnitude at moderate chirp slopes and by three orders of magnitude on average over the entire driving landscape, while preserving the LMSZ transition-probability landscape.",
+      "authors": [
+        "Ivo S. Mihov",
+        "Nikolay V. Vitanov"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/1361-6455/aeae8c",
+      "tags": [
+        "transmon",
+        "fluxonium"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19370,
+      "title": "Characterization of josephson junction aging and Annealing under different environments",
+      "abstract": "Abstract Understanding the aging behavior of Josephson junctions and the effect of annealing on junction resistances is important in building large-scale superconducting quantum processors. Here we study the effects of aging of Al/AlO x /Al Josephson junctions under different storage conditions from immediately after fabrication up to 2 to 3 months. We find that the aging curve follows a logarithmic curve, with the aging amplitude mainly determined by fabrication conditions and the aging rate determined by both fabrication storage conditions. Junctions stored at ambient laboratory conditions aged faster compared to junctions stored in a nitrogen atmosphere or vacuum, with the instantaneous aging rate appreciably changes when the storage condition changed. We also compared the effect of thermal annealing under nitrogen environment with annealing under ambient conditions up to 250° C. We find that under nitrogen environment, the resistances decreased at all temperatures tested, while under ambient environment the resistances increased at 200° C and decreased at 250° C instead. We were unable to decrease the resistance below the initial-time resistance, suggesting a lower limit on the range of resistance tuning.",
+      "authors": [
+        "Rangga P. Budoyo",
+        "Rasanayagam Sivasayan Kajen",
+        "Bing Wen Cheah",
+        "Long Hoanghuan Nguyen",
+        "Rainer Dumke"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "Superconductor Science and Technology",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/1361-6668/aeaeb5",
+      "tags": [
+        "superconducting-circuits",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 19160,
       "title": "Data-driven Hamiltonian correction of transmon qubits",
@@ -18,6 +104,26 @@
         "transmon"
       ],
       "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19678,
+      "title": "Time-Integrated Leakage as a Dynamical Benchmark for Multi-Mode Superconducting-Qubit Reset",
+      "abstract": "Reset performance in superconducting qubits is often summarized by the population that remains at the end of the pulse. This is an important number, but it does not describe what happens during the reset itself. A protocol may reach a small final residual while keeping the qubit in a leakage state for a comparatively long part of the trajectory. In this work, we therefore use time-integrated leakage, together with the usual endpoint population, to study a multi-mode dissipative reset model under flux-frequency control. We examine finite thermal occupation, parameter sweeps, frequency disorder, an auxiliary-chain ablation, and a literature-based rate benchmark. At the representative ablation point, adding the auxiliary chain reduces Lf from 8.56 to 0.78 ns and shifts the sustained Pf less-than- 10-2 crossing from 39.5 to 9.8 ns. Interestingly, the configuration without the chain still reaches the smaller long-time residual. The two metrics can therefore favor different reset configurations. For the same 300 ns analysis window, an effective rate model built from the f-ket and e-ket decay rates reported by Zhou et al. gives Lf is 108.0 ns, while the complete simulated configuration gives 0.783 ns. We use this only as a kinetic reference and not as a reproduction of the experiment. In the wider set of simulations, thermal occupation is the main source of degradation, while the frequency disorder considered here has a much weaker effect. The results suggest that time-integrated leakage is a useful quantity to report alongside endpoint residuals, especially when reset is part of repeated quantum-error-correction cycles.",
+      "authors": [
+        "Sushant Sharma",
+        "Aswath Babu H"
+      ],
+      "published_date": "2026-09-29",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2609.38354",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
       "is_top_journal": false
     },
     {
@@ -251,6 +357,33 @@
         "quantum-superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19369,
+      "title": "Probing tunable Kerr nonlinearity in graphene Josephson junctions",
+      "abstract": "Josephson junction (JJ) is a key nonlinear element in superconducting devices such as qubits, amplifiers, and bolometers. Recently, gate-tunable JJs based on graphene and semiconductors have gained interest due to their rich Andreev physics and wide applications in circuit quantum electrodynamics devices. In addition to gate tunability, it offers many advantages over conventional JJs, such as exceptional thermal properties for bolometric sensors, magnetic-field compatibility, and operability at elevated temperatures above 1 K. Like conventional Al–AlOx–Al JJs, graphene JJs also act as nonlinear inductors, and at their heart lies the Kerr nonlinearity. Additionally, in graphene JJs, the nonlinearity is tunable via external knobs in a single device. However, a detailed experimental exploration of the tunable Kerr nonlinearity in graphene JJs has never been performed. In this work, we study the dependence of the Kerr nonlinearity on gate voltage, temperature, and DC bias—an interesting knob that has been less explored. Using these parameters, we show that the magnitude of the Kerr coefficient can be tuned over a wide range, from ∼200 kHz to 1.2 MHz. Our work will be a valuable resource for further understanding of the nonlinearity in graphene JJs and for the design of next-generation amplifiers and sensors, with enhanced performance.",
+      "authors": [
+        "Priyanka Samanta",
+        "Joydip Sarkar",
+        "Ashish Abhraham Samuel",
+        "Madhavi Chand",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Mandar M. Deshmukh"
+      ],
+      "published_date": "2026-09-28",
+      "journal": "Applied Physics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1063/5.0344221",
+      "tags": [
+        "circuit-qed",
+        "josephson-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
