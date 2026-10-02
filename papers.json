@@ -1,7 +1,178 @@
 {
-  "generated_at": "2026-10-01T19:10:08.882601+00:00",
-  "count": 1073,
+  "generated_at": "2026-10-02T19:09:04.879609+00:00",
+  "count": 1081,
   "papers": [
+    {
+      "id": 19722,
+      "title": "Spiking neural networks for streaming qubit readout",
+      "abstract": "Fast and accurate qubit-state assignment is essential for feedback, calibration, and error correction in quantum processors. In superconducting platforms, frequency-multiplexed readout makes this task intrinsically multivariate as measured traces can encode crosstalk, qubit-state relaxation events, and other transient nonidealities that are not fully captured by conventional matched filtering. Here, we introduce spiking neural network (SNN) discriminators for superconducting qubit readout. By processing the measurement window in successive time chunks, the networks exploit temporal structure and update classification scores as data arrive, rather than waiting until the end of the readout window. The spiking networks outperform matched-filter discrimination and approach the accuracy of a full-trace artificial neural network. Beyond reaching the performance of artificial neural networks, the key advantage of SNNs is that they provide a streaming, time-resolved estimate of the qubit state that evolves as the readout signal is acquired. Using quantisation-aware training and hls4ml synthesis, we further demonstrate that each FPGA inference update can be completed before the next readout chunk arrives. These results establish spiking neural networks as a promising route to low-latency, real-time qubit readout on FPGA hardware, with broader implications for time-critical quantum-control and scientific-inference applications.",
+      "authors": [
+        "Barry M. Dillon",
+        "Aqib Javed",
+        "Jim Harkin",
+        "Patryk Dabkowski",
+        "Benjamin Lienhard"
+      ],
+      "published_date": "2026-10-01",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.02129",
+      "tags": [
+        "superconducting-circuits",
+        "readout-control",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19812,
+      "title": "Correlation Imaging via Hybrid Entanglement between Microwave Photons and Surface Acoustic Wave Phonons",
+      "abstract": "Establishing effective spatial correlations between distinct quantum fields is essential for multi-physics quantum sensing.~We here propose a correlation imaging approach based on the hybrid entanglement between microwave photons and microwave surface acoustic wave phonons generated via a superconducting quantum circuit.~At matched microwave frequencies, the five order-of-magnitude wavelength disparity between photons and phonons leads to a unique quantum entanglement resource, which allows the optimal field for probing an object to be distinct from that used for readout.~This resource enables two imaging modalities with giant spatial scaling: a $10^{-8}-10^{-6}$-fold demagnification of macroscopic object profiles onto microscopic phononic chips, and conversely, a $10^{4}-10^{6}$-fold magnification of microscopic object profiles into macroscopic photonic readout devices. By interfacing free-space long-wavelength microwaves with on-chip short-wavelength surface acoustic waves, our correlation imaging approach provides a general framework for cross-scale quantum sensing.",
+      "authors": [
+        "Yu-Yuan Chen",
+        "Ling-An Wu",
+        "Yu-xi Liu"
+      ],
+      "published_date": "2026-10-01",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.01252",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "physics.app-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19842,
+      "title": "Hydrogen plasma-assisted atomic layer epitaxy of superconducting titanium nitride",
+      "abstract": "Atomic layer deposition (ALD) offers precise, conformal control of thin-film growth and is a workhorse for semiconductor manufacturing, but its use in superconducting quantum circuits is constrained by the need to simultaneously control crystallinity, stoichiometry and interfacial disorder at cryogenic temperatures. Here we develop hydrogen plasma assisted ALD to epitaxially grow superconducting titanium nitride (TiN) thin films, using a hydrogen plasma step to modify the surface chemistry to suppress precursor-derived impurities during each deposition cycle. Synchrotron X-ray scattering reveals semi-coherent epitaxy of TiN on c-plane sapphire, with discrete crystallographic domains and minimal long-range structural disorder. Complementary X-ray spectroscopy and neutron reflectometry show negligible oxygen-related disorder throughout the film and no substantial hydrogen incorporation. The resulting TiN films exhibit a superconducting transition at 2.2 K, a kinetic inductance of 15 pH/sq and a superconducting coherence length of 14.6 nm, comparable to the measured crystal coherence length. These results establish hydrogen plasma assisted ALD as a route to structurally ordered superconducting TiN thin film epitaxy and demonstrate that the nanoscale control of ALD can be extended to materials suitable for cryogenic quantum technologies.",
+      "authors": [
+        "Yi-Hsun Chen",
+        "Yin-Chun Huang",
+        "Zachary Degnan",
+        "David Sommers",
+        "Kaijian Xing",
+        "Manjith Bose",
+        "Eduardo Solano",
+        "David Cortie",
+        "Michael Fuhrer",
+        "Julian A. Steele",
+        "Peter Jacobson",
+        "Miin-Jang Chen",
+        "Arkady Fedorov"
+      ],
+      "published_date": "2026-10-01",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.00956",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "cond-mat.mes-hall",
+      "is_top_journal": false
+    },
+    {
+      "id": 19688,
+      "title": "Fast Bosonic Control via Multiphoton Qubit-Oscillator Interactions",
+      "abstract": "We study the problem of n -fold rotationally symmetric bosonic state preparation, which is of great importance to bosonic quantum error correction, using a multiphoton interaction between an oscillator and an auxiliary qubit. We present an n -photon Law-Eberly ( n LE) protocol that serves as an analytic baseline, alongside numerical optimal control calculations that further reduce state preparation time. We find that multiphoton control protocols substantially reduce preparation times for binomial, cat, and Gottesman-Kitaev-Preskill codewords compared to schemes relying on standard linear interactions. Further, we achieve arbitrary control over the oscillator's Hilbert space by combining different multiphoton interaction orders. We also extend these control improvements to the preparation of rotationally symmetric multi-oscillator states. Lastly, numerical simulations using realistic planar superconducting circuit parameters validate the robustness of our scheme against qubit and oscillator decoherence. Our findings can significantly enhance the performance of bosonic codes on planar superconducting hardware, an important ingredient for scalable fault-tolerant quantum computers.",
+      "authors": [
+        "Noah Gorgichuk",
+        "Mohammad Ayyash",
+        "M. Mariantoni",
+        "Sahel Ashhab"
+      ],
+      "published_date": "2026-10-01",
+      "journal": "Quantum",
+      "publication_status": "published",
+      "url": "https://doi.org/10.22331/q-2026-10-01-2224",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19687,
+      "title": "Dynamically tunable anisotropic Rabi model in circuit QED",
+      "abstract": "Abstract We propose a circuit QED architecture that realizes the full anisotropic Rabi model (ARM) with in-situ tunability of its interaction symmetry. The circuit comprises a superconducting qubit coupled to a resonator through two simultaneous channels: a direct inductive path and a flux-tunable capacitive path mediated by a transmon coupler. By controlling the external magnetic flux, the destructive and constructive interferences between these paths continuously tune the ratio of the Jaynes–Cummings (JC) and anti-Jaynes–Cummings (AJC) couplings, sweeping the system across the entire ARM parameter space from pure JC, through the standard Rabi regime, to pure AJC without requiring rotating-wave approximations or external parametric drives. Furthermore, we identify a coherence sweet spot where the dispersive shift and photon shot-noise dephasing are suppressed. In the pure AJC regime, we demonstrate that the vacuum Rabi splitting vanishes and the Purcell decay rate is strongly mitigated while preserving high qubit readout contrast.",
+      "authors": [
+        "S. Mojtaba Tabatabaei",
+        "Babak Zare Rameshti",
+        "Mohsen Akbari"
+      ],
+      "published_date": "2026-10-01",
+      "journal": "Scientific Reports",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1038/s41598-026-74042-0",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "circuit-qed",
+        "readout-control",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19858,
+      "title": "Real-Time Adaptive Filtering and the Boxcar Limit in Superconducting Qubit Readout",
+      "abstract": "In dispersive readout of superconducting qubits, the common baseline is a boxcar averager: a uniformly weighted average over a fixed window followed by threshold-based state assignment. We ask when additional digital processing improves fidelity. We evaluated an adaptive finite-impulse-response (FIR) filter trained in real time by the least-mean-squares (LMS) algorithm on an FPGA quantum controller, and analyzed measured readout shots offline to compare the frozen filter with boxcar averaging and to test per-sample weighting and sequential detection. For the fixed FIR filters tested, summing the filtered samples gives the boxcar sum multiplied by one complex number, apart from a small edge correction (the kernel collapse). This scales state separation and noise equally, so discrimination cannot improve (the boxcar limit). The frozen LMS filter reduces trace noise without a resolved fidelity improvement at the tested readout lengths. Replayed on the same shots offline, each filtered shot carries 99.4% of the boxcar shot's discrimination signal-to-noise ratio at the 8 $μ$s operating point of the 2D transmon qubit (Q1). On Q1, optimizing the readout window's start and duration improves contrast readout fidelity by +2.4% to +5.6% across four readout lengths. Per-sample weighting adds up to +3.0% over full-window integration, and only +0.33% beyond the tuned window at 8 $μ$s. Remaining results are from a 3D ancilla qubit (Q2), which sits above the early-decision crossover that Q1 sits below. Hardware sweeps locate the crossover window near 1 $μ$s. Offline, the sequential test decided most shots early, with fidelity within 0.5 percentage points of the boxcar. About 30 labeled shots per class build a matched-filter template nearly as good as one from hundreds. The results form an operating-point record that separates waveform denoising from decision improvement.",
+      "authors": [
+        "Hans Johnson",
+        "Tanay Roy",
+        "Leonardo Bove",
+        "David van Zanten",
+        "Silvia Zorzetti",
+        "Jafar Saniie"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.00783",
+      "tags": [
+        "superconducting-circuits",
+        "transmon",
+        "microwave-hardware",
+        "readout-control",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19874,
+      "title": "Optimal two-mode bosonic loss codes from finite group symmetry",
+      "abstract": "Photon loss is a dominant noise process in bosonic quantum hardware, including superconducting cavities. Fixed-total-photon-number qubit encodings in two bosonic modes retain the loss-detection advantage of dual-rail qubits while supporting photon loss correction. Optimizing entanglement fidelity in this setting for $4\\leq n\\leq25$ over arbitrary encoders and decoders reveals finite-group structure in every best-found code: 11 correspond to two-dimensional irreducible representations and 11 to reducible ones. Motivated by this emergence, we derive the necessary-and-sufficient Knill-Laflamme conditions for arbitrary finite-group-invariant codes, reducing their construction to equations on representation multiplicity spaces. For every finite subgroup of $SU(2)$ and every tensor rank, we explicitly construct the minimum number of operators required to impose all corresponding loss-correction constraints. These results produce analytic counterparts to most numerical codes and predict constructions missed by the initial search. Exact MacWilliams-Farkas certificates show that our codes achieve the maximum possible loss distance in 21 of the 22 sectors, and we prove that the resulting distance bound is monotone in total photon number. Beyond the scan, we identify a binary-polyhedral sequence with photon number $n_d=\\lceil(3d^2+1)/4\\rceil$ and construct each corresponding code through distance $d=10$. To our knowledge, the constructed $(n,d)=(28,6),(49,8),(76,10)$ codes give the smallest reported $n$ for their respective distances; all members through $d=9$ attain the fixed-$n$ LP distance bound. Together, these constructions, certificates, and a symmetry-reduced constraint count provide evidence for an infinite code family conjectured to attain every distance at the minimum photon number.",
+      "authors": [
+        "Argyris Giannisis Manes",
+        "Mahadevan Subramanian",
+        "Liang Jiang"
+      ],
+      "published_date": "2026-09-30",
+      "journal": "",
+      "publication_status": "preprint",
+      "url": "https://arxiv.org/abs/2610.00561",
+      "tags": [
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
     {
       "id": 19492,
       "title": "Oscillator-Qubit Primitives for a Molecular Quantum Dynamics Simulator",
@@ -2878,6 +3049,25 @@
       "is_top_journal": false
     },
     {
+      "id": 19693,
+      "title": "Obstacles to continuous quantum error correction via parity measurements",
+      "abstract": "Time-continuous quantum error correction, necessary to protect quantum information under time-dependent Hamiltonians, relies on weak continuous syndrome measurements. Implementing these measurements requires a continuous coupling among at least two qubits and a meter, a demanding requirement. We show that, under continuous operation, common parity-measurement protocols in the circuit quantum electrodynamics platform corrupt the logical information. The failure arises from approximating the three-body interaction by a sum of two-body couplings to the meter, which prevents simultaneous suppression of measurement backaction on the logical and error subspaces. We argue that the same mechanism applies more generally beyond the circuit quantum electrodynamics setting. Taken together, our results impose a practical limitation on continuous stabilizer quantum error correction and point to the viable alternatives—architectures that realize native three-body interactions or erasure-based encodings in which the error subspace need not be protected.",
+      "authors": [
+        "Anonymous",
+        "Christiane P. Koch"
+      ],
+      "published_date": "2026-09-08",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/8bkm-b48b",
+      "tags": [
+        "circuit-qed",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 16384,
       "title": "Characterization and comparison of energy relaxation in fluxonium qubits",
       "abstract": "",
@@ -3218,7 +3408,7 @@
         "Md. Ifthakhar Khan Sagor",
         "Md. Sanwar Hossain",
         "Md. Zillur Rahman",
-        "Partha Sarathi Mandal",
+        "Partha Mandal",
         "Anit Barua"
       ],
       "published_date": "2026-09-04",
@@ -3510,13 +3700,13 @@
     },
     {
       "id": 15897,
-      "title": "Readout failures in superconducting qubits due to TLS-defects in tunnel junctions",
+      "title": "Readout failures in superconducting qubits due to two-level system defects in tunnel junctions",
       "abstract": "Material defects give rise to parasitic two-level systems (TLS) which present a major source of decoherence in superconducting qubits. Here, we study a strongly coupled TLS that resides in the tunnel barrier of transmon qubit. We use multi-photon spectroscopy and TLS strain tuning to explore the rich spectrum of the interacting three-partite system consisting of TLS, qubit, and its readout resonator. This reveals a strong effective resonant coupling between the TLS and the qubit's readout resonator which dresses the resonator states and results in a resonance frequency shift that spoils the readout signal. Our finding presents yet another way how material defects can interfere with qubit operation and hinder the realization of solid-state quantum processors.",
       "authors": [
-        "J. Lisenfeld",
-        "A. K. Händel",
-        "A. Bilmes",
-        "A. V. Ustinov"
+        "Anonymous",
+        "A. Händel",
+        "Alexander Bilmes",
+        "Alexey Vladimirovich Ustinov"
       ],
       "published_date": "2026-09-02",
       "journal": "Physical Review Research",
