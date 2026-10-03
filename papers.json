@@ -1,7 +1,83 @@
 {
-  "generated_at": "2026-10-02T19:09:04.879609+00:00",
-  "count": 1081,
+  "generated_at": "2026-10-03T19:06:19.557488+00:00",
+  "count": 1089,
   "papers": [
+    {
+      "id": 19933,
+      "title": "Two-qubit-gate operation in a high-connectivity transmon lattice utilizing a tunable coupling to a shared mode",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-10-02",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/5vv7-y2rj",
+      "tags": [
+        "transmon"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19925,
+      "title": "Interaction-resilient scalable fluxonium architecture with all-microwave gates",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-10-02",
+      "journal": "Physical Review Applied",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/llqz-9xtb",
+      "tags": [
+        "fluxonium"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19913,
+      "title": "Entangling Distant Qubits via Flying Photons Under Thermal Noise Protected by Multi-Time-Bin Encoding",
+      "abstract": "Abstract Entangling distant stationary qubits—such as superconducting qubits, color centers, trapped ions, and phononic modes—commonly relies on flying photons transmitted through noisy channels. The fidelity of remote entanglement is severely degraded by channel noise. While entanglement purification can theoretically mitigate this effect, its practical implementation in quantum networks is limited by the overhead of local operations and classical communication. We propose a multi-time-bin encoding scheme that improves the fidelity of remote entangled stationary qubits without relying on entanglement purification. Our results show that, compared to single-rail (vacuum–one-photon) encoding, the fidelity in thermal-loss Gaussian channels is improved from 0.66 to 0.89. Taking superconducting qubits connected through microwave-to-optical transduction as a representative implementation, the fidelity is increased from 0.75 to 0.98. Finally, we discuss the prospects for extending the protocol to other stationary-qubit platforms.",
+      "authors": [
+        "Jing Wu",
+        "Changqing Wang",
+        "Andrew Cameron",
+        "Yao Lu",
+        "Silvia Zorzetti"
+      ],
+      "published_date": "2026-10-02",
+      "journal": "Quantum Science and Technology",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1088/2058-9565/aeaf81",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
+      "id": 19911,
+      "title": "Nonlinear quantum evolution of a dissipative superconducting qubit",
+      "abstract": "",
+      "authors": [
+        "Anonymous"
+      ],
+      "published_date": "2026-10-02",
+      "journal": "Physical Review Research",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/7w9t-c5xf",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
     {
       "id": 19722,
       "title": "Spiking neural networks for streaming qubit readout",
@@ -1874,6 +1950,36 @@
       "is_top_journal": false
     },
     {
+      "id": 19915,
+      "title": "Co-localized Microwave-to-Optical Transduction via Electrostatic Actuation",
+      "abstract": "Microwave-to-optical transduction bridges microwave photons used in superconducting quantum circuits and optical photons suitable for long-distance transmission, making it a key enabling technology for distributed quantum networks. Scalable implementation, however, requires device architectures that combine practical conversion performance with low fabrication complexity, whereas many existing approaches rely on heterogeneous material integration. Here, we demonstrate a co-localized microwave-to-optical transducer that integrates electrostatic excitation, mechanical mediation, and optical readout within a single optomechanical cavity. The electrostatic actuator is implemented using only a single metallization layer, reducing device complexity and avoiding the need for separate electromechanical and optomechanical resonators. This compact, fabrication-friendly architecture offers a practical route toward scalable integrated microwave photonics and future chip-scale microwave-to-optical interfaces for hybrid quantum systems.",
+      "authors": [
+        "Pei-Qin Chen",
+        "Li-Ping Zeng",
+        "Yifei Zhang",
+        "Heng-Rui Liang",
+        "Chenglong You",
+        "You WANG",
+        "Hai-Zhi Song",
+        "Daquan Yang",
+        "Guang‐Can Guo",
+        "唐锦道 Tang Jindao",
+        "Guangwei Deng"
+      ],
+      "published_date": "2026-09-16",
+      "journal": "Optics Letters",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1364/ol.614943",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context",
+        "quantum-superconducting-context",
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
+    },
+    {
       "id": 17681,
       "title": "Quantifying and Bounding Spatiotemporal Correlations in Quantum Noise",
       "abstract": "Spatial and temporal correlations in quantum noise challenge the local Markovian models commonly used in quantum information processing. We develop a unified operational framework for quantifying temporal, spatial, and total spatiotemporal correlations in general quantum processes. Using process tensors, we define these quantities through optimal distinguishability from Markovian, spatially local, and fully uncorrelated processes. Optimization over admissible probing combs ensures monotonicity under every superprocess that preserves the corresponding free set, while Choi-state functionals and restricted probes provide accessible lower bounds. We establish hierarchy and interpolation relations among the correlation measures and derive dimension-dependent upper bounds on temporal correlations transmitted by quantum memories, with tighter bounds for classical memory, together with universal ceilings imposed by the system dimension. These bounds turn certified lower estimates into witnesses of minimum memory dimension, nonclassicality under a memory-dimension constraint, and inconsistencies in the assumed process model. We illustrate the results with effective superconducting-qubit models featuring \\(ZZ\\) and \\(XY\\) interactions, exhibiting saturation of classical-memory, quantum-memory, and system-dimension ceilings. These results pave the way toward practical approaches to characterizing and addressing spatiotemporally correlated errors in quantum devices.",
@@ -3414,7 +3520,7 @@
       "published_date": "2026-09-04",
       "journal": "PLoS ONE",
       "publication_status": "published",
-      "url": "https://doi.org/10.5281/zenodo.19150934",
+      "url": "https://doi.org/10.5281/zenodo.19150933",
       "tags": [
         "transmon",
         "josephson-circuits",
@@ -3510,6 +3616,23 @@
         "quantum-superconducting-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19916,
+      "title": "Passer à l’échelle : Le calcul quantique à base de circuits supraconducteurs",
+      "abstract": "Les circuits supraconducteurs constituent une des plates-formes matérielles les plus prometteuses du calcul quantique. Ils équipent les processeurs de Google, d’IBM, d’Amazon et de la start-up française Alice & Bob. La première génération d’ordinateurs quantiques, les processeurs NISQ ( noisy intermediate-scale quantum ), sans correction d’erreurs, ont démontré un fonctionnement cohérent et l’exécution d’algorithmes à petite échelle, mais les erreurs accumulées bornent la profondeur des calculs utiles. Malheureusement, construire une machine tolérante aux erreurs exige des centaines de milliers, voire des millions de qubits physiques, soit quatre ordres de grandeur au-delà des prototypes actuels. Passer à l’échelle, en 2026, est donc un problème d’ingénierie à cinq dimensions : cryogénie ; câblage ; électronique de contrôle ; décodage des erreurs en temps réel ; et fabrication reproductible des puces. Les architectures économes, comme le qubit de chat, peuvent réduire d’un ordre de grandeur la facture matérielle, et rendre crédibles les premières machines utiles d’ici la fin de la décennie.",
+      "authors": [
+        "Théau Peronnin"
+      ],
+      "published_date": "2026-09-03",
+      "journal": "Annales des Mines - Réalités industrielles",
+      "publication_status": "published",
+      "url": "https://doi.org/10.3917/rindu1.263.0042",
+      "tags": [
+        "quantum-circuit-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -4539,7 +4662,7 @@
       "title": "Phonon blockade via Floquet-sideband resonance in a circuit quantum acoustodynamics system",
       "abstract": "",
       "authors": [
-        "Mei-Rong Wei",
+        "Mei‐Rong Wei",
         "Yuchi Zhang",
         "Qi Guo",
         "Gang Li",
@@ -6288,6 +6411,34 @@
         "quantum-circuit-context"
       ],
       "primary_category": "quant-ph",
+      "is_top_journal": false
+    },
+    {
+      "id": 19908,
+      "title": "Benchmarking dark matter search using a parity-check protocol with machine-learning optimized pulses",
+      "abstract": "We report on an improved microwave detection protocol for dark matter candidates such as the axion and the dark photon. We employ a superconducting transmon qubit dispersively coupled to a double-cavity system, enabling quantum nondemolition measurements of the photon occupation in a relatively short-lived storage cavity. To reduce the experimental cycle time and enhance sensitivity for axion and dark photon searches, we operate this detector in a regime of increased qubit–cavity coupling, resulting in Stark shifts of 4.6 MHz. In this regime, conventional control pulses suffer from strong frequency-detuning sensitivity and photon-number-dependent errors. We address this limitation by implementing frequency-detuning-robust π / 2 pulses (obtained by machine-learning optimization) that preserve high-fidelity qubit control over a bandwidth of approximately 20 MHz. We experimentally validate this protocol and demonstrate single-photon detection performance comparable to previous implementations, despite significantly reduced qubit coherence times and storage-cavity lifetimes. Using parity-based measurement sequences combined with a hidden Markov model (HMM) analysis, we achieve background rates on the order of O ( 20 ) Hz . In the absence of a magnetic field, we derive exclusion limits on the dark photon model for dark matter, reaching a sensitivity to the kinetic mixing angle of ε 95 % ∼ 1 × 10 − 14 at 5.051 GHz. These results establish machine-learning-robust control as a key enabler for faster, more scalable microwave quantum sensors for dark matter searches.",
+      "authors": [
+        "Anonymous",
+        "Ilya N. Moskalenko",
+        "Marko Kuzmanović",
+        "Ognjen Stanisavljević",
+        "Isak Björkman",
+        "D. Díez-Ibáñez",
+        "Yikun Gu",
+        "Akash V. Dixit",
+        "I.G. Irastorza",
+        "Gheorghe Sorin Paraoanu"
+      ],
+      "published_date": "2026-08-14",
+      "journal": "Physical review. D/Physical review. D.",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1103/m92t-xwgt",
+      "tags": [
+        "transmon",
+        "superconducting-context",
+        "quantum-superconducting-context"
+      ],
+      "primary_category": "",
       "is_top_journal": false
     },
     {
@@ -27257,6 +27408,35 @@
       ],
       "primary_category": "",
       "is_top_journal": true
+    },
+    {
+      "id": 19907,
+      "title": "A Cryo-CMOS Mode-Reconfigurable RF-DAC-Based Super-Heterodyne Transmitter With Mean-Absolute-Error Calibration for Superconducting Qubit Control",
+      "abstract": "",
+      "authors": [
+        "Fengen Yuan",
+        "Yatao Peng",
+        "Hao Su",
+        "Yating Zou",
+        "Batuhan Keskin",
+        "Y.Y. Miao",
+        "Wuerkaixi Nuerbolati",
+        "Fei Yan",
+        "Jun Yin",
+        "Rui Paulo Martins",
+        "Edoardo Charbon",
+        "Pui‐In Mak"
+      ],
+      "published_date": "2026-01-01",
+      "journal": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "publication_status": "published",
+      "url": "https://doi.org/10.1109/tcsi.2026.3735365",
+      "tags": [
+        "superconducting-circuits",
+        "superconducting-context"
+      ],
+      "primary_category": "",
+      "is_top_journal": false
     },
     {
       "id": 18120,
